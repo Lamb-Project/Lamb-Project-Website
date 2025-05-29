@@ -8,7 +8,7 @@ layout: "home"
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
+  <img src="images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
 </div>
 
 # Sortu IAko laguntzaileak hezkuntzarako kodea idatzi gabe
@@ -81,4 +81,4 @@ Jaso plugin-ak eta funtzio berriak IA hornitzaile bakar baten menpekotasunik gab
 
 {{< button href="/features" >}}Ikusi ezaugarri guztiak{{< /button >}}
 {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ikusi GitHub-en{{< /button >}}
-{{< button href="/es/tutorial" style="primary" >}}📚 Tutorial azkarra (15 min){{< /button >}} 
+{{< button href="/tutorial" style="primary" >}}📚 Tutorial azkarra (15 min){{< /button >}} 

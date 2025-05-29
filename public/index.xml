@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LAMB - Learning Assistants Manager and Builder on LAMB - Gestor y Constructor de Asistentes de Aprendizaje</title><link>https://lamb-project.github.io/</link><description>Recent content in LAMB - Learning Assistants Manager and Builder on LAMB - Gestor y Constructor de Asistentes de Aprendizaje</description><generator>Hugo</generator><language>es</language><lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lamb-project.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Tutorial rápido de LAMB</title><link>https://lamb-project.github.io/tutorial/</link><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate><guid>https://lamb-project.github.io/tutorial/</guid><description>&lt;h1 id="tutorial-rápido-de-lamb">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LAMB - Learning Assistants Manager and Builder on LAMB - Gestor y Constructor de Asistentes de Aprendizaje</title><link>https://lamb-project.github.io/Lamb-Project-Website/</link><description>Recent content in LAMB - Learning Assistants Manager and Builder on LAMB - Gestor y Constructor de Asistentes de Aprendizaje</description><generator>Hugo</generator><language>es</language><lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lamb-project.github.io/Lamb-Project-Website/index.xml" rel="self" type="application/rss+xml"/><item><title>Tutorial rápido de LAMB</title><link>https://lamb-project.github.io/Lamb-Project-Website/tutorial/</link><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate><guid>https://lamb-project.github.io/Lamb-Project-Website/tutorial/</guid><description>&lt;h1 id="tutorial-rápido-de-lamb">
  Tutorial rápido de &lt;strong>LAMB&lt;/strong>
  &lt;a class="anchor" href="#tutorial-r%c3%a1pido-de-lamb">#&lt;/a>
 &lt;/h1>
@@ -13,7 +13,7 @@
 &lt;li>Ve a &lt;code>https://lamp.lamp-project.org&lt;/code>.&lt;/li>
 &lt;li>Pulsa &lt;strong>Sign Up&lt;/strong> y completa el formulario (nombre, correo, contraseña, &lt;strong>Secret Key&lt;/strong> que te facilita la coordinación).&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://lamb-project.github.io/images/screenshots/frame_0004.png" alt="Formulario de registro" />&lt;/p>
+&lt;p>&lt;img src="../images/screenshots/frame_0004.png" alt="Formulario de registro" />&lt;/p>
 &lt;hr>
 &lt;h2 id="2-conoce-el-panel-principal">
  2. Conoce el panel principal

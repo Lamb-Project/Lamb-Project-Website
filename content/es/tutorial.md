@@ -17,7 +17,7 @@ weight: 100
 1. Ve a `https://lamp.lamp-project.org`.
 2. Pulsa **Sign Up** y completa el formulario (nombre, correo, contraseña, **Secret Key** que te facilita la coordinación).
 
-![Formulario de registro](/images/screenshots/frame_0004.png)
+![Formulario de registro](../images/screenshots/frame_0004.png)
 
 ---
 
@@ -29,7 +29,7 @@ Al entrar verás tres secciones clave:
 * **Knowledge Bases** – tus bases semánticas.
 * **Open Web UI** – la interfaz de chat.
 
-![Panel principal](/images/screenshots/frame_0016.png)
+![Panel principal](../images/screenshots/frame_0016.png)
 
 ---
 
@@ -39,7 +39,7 @@ Al entrar verás tres secciones clave:
 2. Pon un nombre (p. ej. *Demo*), describe su misión y elige el modelo (GPT-4o, Mistral, etc.).
 3. Guarda.
 
-![Creación de asistente](/images/screenshots/frame_0030.png)
+![Creación de asistente](../images/screenshots/frame_0030.png)
 
 ---
 
@@ -47,7 +47,7 @@ Al entrar verás tres secciones clave:
 
 Haz clic en el icono de chat para conversar y comprobar que responde.
 
-![Chat de prueba](/images/screenshots/frame_0045.png)
+![Chat de prueba](../images/screenshots/frame_0045.png)
 
 ---
 
@@ -56,7 +56,7 @@ Haz clic en el icono de chat para conversar y comprobar que responde.
 1. Abre **Knowledge Bases** ► **New**.
 2. Marca la base como *Private* y guarda.
 
-![Nueva base](/images/screenshots/frame_0058.png)
+![Nueva base](../images/screenshots/frame_0058.png)
 
 ---
 
@@ -66,7 +66,7 @@ Haz clic en el icono de chat para conversar y comprobar que responde.
 2. Arrastra PDFs, DOCX o archivos `.md`.
 3. Mantén *Chunk size* ≈ 2000 para textos largos.
 
-![Subida de documentos](/images/screenshots/frame_0068.png)
+![Subida de documentos](../images/screenshots/frame_0068.png)
 
 > **Tip**: después de subir puedes hacer preguntas directas a la base para verificar que reconoce la información.
 
@@ -85,7 +85,7 @@ Haz clic en el icono de chat para conversar y comprobar que responde.
 
 Clona el asistente, cambia el modelo a **Bypass** y activa *Simple RAG* para ver el *prompt* completo que LAMB envía al LLM.
 
-![Vista debug](/images/screenshots/frame_0082.png)
+![Vista debug](../images/screenshots/frame_0082.png)
 
 ---
 
@@ -97,7 +97,7 @@ Pulsa **Publish**. Se generarán tres datos:
 * **Consumer Key**
 * **Shared Secret**
 
-![Pantalla Publish](/images/screenshots/frame_0090.png)
+![Pantalla Publish](../images/screenshots/frame_0090.png)
 
 ---
 
@@ -109,7 +109,7 @@ Pulsa **Publish**. Se generarán tres datos:
 4. Ajusta *Launch container* ► *New window*.
 5. Guarda.
 
-![Configuración en Moodle](/images/screenshots/frame_0096.png)
+![Configuración en Moodle](../images/screenshots/frame_0096.png)
 
 ---
 
@@ -117,7 +117,7 @@ Pulsa **Publish**. Se generarán tres datos:
 
 Los alumnos acceden desde Moodle; ven solo ese bot y sus chats quedan almacenados en LAMB, cumpliendo la política de privacidad.
 
-![Vista de estudiante](/images/screenshots/frame_0101.png)
+![Vista de estudiante](../images/screenshots/frame_0101.png)
 
 ---
 

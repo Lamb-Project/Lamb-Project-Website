@@ -8,7 +8,7 @@ layout: "home"
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
+  <img src="images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
 </div>
 
 # Crea assistents d'IA per a l'educació sense escriure codi
@@ -81,4 +81,4 @@ Plugins d'ingestió i noves funcions sense dependència d'un sol proveïdor d'IA
 
 {{< button href="/features" >}}Veure totes les característiques{{< /button >}}
 {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
-{{< button href="/es/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}} 
+{{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}} 
