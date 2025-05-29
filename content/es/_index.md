@@ -11,8 +11,8 @@ layout: "home"
 
 **LAMB** es una plataforma web que te permite **diseñar, entrenar y publicar asistentes de aprendizaje basados en IA** de forma visual e intuitiva. Funciona como un "constructor de chatbots docentes" que combina modelos de lenguaje (GPT-4, Mistral, modelos locales) con tus propios materiales educativos.
 
-{{< button href="/downloads" >}}Descargar LAMB{{< /button >}}
-{{< button href="/docs" style="secondary" >}}Ver Documentación{{< /button >}}
+**LAMB** es un proyecto opensource desarrollado por Marc Alier y Juanan  Pereira, profesores e investigadores de la Universitat Politècnica de Catalunya (UPC) y Universidad del Pais Vasco (UPV/EHU)
+ 
 
 ## ¿Qué hace LAMB por ti?
 
@@ -77,4 +77,4 @@ Plugins de ingestión y nuevas funciones sin dependencia de un solo proveedor de
 **LAMB te da el control total para construir un "ChatGPT especializado" en tu asignatura, conectarlo a tu Moodle y mantener los datos de tu alumnado completamente seguros.**
 
 {{< button href="/features" >}}Ver todas las características{{< /button >}}
-{{< button href="https://github.com/tu-usuario/lamb" style="secondary" >}}Ver en GitHub{{< /button >}}
+{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ver en GitHub{{< /button >}}
