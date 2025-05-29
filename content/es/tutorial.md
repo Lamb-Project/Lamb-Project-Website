@@ -17,7 +17,7 @@ weight: 100
 1. Ve a `https://lamp.lamp-project.org`.
 2. Pulsa **Sign Up** y completa el formulario (nombre, correo, contraseña, **Secret Key** que te facilita la coordinación).
 
-![Formulario de registro](../images/screenshots/frame_0004.png)
+![Formulario de registro](../images/screenshots/frame_0005.png)
 
 ---
 
@@ -29,7 +29,7 @@ Al entrar verás tres secciones clave:
 * **Knowledge Bases** – tus bases semánticas.
 * **Open Web UI** – la interfaz de chat.
 
-![Panel principal](../images/screenshots/frame_0016.png)
+![Panel principal](../images/screenshots/frame_0008.png)
 
 ---
 
@@ -39,7 +39,7 @@ Al entrar verás tres secciones clave:
 2. Pon un nombre (p. ej. *Demo*), describe su misión y elige el modelo (GPT-4o, Mistral, etc.).
 3. Guarda.
 
-![Creación de asistente](../images/screenshots/frame_0030.png)
+![Creación de asistente](../images/screenshots/frame_0009.png)
 
 ---
 
@@ -47,7 +47,7 @@ Al entrar verás tres secciones clave:
 
 Haz clic en el icono de chat para conversar y comprobar que responde.
 
-![Chat de prueba](../images/screenshots/frame_0045.png)
+![Chat de prueba](../images/screenshots/frame_0017.png)
 
 ---
 
@@ -56,8 +56,9 @@ Haz clic en el icono de chat para conversar y comprobar que responde.
 1. Abre **Knowledge Bases** ► **New**.
 2. Marca la base como *Private* y guarda.
 
-![Nueva base](../images/screenshots/frame_0058.png)
+![Nueva base](../images/screenshots/frame_0020.png)
 
+![Nueva base 2](../images/screenshots/frame_0019.png)
 ---
 
 ## 6. Ingesta de documentos
@@ -66,7 +67,9 @@ Haz clic en el icono de chat para conversar y comprobar que responde.
 2. Arrastra PDFs, DOCX o archivos `.md`.
 3. Mantén *Chunk size* ≈ 2000 para textos largos.
 
-![Subida de documentos](../images/screenshots/frame_0068.png)
+![Subida de documentos](../images/screenshots/frame_0033.png)
+
+![Documentos en la base de conocimiento](../images/screenshots/frame_0036.png)
 
 > **Tip**: después de subir puedes hacer preguntas directas a la base para verificar que reconoce la información.
 
