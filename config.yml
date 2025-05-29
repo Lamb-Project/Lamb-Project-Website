@@ -1,7 +1,7 @@
 baseURL: 'https://tu-usuario.github.io/lamb-website'
 languageCode: 'es'
 title: 'LAMB - Learning Assistants Manager and Builder'
-theme: 'docsy' # O el tema que prefieras
+theme: 'hugo-book'
 
 # Configuración multiidioma
 defaultContentLanguage: 'es'
@@ -15,23 +15,6 @@ languages:
     contentDir: 'content/es'
     params:
       description: 'Plataforma web para diseñar, entrenar y publicar asistentes de aprendizaje basados en IA sin escribir código'
-    menu:
-      main:
-        - name: 'Inicio'
-          url: '/'
-          weight: 10
-        - name: 'Características'
-          url: '/features'
-          weight: 20
-        - name: 'Documentación'
-          url: '/docs'
-          weight: 30
-        - name: 'Descargas'
-          url: '/downloads'
-          weight: 40
-        - name: 'Comunidad'
-          url: '/community'
-          weight: 50
   
   en:
     title: 'LAMB - Learning Assistants Manager and Builder'
@@ -40,23 +23,6 @@ languages:
     contentDir: 'content/en'
     params:
       description: 'Web platform to design, train and publish AI-based learning assistants without writing code'
-    menu:
-      main:
-        - name: 'Home'
-          url: '/'
-          weight: 10
-        - name: 'Features'
-          url: '/features'
-          weight: 20
-        - name: 'Documentation'
-          url: '/docs'
-          weight: 30
-        - name: 'Downloads'
-          url: '/downloads'
-          weight: 40
-        - name: 'Community'
-          url: '/community'
-          weight: 50
   
   ca:
     title: "LAMB - Gestor i Constructor d'Assistents d'Aprenentatge"
@@ -65,23 +31,6 @@ languages:
     contentDir: 'content/ca'
     params:
       description: "Plataforma web per dissenyar, entrenar i publicar assistents d'aprenentatge basats en IA sense escriure codi"
-    menu:
-      main:
-        - name: 'Inici'
-          url: '/'
-          weight: 10
-        - name: 'Característiques'
-          url: '/features'
-          weight: 20
-        - name: 'Documentació'
-          url: '/docs'
-          weight: 30
-        - name: 'Descàrregues'
-          url: '/downloads'
-          weight: 40
-        - name: 'Comunitat'
-          url: '/community'
-          weight: 50
   
   eu:
     title: 'LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea'
@@ -90,29 +39,14 @@ languages:
     contentDir: 'content/eu'
     params:
       description: 'IA oinarritutako ikaskuntza laguntzaileak diseinatzeko, entrenatzeko eta argitaratzeko web plataforma koderik idatzi gabe'
-    menu:
-      main:
-        - name: 'Hasiera'
-          url: '/'
-          weight: 10
-        - name: 'Ezaugarriak'
-          url: '/features'
-          weight: 20
-        - name: 'Dokumentazioa'
-          url: '/docs'
-          weight: 30
-        - name: 'Deskargak'
-          url: '/downloads'
-          weight: 40
-        - name: 'Komunitatea'
-          url: '/community'
-          weight: 50
 
 # Configuración del sitio
 params:
   version: '1.0'
-  github_repo: 'https://github.com/Lamb-Project/Lamb-Project-Website'
-  github_branch: 'main'
+  BookRepo: 'https://github.com/Lamb-Project/Lamb-Project-Website'
+  BookEditPage: true
+  BookSearch: true
+  BookMenuBundle: 'menu'
   
   # SEO
   images: ['images/lamb-1.png']
@@ -135,6 +69,6 @@ markup:
 
 # Outputs
 outputs:
-  home: ['HTML', 'RSS', 'JSON']
+  home: ['HTML', 'RSS']
   page: ['HTML']
   section: ['HTML', 'RSS']
