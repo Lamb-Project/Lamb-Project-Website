@@ -1,79 +1,140 @@
-name: Deploy Hugo site to Pages
+baseURL: 'https://tu-usuario.github.io/lamb-website'
+languageCode: 'es'
+title: 'LAMB - Learning Assistants Manager and Builder'
+theme: 'docsy' # O el tema que prefieras
 
-on:
-  # Se ejecuta en push a la rama principal
-  push:
-    branches: ["main"]
+# Configuración multiidioma
+defaultContentLanguage: 'es'
+defaultContentLanguageInSubdir: false
 
-  # Permite ejecutar manualmente desde la pestaña Actions
-  workflow_dispatch:
+languages:
+  es:
+    title: 'LAMB - Gestor y Constructor de Asistentes de Aprendizaje'
+    weight: 1
+    languageName: 'Español'
+    contentDir: 'content/es'
+    params:
+      description: 'Plataforma web para diseñar, entrenar y publicar asistentes de aprendizaje basados en IA sin escribir código'
+    menu:
+      main:
+        - name: 'Inicio'
+          url: '/'
+          weight: 10
+        - name: 'Características'
+          url: '/features'
+          weight: 20
+        - name: 'Documentación'
+          url: '/docs'
+          weight: 30
+        - name: 'Descargas'
+          url: '/downloads'
+          weight: 40
+        - name: 'Comunidad'
+          url: '/community'
+          weight: 50
+  
+  en:
+    title: 'LAMB - Learning Assistants Manager and Builder'
+    weight: 2
+    languageName: 'English'
+    contentDir: 'content/en'
+    params:
+      description: 'Web platform to design, train and publish AI-based learning assistants without writing code'
+    menu:
+      main:
+        - name: 'Home'
+          url: '/'
+          weight: 10
+        - name: 'Features'
+          url: '/features'
+          weight: 20
+        - name: 'Documentation'
+          url: '/docs'
+          weight: 30
+        - name: 'Downloads'
+          url: '/downloads'
+          weight: 40
+        - name: 'Community'
+          url: '/community'
+          weight: 50
+  
+  ca:
+    title: 'LAMB - Gestor i Constructor d\'Assistents d\'Aprenentatge'
+    weight: 3
+    languageName: 'Català'
+    contentDir: 'content/ca'
+    params:
+      description: 'Plataforma web per dissenyar, entrenar i publicar assistents d\'aprenentatge basats en IA sense escriure codi'
+    menu:
+      main:
+        - name: 'Inici'
+          url: '/'
+          weight: 10
+        - name: 'Característiques'
+          url: '/features'
+          weight: 20
+        - name: 'Documentació'
+          url: '/docs'
+          weight: 30
+        - name: 'Descàrregues'
+          url: '/downloads'
+          weight: 40
+        - name: 'Comunitat'
+          url: '/community'
+          weight: 50
+  
+  eu:
+    title: 'LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea'
+    weight: 4
+    languageName: 'Euskera'
+    contentDir: 'content/eu'
+    params:
+      description: 'IA oinarritutako ikaskuntza laguntzaileak diseinatzeko, entrenatzeko eta argitaratzeko web plataforma koderik idatzi gabe'
+    menu:
+      main:
+        - name: 'Hasiera'
+          url: '/'
+          weight: 10
+        - name: 'Ezaugarriak'
+          url: '/features'
+          weight: 20
+        - name: 'Dokumentazioa'
+          url: '/docs'
+          weight: 30
+        - name: 'Deskargak'
+          url: '/downloads'
+          weight: 40
+        - name: 'Komunitatea'
+          url: '/community'
+          weight: 50
 
-# Permisos necesarios para GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+# Configuración del sitio
+params:
+  version: '1.0'
+  github_repo: 'https://github.com/tu-usuario/lamb'
+  github_branch: 'main'
+  
+  # SEO
+  images: ['images/lamb-og.png']
+  
+  # Navegación
+  navbar_logo: true
+  
+  # Footer
+  copyright: 'LAMB Project'
+  privacy_policy: '/privacy'
 
-# Solo un despliegue a la vez
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+# Configuración de contenido
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: 'github'
+    lineNos: true
 
-# Configuración por defecto para bash
-defaults:
-  run:
-    shell: bash
-
-jobs:
-  # Job para construir el sitio
-  build:
-    runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.124.0
-    steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
-      
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
-      
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-      
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-      
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      
-      - name: Build with Hugo
-        env:
-          # Para máximo rendimiento en el futuro
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-
-  # Job para desplegar
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+# Outputs
+outputs:
+  home: ['HTML', 'RSS', 'JSON']
+  page: ['HTML']
+  section: ['HTML', 'RSS']
