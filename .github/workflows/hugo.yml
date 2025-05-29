@@ -59,12 +59,12 @@ languages:
           weight: 50
   
   ca:
-    title: 'LAMB - Gestor i Constructor d\'Assistents d\'Aprenentatge'
+    title: "LAMB - Gestor i Constructor d'Assistents d'Aprenentatge"
     weight: 3
     languageName: 'Català'
     contentDir: 'content/ca'
     params:
-      description: 'Plataforma web per dissenyar, entrenar i publicar assistents d\'aprenentatge basats en IA sense escriure codi'
+      description: "Plataforma web per dissenyar, entrenar i publicar assistents d'aprenentatge basats en IA sense escriure codi"
     menu:
       main:
         - name: 'Inici'
