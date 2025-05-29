@@ -80,4 +80,5 @@ Plugins d'ingestió i noves funcions sense dependència d'un sol proveïdor d'IA
 **LAMB et dóna el control total per construir un "ChatGPT especialitzat" en la teva assignatura, connectar-lo al teu Moodle i mantenir les dades del teu alumnat completament segures.**
 
 {{< button href="/features" >}}Veure totes les característiques{{< /button >}}
-{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}} 
+{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
+{{< button href="/es/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}} 

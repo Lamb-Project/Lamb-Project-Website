@@ -82,3 +82,4 @@ Plugins de ingestión y nuevas funciones sin dependencia de un solo proveedor de
 
 {{< button href="/features" >}}Ver todas las características{{< /button >}}
 {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ver en GitHub{{< /button >}}
+{{< button href="/tutorial" style="primary" >}}📚 Tutorial rápido (15 min){{< /button >}}

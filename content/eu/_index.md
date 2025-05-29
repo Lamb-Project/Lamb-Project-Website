@@ -80,4 +80,5 @@ Jaso plugin-ak eta funtzio berriak IA hornitzaile bakar baten menpekotasunik gab
 **LAMBek kontrol osoa ematen dizu zure gairako "ChatGPT espezializatu" bat eraikitzeko, zure Moodlera konektatzeko eta zure ikasleen datuak erabat seguru mantentzeko.**
 
 {{< button href="/features" >}}Ikusi ezaugarri guztiak{{< /button >}}
-{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ikusi GitHub-en{{< /button >}} 
+{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ikusi GitHub-en{{< /button >}}
+{{< button href="/es/tutorial" style="primary" >}}📚 Tutorial azkarra (15 min){{< /button >}} 

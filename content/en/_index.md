@@ -80,4 +80,5 @@ Ingestion plugins and new features without dependence on a single AI provider.
 **LAMB gives you total control to build a "specialized ChatGPT" for your subject, connect it to your Moodle and keep your students' data completely secure.**
 
 {{< button href="/features" >}}See all features{{< /button >}}
-{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}} 
+{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
+{{< button href="/es/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}} 
