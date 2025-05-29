@@ -30,7 +30,7 @@ languages:
     languageName: 'Català'
     contentDir: 'content/ca'
     params:
-      description: "Plataforma web per dissenyar, entrenar i publicar assistents d'aprenentatge basats en IA sense escriure codi"
+      description: "Plataforma web per dissenyador, entrenar i publicar assistents d'aprenentatge basats en IA sense escriure codi"
   
   eu:
     title: 'LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea'
@@ -49,7 +49,10 @@ params:
   BookMenuBundle: 'menu'
   
   # SEO
-  images: ['images/lamb-1.png']
+  images: ['images/lamb_1.png']
+  
+  # Favicon
+  favicon: 'images/lamb_icon.png'
   
   # Navegación
   navbar_logo: true

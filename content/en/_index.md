@@ -7,6 +7,10 @@ type: "homepage"
 layout: "home"
 ---
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
+</div>
+
 # Create AI assistants for education without writing code
 
 **LAMB** is a web platform that allows you to **design, train and publish AI-based learning assistants** in a visual and intuitive way. It works as a "teaching chatbot builder" that combines language models (GPT-4, Mistral, local models) with your own educational materials.

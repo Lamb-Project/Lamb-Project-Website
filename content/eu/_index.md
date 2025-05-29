@@ -7,6 +7,10 @@ type: "homepage"
 layout: "home"
 ---
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
+</div>
+
 # Sortu IAko laguntzaileak hezkuntzarako kodea idatzi gabe
 
 **LAMB** web-plataforma bat da, **IAn oinarritutako ikaskuntza-laguntzaileak diseinatzeko, entrenatzeko eta argitaratzeko** modu bisual eta intuitiboan. "Irakasle-chatbot eraikitzaile" gisa funtzionatzen du, hizkuntza-modeloak (GPT-4, Mistral, tokiko modeloak) zure hezkuntza-materialekin konbinatuz.
