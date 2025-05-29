@@ -1,0 +1,83 @@
+baseURL: 'https://tu-usuario.github.io/lamb-website'
+languageCode: 'es'
+title: 'LAMB - Learning Assistants Manager and Builder'
+theme: 'docsy' # O el tema que prefieras
+
+# Configuración multiidioma
+defaultContentLanguage: 'es'
+defaultContentLanguageInSubdir: false
+
+languages:
+  es:
+    title: 'LAMB - Gestor y Constructor de Asistentes de Aprendizaje'
+    weight: 1
+    languageName: 'Español'
+    contentDir: 'content/es'
+    params:
+      description: 'Plataforma web para diseñar, entrenar y publicar asistentes de aprendizaje basados en IA sin escribir código'
+  
+  en:
+    title: 'LAMB - Learning Assistants Manager and Builder'
+    weight: 2
+    languageName: 'English'
+    contentDir: 'content/en'
+    params:
+      description: 'Web platform to design, train and publish AI-based learning assistants without writing code'
+  
+  ca:
+    title: 'LAMB - Gestor i Constructor d\'Assistents d\'Aprenentatge'
+    weight: 3
+    languageName: 'Català'
+    contentDir: 'content/ca'
+    params:
+      description: 'Plataforma web per dissenyar, entrenar i publicar assistents d\'aprenentatge basats en IA sense escriure codi'
+
+# Configuración del sitio
+params:
+  version: '1.0'
+  github_repo: 'https://github.com/Lamb-Project/Lamb-Project-Website'
+  github_branch: 'main'
+  
+  # SEO
+  images: ['images/lamb-1.png']
+  
+  # Navegación
+  navbar_logo: true
+  
+  # Footer
+  copyright: 'LAMB Project'
+  privacy_policy: '/privacy'
+
+# Menús (se pueden personalizar por idioma)
+menu:
+  main:
+    - name: 'Inicio'
+      url: '/'
+      weight: 10
+    - name: 'Características'
+      url: '/features'
+      weight: 20
+    - name: 'Documentación'
+      url: '/docs'
+      weight: 30
+    - name: 'Descargas'
+      url: '/downloads'
+      weight: 40
+    - name: 'Comunidad'
+      url: '/community'
+      weight: 50
+
+# Configuración de contenido
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: 'github'
+    lineNos: true
+
+# Outputs
+outputs:
+  home: ['HTML', 'RSS', 'JSON']
+  page: ['HTML']
+  section: ['HTML', 'RSS']
