@@ -69,18 +69,26 @@ Haz clic en el icono de chat para conversar y comprobar que responde.
 
 ![Subida de documentos](../images/screenshots/frame_0033.png)
 
-![Documentos en la base de conocimiento](../images/screenshots/frame_0036.png)
+> **Tip**: También puedes subir ficheros .ZIP siempre que contengan .pdf, .docx, .txt o .md.
 
-> **Tip**: después de subir puedes hacer preguntas directas a la base para verificar que reconoce la información.
+![Documentos en la KB](../images/screenshots/frame_0036.png)
+
+Puedes consultar la base de conocimiento directamente:
+
+![Consulta la KB](../images/screenshots/frame_0030.png)
+
 
 ---
 
 ## 7. Conecta la base a tu asistente
 
-1. Vuelve a **My Assistants** y edita tu bot.
+1. Vuelve a **My Assistants** y crea un asistente.
 2. En la plantilla busca la sección **RAG** y elige la base recién creada.
-3. Indica cuántos fragmentos (`k = 4` suele bastar) y activa **Cite sources**.
-4. Guarda.
+3. Indica cuántos fragmentos (`k = 3` suele bastar).
+
+![Consulta la KB](../images/screenshots/frame_0043.png)
+
+4. Prueba tu asistente en OpenWebui. 
 
 ---
 
@@ -88,31 +96,38 @@ Haz clic en el icono de chat para conversar y comprobar que responde.
 
 Clona el asistente, cambia el modelo a **Bypass** y activa *Simple RAG* para ver el *prompt* completo que LAMB envía al LLM.
 
-![Vista debug](../images/screenshots/frame_0082.png)
+![Vista debug](../images/screenshots/frame_0076.png)
 
 ---
 
-## 9. Publica tu asistente
+## 9. Publica tu asistente como herramienta LTI
 
-Pulsa **Publish**. Se generarán tres datos:
+Publicar tu asistente LTI te permitirá que tus alumnos accedan al asistente que has creado desde tu curso en Moodle u otro LMS.
 
+Desde la vista de detalle de Asistente pulsa **Publish**.
+
+![Pantalla Publish](../images/screenshots/frame_0080.png)
+
+Se generarán tres datos:
 * **Tool URL**
 * **Consumer Key**
 * **Shared Secret**
 
-![Pantalla Publish](../images/screenshots/frame_0090.png)
+![Pantalla Publish](../images/screenshots/frame_0081.png)
 
----
+
 
 ## 10. Inserta el asistente en Moodle (LTI 1.1)
 
 1. En tu curso ► *Añadir actividad* ► **External Tool**.
+
+![Pantalla Publish](../images/screenshots/frame_0089.png)
 2. Pega la **Tool URL** en *Secure Tool URL*.
 3. Copia **Consumer Key** y **Shared Secret**.
 4. Ajusta *Launch container* ► *New window*.
 5. Guarda.
 
-![Configuración en Moodle](../images/screenshots/frame_0096.png)
+![Configuración en Moodle](../images/screenshots/frame_0090.png)
 
 ---
 
@@ -120,17 +135,5 @@ Pulsa **Publish**. Se generarán tres datos:
 
 Los alumnos acceden desde Moodle; ven solo ese bot y sus chats quedan almacenados en LAMB, cumpliendo la política de privacidad.
 
-![Vista de estudiante](../images/screenshots/frame_0101.png)
+![Vista de estudiante](../images/screenshots/frame_0091.png)
 
----
-
-## 12. Próximos pasos
-
-* Añade más documentos o bases para cubrir otras asignaturas.
-* Prueba distintos modelos (p. ej. un LLM local) sin cambiar la integración LTI.
-* Explora los plugins de ingestión que irán apareciendo para automatizar la carga desde Google Drive, YouTube, etc.
-
----
-
-### ¡Listo!
-Tu asistente ya está ayudando a tu alumnado dentro de un entorno seguro y bajo tu control.

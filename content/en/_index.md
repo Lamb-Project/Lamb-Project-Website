@@ -23,7 +23,12 @@ layout: "home"
 Design assistants that only respond about the subject you choose, always staying within the appropriate educational context.
 
 ### 📚 Intelligent Knowledge Ingestion
-Upload documents (PDF, Word, Markdown) and LAMB processes them automatically, creating a semantic knowledge base that feeds the model through RAG (Retrieval Augmented Generation).
+Upload documents (PDF, Word, Markdown) and LAMB processes them automatically with a **flexible data model** that:
+- Extracts and structures content while preserving context and relationships
+- Creates semantic embeddings optimized for educational search
+- Allows custom metadata for each document
+- Adapts to different formats and content structures
+- Feeds the model through RAG (Retrieval Augmented Generation)
 
 ### 🔍 Advanced Testing and Debugging
 "Debug" mode that shows the complete prompt to understand exactly what is sent to the model, facilitating response optimization.
@@ -46,9 +51,11 @@ Students interact within LAMB; their data is not shared with external AI model p
 Each with their own instructions, tone and personalized limits.
 
 ### Flexible Knowledge Bases
+- **Adaptable data model**: flexible architecture that allows different types of content and structures
 - Support for PDF, DOCX, Markdown (more formats coming soon)
 - Public or private bases according to needs
-- Connectors in development
+- Vector embeddings system for semantic search
+- Connectors in development for external sources (Google Drive, YouTube, APIs)
 
 ### Multiple AI Models
 - OpenAI GPT-4o
@@ -71,7 +78,11 @@ Catalan, Spanish, English and Basque included as standard.
 - Private bases to prevent unauthorized use
 
 ### Growing Ecosystem
-Ingestion plugins and new features without dependence on a single AI provider.
+- **Modular and extensible architecture**: designed to incorporate new features without affecting the core
+- Customizable ingestion plugins for different data sources
+- Open API for third-party integrations
+- Continuous updates without dependence on a single AI provider
+- Flexible data model that evolves with educational needs
 
 ---
 

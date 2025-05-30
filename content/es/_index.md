@@ -24,7 +24,12 @@ layout: "home"
 Diseña asistentes que solo responden sobre la materia que elijas, manteniéndose siempre en el contexto educativo apropiado.
 
 ### 📚 Ingesta Inteligente de Conocimiento
-Sube documentos (PDF, Word, Markdown) y LAMB los procesa automáticamente, creando una base de conocimiento semántica que alimenta al modelo mediante RAG (Retrieval Augmented Generation).
+Sube documentos (PDF, Word, Markdown) y LAMB los procesa automáticamente con un **modelo de datos flexible** que:
+- Extrae y estructura el contenido preservando contexto y relaciones
+- Crea embeddings semánticos optimizados para búsqueda educativa
+- Permite metadatos personalizados para cada documento
+- Se adapta a diferentes formatos y estructuras de contenido
+- Alimenta al modelo mediante RAG (Retrieval Augmented Generation)
 
 ### 🔍 Pruebas y Depuración Avanzadas
 Modo "debug" que muestra el prompt completo para entender exactamente qué se envía al modelo, facilitando la optimización de respuestas.
@@ -47,9 +52,11 @@ Los estudiantes interactúan dentro de LAMB; sus datos no se comparten con prove
 Cada uno con sus propias instrucciones, tono y límites personalizados.
 
 ### Bases de Conocimiento Flexibles
+- **Modelo de datos adaptable**: arquitectura flexible que permite diferentes tipos de contenido y estructuras
 - Soporte para PDF, DOCX, Markdown (más formatos próximamente)
 - Bases públicas o privadas según necesidades
-- Conectores en desarrollo
+- Sistema de embeddings vectoriales para búsqueda semántica
+- Conectores en desarrollo para fuentes externas (Google Drive, YouTube, APIs)
 
 ### Múltiples Modelos de IA
 - OpenAI GPT-4o
@@ -72,7 +79,11 @@ Catalán, castellano, inglés y euskera incluidos de serie.
 - Bases privadas para evitar usos no autorizados
 
 ### Ecosistema en Crecimiento
-Plugins de ingestión y nuevas funciones sin dependencia de un solo proveedor de IA.
+- **Arquitectura modular y extensible**: diseñada para incorporar nuevas funcionalidades sin afectar el núcleo
+- Plugins de ingestión personalizables para diferentes fuentes de datos
+- API abierta para integraciones con terceros
+- Actualización continua sin dependencia de un solo proveedor de IA
+- Modelo de datos flexible que evoluciona con las necesidades educativas
 
 ---
 

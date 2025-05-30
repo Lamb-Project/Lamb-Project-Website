@@ -23,7 +23,12 @@ layout: "home"
 Hautatu duzun gaiari buruz bakarrik erantzuten duten laguntzaileak diseinatu, beti hezkuntza-testuinguru egokian mantenduz.
 
 ### 📚 Ezagutza Jasotzea Adimentsua
-Kargatu dokumentuak (PDF, Word, Markdown) eta LAMBek automatikoki prozesatzen ditu, RAG (Retrieval Augmented Generation) bidez modeloa elikatzen duen ezagutza-base semantiko bat sortuz.
+Kargatu dokumentuak (PDF, Word, Markdown) eta LAMBek automatikoki prozesatzen ditu **datu-eredu malgu** batekin:
+- Edukia ateratzen eta egituratzen du testuingurua eta erlazioak mantenduz
+- Hezkuntza-bilaketarako optimizatutako embedding semantikoak sortzen ditu
+- Dokumentu bakoitzerako metadatu pertsonalizatuak ahalbidetzen ditu
+- Formatu eta eduki-egitura desberdinetara egokitzen da
+- RAG (Retrieval Augmented Generation) bidez modeloa elikatzen du
 
 ### 🔍 Proba eta Arazketa Aurreratuak
 "Debug" modua, modelora bidaltzen den promenada osoa erakusten duena, erantzunen optimizazioa erraztuz.
@@ -46,9 +51,11 @@ Ikasleek LAMBen barnean elkarreragiten dute; haien datuak ez dira IA modelo horn
 Bakoitza bere jarraibide, doinua eta limite pertsonalizatuekin.
 
 ### Ezagutza-base Malguak
+- **Datu-eredu moldagarria**: eduki eta egitura mota desberdinak baimentzen dituen arkitektura malgua
 - PDF, DOCX, Markdown euskarria (formato gehiago laster)
 - Base publikoak edo pribatuak beharren arabera
-- Konektoreak garatzen ari dira
+- Bilaketa semantikorako embedding bektorialen sistema
+- Kanpo-iturrietarako konektoreak garatzen (Google Drive, YouTube, APIs)
 
 ### IA Modelo Anitzak
 - OpenAI GPT-4o
@@ -71,7 +78,11 @@ Euskera, gaztelania, ingelesa eta katalana serie gisa.
 - Base pribatuak erabilera baimenik gabeak saihesteko
 
 ### Hazten ari den Ekosistema
-Jaso plugin-ak eta funtzio berriak IA hornitzaile bakar baten menpekotasunik gabe.
+- **Arkitektura modular eta hedagarria**: funtzionalitate berriak nukleoa ukitu gabe txertatzeko diseinatua
+- Datu-iturri desberdinetarako ingesta-plugin pertsonalizagarriak
+- Hirugarrenekin integrazioetarako API irekia
+- Etengabeko eguneraketak IA hornitzaile bakar baten menpekotasunik gabe
+- Hezkuntza-beharrekin eboluzionatzen duen datu-eredu malgua
 
 ---
 
