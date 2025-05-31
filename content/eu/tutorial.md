@@ -17,7 +17,7 @@ weight: 100
 1. Joan `https://lamp.lamp-project.org` helbidera.
 2. Sakatu **Sign Up** eta bete formularioa (izena, helbide elektronikoa, pasahitza, koordinazioak emandako **Secret Key**).
 
-![Erregistro formularioa](../images/screenshots/frame_0005.png)
+![Erregistro formularioa](../../images/screenshots/frame_0005.png)
 
 ---
 
@@ -29,7 +29,7 @@ Sartzean hiru atal garrantzitsu ikusiko dituzu:
 * **Knowledge Bases** – zure base semantikoak.
 * **Open Web UI** – txat interfazea.
 
-![Panel nagusia](../images/screenshots/frame_0008.png)
+![Panel nagusia](../../images/screenshots/frame_0008.png)
 
 ---
 
@@ -39,7 +39,7 @@ Sartzean hiru atal garrantzitsu ikusiko dituzu:
 2. Jarri izen bat (adib. *Demo*), deskribatu bere eginkizuna eta aukeratu modeloa (GPT-4o, Mistral, etab.).
 3. Gorde.
 
-![Laguntzailearen sorrera](../images/screenshots/frame_0009.png)
+![Laguntzailearen sorrera](../../images/screenshots/frame_0009.png)
 
 ---
 
@@ -47,7 +47,7 @@ Sartzean hiru atal garrantzitsu ikusiko dituzu:
 
 Egin klik txat ikonoan hitz egiteko eta erantzuten duela egiaztatzeko.
 
-![Probako txata](../images/screenshots/frame_0017.png)
+![Probako txata](../../images/screenshots/frame_0017.png)
 
 ---
 
@@ -56,9 +56,9 @@ Egin klik txat ikonoan hitz egiteko eta erantzuten duela egiaztatzeko.
 1. Ireki **Knowledge Bases** ► **New**.
 2. Markatu basea *Private* bezala eta gorde.
 
-![Base berria](../images/screenshots/frame_0020.png)
+![Base berria](../../images/screenshots/frame_0020.png)
 
-![Base berria 2](../images/screenshots/frame_0019.png)
+![Base berria 2](../../images/screenshots/frame_0019.png)
 ---
 
 ## 6. Dokumentuen jaso
@@ -67,15 +67,15 @@ Egin klik txat ikonoan hitz egiteko eta erantzuten duela egiaztatzeko.
 2. Arrastatu PDF, DOCX edo `.md` fitxategiak.
 3. Mantendu *Chunk size* ≈ 2000 testu luzeentzat.
 
-![Dokumentuen igoera](../images/screenshots/frame_0033.png)
+![Dokumentuen igoera](../../images/screenshots/frame_0033.png)
 
 > **Aholkua**: .ZIP fitxategiak ere igo ditzakezu, baldin eta .pdf, .docx, .txt edo .md dauzkaten.
 
-![Dokumentuak KB-an](../images/screenshots/frame_0036.png)
+![Dokumentuak KB-an](../../images/screenshots/frame_0036.png)
 
 Ezagutza-basea zuzenean kontsultatu dezakezu:
 
-![KB kontsultatu](../images/screenshots/frame_0030.png)
+![KB kontsultatu](../../images/screenshots/frame_0030.png)
 
 ---
 
@@ -85,7 +85,7 @@ Ezagutza-basea zuzenean kontsultatu dezakezu:
 2. Txantiloian bilatu **RAG** atala eta aukeratu sortu berri duzun basea.
 3. Adierazi zenbat zati (`k = 3` nahikoa izan ohi da).
 
-![KB kontsultatu](../images/screenshots/frame_0043.png)
+![KB kontsultatu](../../images/screenshots/frame_0043.png)
 
 4. Probatu zure laguntzailea OpenWebui-n.
 
@@ -95,7 +95,7 @@ Ezagutza-basea zuzenean kontsultatu dezakezu:
 
 Klonatu laguntzailea, aldatu modeloa **Bypass**-era eta aktibatu *Simple RAG* LAMBek LLMri bidaltzen dion *prompt* osoa ikusteko.
 
-![Debug ikuspegia](../images/screenshots/frame_0076.png)
+![Debug ikuspegia](../../images/screenshots/frame_0076.png)
 
 ---
 
@@ -105,26 +105,26 @@ Zure LTI laguntzailea argitaratzeak zure ikasleei sortu duzun laguntzailea Moodl
 
 Laguntzailearen xehetasun ikuspegitik sakatu **Publish**.
 
-![Argitaratze pantaila](../images/screenshots/frame_0080.png)
+![Argitaratze pantaila](../../images/screenshots/frame_0080.png)
 
 Hiru datu sortuko dira:
 * **Tool URL**
 * **Consumer Key**
 * **Shared Secret**
 
-![Argitaratze pantaila](../images/screenshots/frame_0081.png)
+![Argitaratze pantaila](../../images/screenshots/frame_0081.png)
 
 ## 10. Txertatu laguntzailea Moodle-n (LTI 1.1)
 
 1. Zure ikastaroan ► *Gehitu jarduera* ► **External Tool**.
 
-![Argitaratze pantaila](../images/screenshots/frame_0089.png)
+![Argitaratze pantaila](../../images/screenshots/frame_0089.png)
 2. Itsatsi **Tool URL** *Secure Tool URL* atalean.
 3. Kopiatu **Consumer Key** eta **Shared Secret**.
 4. Doitu *Launch container* ► *New window*.
 5. Gorde.
 
-![Moodle konfigurazioa](../images/screenshots/frame_0090.png)
+![Moodle konfigurazioa](../../images/screenshots/frame_0090.png)
 
 ---
 
@@ -132,4 +132,4 @@ Hiru datu sortuko dira:
 
 Ikasleek Moodle-tik sartzen dira; bot hau bakarrik ikusten dute eta haien txatak LAMBen gordeta geratzen dira, pribatutasun-politika betez.
 
-![Ikaslearen ikuspegia](../images/screenshots/frame_0091.png) 
+![Ikaslearen ikuspegia](../../images/screenshots/frame_0091.png) 

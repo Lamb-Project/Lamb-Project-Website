@@ -17,7 +17,7 @@ weight: 100
 1. Ves a `https://lamp.lamp-project.org`.
 2. Prem **Sign Up** i completa el formulari (nom, correu, contrasenya, **Secret Key** que et facilita la coordinació).
 
-![Formulari de registre](../images/screenshots/frame_0005.png)
+![Formulari de registre](../../images/screenshots/frame_0005.png)
 
 ---
 
@@ -29,7 +29,7 @@ En entrar veuràs tres seccions clau:
 * **Knowledge Bases** – les teves bases semàntiques.
 * **Open Web UI** – la interfície de xat.
 
-![Panell principal](../images/screenshots/frame_0008.png)
+![Panell principal](../../images/screenshots/frame_0008.png)
 
 ---
 
@@ -39,7 +39,7 @@ En entrar veuràs tres seccions clau:
 2. Posa un nom (p. ex. *Demo*), descriu la seva missió i tria el model (GPT-4o, Mistral, etc.).
 3. Desa.
 
-![Creació d'assistent](../images/screenshots/frame_0009.png)
+![Creació d'assistent](../../images/screenshots/frame_0009.png)
 
 ---
 
@@ -47,7 +47,7 @@ En entrar veuràs tres seccions clau:
 
 Fes clic a la icona de xat per conversar i comprovar que respon.
 
-![Xat de prova](../images/screenshots/frame_0017.png)
+![Xat de prova](../../images/screenshots/frame_0017.png)
 
 ---
 
@@ -56,9 +56,9 @@ Fes clic a la icona de xat per conversar i comprovar que respon.
 1. Obre **Knowledge Bases** ► **New**.
 2. Marca la base com a *Private* i desa.
 
-![Nova base](../images/screenshots/frame_0020.png)
+![Nova base](../../images/screenshots/frame_0020.png)
 
-![Nova base 2](../images/screenshots/frame_0019.png)
+![Nova base 2](../../images/screenshots/frame_0019.png)
 ---
 
 ## 6. Ingestió de documents
@@ -67,15 +67,15 @@ Fes clic a la icona de xat per conversar i comprovar que respon.
 2. Arrossega PDFs, DOCX o fitxers `.md`.
 3. Mantén *Chunk size* ≈ 2000 per a textos llargs.
 
-![Pujada de documents](../images/screenshots/frame_0033.png)
+![Pujada de documents](../../images/screenshots/frame_0033.png)
 
 > **Consell**: També pots pujar fitxers .ZIP sempre que continguin .pdf, .docx, .txt o .md.
 
-![Documents a la KB](../images/screenshots/frame_0036.png)
+![Documents a la KB](../../images/screenshots/frame_0036.png)
 
 Pots consultar la base de coneixement directament:
 
-![Consulta la KB](../images/screenshots/frame_0030.png)
+![Consulta la KB](../../images/screenshots/frame_0030.png)
 
 ---
 
@@ -85,7 +85,7 @@ Pots consultar la base de coneixement directament:
 2. A la plantilla busca la secció **RAG** i tria la base acabada de crear.
 3. Indica quants fragments (`k = 3` sol bastar).
 
-![Consulta la KB](../images/screenshots/frame_0043.png)
+![Consulta la KB](../../images/screenshots/frame_0043.png)
 
 4. Prova el teu assistent a OpenWebui.
 
@@ -95,7 +95,7 @@ Pots consultar la base de coneixement directament:
 
 Clona l'assistent, canvia el model a **Bypass** i activa *Simple RAG* per veure el *prompt* complet que LAMB envia al LLM.
 
-![Vista debug](../images/screenshots/frame_0076.png)
+![Vista debug](../../images/screenshots/frame_0076.png)
 
 ---
 
@@ -105,26 +105,26 @@ Publicar el teu assistent LTI et permetrà que els teus alumnes accedeixin a l'a
 
 Des de la vista de detall d'Assistent prem **Publish**.
 
-![Pantalla Publish](../images/screenshots/frame_0080.png)
+![Pantalla Publish](../../images/screenshots/frame_0080.png)
 
 Es generaran tres dades:
 * **Tool URL**
 * **Consumer Key**
 * **Shared Secret**
 
-![Pantalla Publish](../images/screenshots/frame_0081.png)
+![Pantalla Publish](../../images/screenshots/frame_0081.png)
 
 ## 10. Insereix l'assistent a Moodle (LTI 1.1)
 
 1. Al teu curs ► *Afegir activitat* ► **External Tool**.
 
-![Pantalla Publish](../images/screenshots/frame_0089.png)
+![Pantalla Publish](../../images/screenshots/frame_0089.png)
 2. Enganxa la **Tool URL** a *Secure Tool URL*.
 3. Copia **Consumer Key** i **Shared Secret**.
 4. Ajusta *Launch container* ► *New window*.
 5. Desa.
 
-![Configuració a Moodle](../images/screenshots/frame_0090.png)
+![Configuració a Moodle](../../images/screenshots/frame_0090.png)
 
 ---
 
@@ -132,4 +132,4 @@ Es generaran tres dades:
 
 Els alumnes accedeixen des de Moodle; veuen només aquest bot i els seus xats queden emmagatzemats a LAMB, complint la política de privacitat.
 
-![Vista d'estudiant](../images/screenshots/frame_0091.png) 
+![Vista d'estudiant](../../images/screenshots/frame_0091.png) 

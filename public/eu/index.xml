@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LAMB - Learning Assistants Manager and Builder on LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea</title><link>https://lamb-project.github.io/Lamb-Project-Website/eu/</link><description>Recent content in LAMB - Learning Assistants Manager and Builder on LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea</description><generator>Hugo</generator><language>eu</language><lastBuildDate/><atom:link href="https://lamb-project.github.io/Lamb-Project-Website/eu/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LAMB - Learning Assistants Manager and Builder on LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea</title><link>https://lamb-project.github.io/Lamb-Project-Website/eu/</link><description>Recent content in LAMB - Learning Assistants Manager and Builder on LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea</description><generator>Hugo</generator><language>eu</language><lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lamb-project.github.io/Lamb-Project-Website/eu/index.xml" rel="self" type="application/rss+xml"/><item><title>LAMB tutorial azkarra</title><link>https://lamb-project.github.io/Lamb-Project-Website/eu/tutorial/</link><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate><guid>https://lamb-project.github.io/Lamb-Project-Website/eu/tutorial/</guid><description>&lt;h1 id="lamb-tutorial-azkarra">
+ &lt;strong>LAMB&lt;/strong> tutorial azkarra
+ &lt;a class="anchor" href="#lamb-tutorial-azkarra">#&lt;/a>
+&lt;/h1>
+&lt;blockquote>
+&lt;p>&lt;strong>Helburua&lt;/strong>: 15 minutu baino gutxiagotan zure dokumentu propioak erabiltzen dituen ikaskuntza-laguntzaile bat izango duzu, zure Moodle ikastaroan erabilgarri.&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="1-erregistroa-eta-sarbidea">
+ 1. Erregistroa eta sarbidea
+ &lt;a class="anchor" href="#1-erregistroa-eta-sarbidea">#&lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>Joan &lt;code>https://lamp.lamp-project.org&lt;/code> helbidera.&lt;/li>
+&lt;li>Sakatu &lt;strong>Sign Up&lt;/strong> eta bete formularioa (izena, helbide elektronikoa, pasahitza, koordinazioak emandako &lt;strong>Secret Key&lt;/strong>).&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="../../images/screenshots/frame_0005.png" alt="Erregistro formularioa" />&lt;/p>
+&lt;hr>
+&lt;h2 id="2-ezagutu-panel-nagusia">
+ 2. Ezagutu panel nagusia
+ &lt;a class="anchor" href="#2-ezagutu-panel-nagusia">#&lt;/a>
+&lt;/h2>
+&lt;p>Sartzean hiru atal garrantzitsu ikusiko dituzu:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>My Assistants&lt;/strong> – zure bot-ak dauden tokia.&lt;/li>
+&lt;li>&lt;strong>Knowledge Bases&lt;/strong> – zure base semantikoak.&lt;/li>
+&lt;li>&lt;strong>Open Web UI&lt;/strong> – txat interfazea.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="../../images/screenshots/frame_0008.png" alt="Panel nagusia" />&lt;/p></description></item></channel></rss>

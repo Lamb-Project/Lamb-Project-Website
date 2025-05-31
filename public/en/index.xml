@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LAMB - Learning Assistants Manager and Builder</title><link>https://lamb-project.github.io/Lamb-Project-Website/en/</link><description>Recent content on LAMB - Learning Assistants Manager and Builder</description><generator>Hugo</generator><language>en</language><lastBuildDate/><atom:link href="https://lamb-project.github.io/Lamb-Project-Website/en/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LAMB - Learning Assistants Manager and Builder</title><link>https://lamb-project.github.io/Lamb-Project-Website/en/</link><description>Recent content on LAMB - Learning Assistants Manager and Builder</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lamb-project.github.io/Lamb-Project-Website/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Quick LAMB Tutorial</title><link>https://lamb-project.github.io/Lamb-Project-Website/en/tutorial/</link><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate><guid>https://lamb-project.github.io/Lamb-Project-Website/en/tutorial/</guid><description>&lt;h1 id="quick-lamb-tutorial">
+ Quick &lt;strong>LAMB&lt;/strong> Tutorial
+ &lt;a class="anchor" href="#quick-lamb-tutorial">#&lt;/a>
+&lt;/h1>
+&lt;blockquote>
+&lt;p>&lt;strong>Goal&lt;/strong>: in less than 15 minutes you will have a learning assistant that uses your own documents and will be available within your Moodle course.&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="1-registration-and-access">
+ 1. Registration and access
+ &lt;a class="anchor" href="#1-registration-and-access">#&lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>Go to &lt;code>https://lamp.lamp-project.org&lt;/code>.&lt;/li>
+&lt;li>Click &lt;strong>Sign Up&lt;/strong> and complete the form (name, email, password, &lt;strong>Secret Key&lt;/strong> provided by coordination).&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="../../images/screenshots/frame_0005.png" alt="Registration form" />&lt;/p>
+&lt;hr>
+&lt;h2 id="2-get-to-know-the-main-dashboard">
+ 2. Get to know the main dashboard
+ &lt;a class="anchor" href="#2-get-to-know-the-main-dashboard">#&lt;/a>
+&lt;/h2>
+&lt;p>Upon entering you will see three key sections:&lt;/p></description></item></channel></rss>
