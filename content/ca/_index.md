@@ -8,7 +8,7 @@ layout: "home"
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
+  <img src="../images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
 </div>
 
 # Crea assistents d'IA per a l'educació sense escriure codi
