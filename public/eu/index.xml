@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LAMB - Learning Assistants Manager and Builder on LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea</title>
-    <link>http://localhost:1313/Lamb-Project-Website/eu/</link>
+    <link>https://lamb-project.github.io/Lamb-Project-Website/eu/</link>
     <description>Recent content in LAMB - Learning Assistants Manager and Builder on LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea</description>
     <generator>Hugo</generator>
     <language>eu</language>
     <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/Lamb-Project-Website/eu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lamb-project.github.io/Lamb-Project-Website/eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LAMB tutorial azkarra</title>
-      <link>http://localhost:1313/Lamb-Project-Website/eu/tutorial/</link>
+      <link>https://lamb-project.github.io/Lamb-Project-Website/eu/tutorial/</link>
       <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Lamb-Project-Website/eu/tutorial/</guid>
+      <guid>https://lamb-project.github.io/Lamb-Project-Website/eu/tutorial/</guid>
       <description>&lt;h1 id=&#34;lamb-tutorial-azkarra&#34;&gt;&#xA;  &lt;strong&gt;LAMB&lt;/strong&gt; tutorial azkarra&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#lamb-tutorial-azkarra&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Helburua&lt;/strong&gt;: 15 minutu baino gutxiagotan zure dokumentu propioak erabiltzen dituen ikaskuntza-laguntzaile bat izango duzu, zure Moodle ikastaroan erabilgarri.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-erregistroa-eta-sarbidea&#34;&gt;&#xA;  1. Erregistroa eta sarbidea&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-erregistroa-eta-sarbidea&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Joan &lt;code&gt;https://lamp.lamp-project.org&lt;/code&gt; helbidera.&lt;/li&gt;&#xA;&lt;li&gt;Sakatu &lt;strong&gt;Sign Up&lt;/strong&gt; eta bete formularioa (izena, helbide elektronikoa, pasahitza, koordinazioak emandako &lt;strong&gt;Secret Key&lt;/strong&gt;).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/screenshots/frame_0005.png&#34; alt=&#34;Erregistro formularioa&#34; /&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-ezagutu-panel-nagusia&#34;&gt;&#xA;  2. Ezagutu panel nagusia&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2-ezagutu-panel-nagusia&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Sartzean hiru atal garrantzitsu ikusiko dituzu:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;My Assistants&lt;/strong&gt; – zure bot-ak dauden tokia.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Knowledge Bases&lt;/strong&gt; – zure base semantikoak.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Open Web UI&lt;/strong&gt; – txat interfazea.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/screenshots/frame_0008.png&#34; alt=&#34;Panel nagusia&#34; /&gt;&lt;/p&gt;</description>
     </item>
   </channel>

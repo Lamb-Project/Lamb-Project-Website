@@ -2,94 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/Lamb-Project-Website/eu/tutorial/</loc>
+    <loc>https://lamb-project.github.io/Lamb-Project-Website/eu/tutorial/</loc>
     <lastmod>2025-05-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/Lamb-Project-Website/tutorial/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/tutorial/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Lamb-Project-Website/en/tutorial/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/en/tutorial/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
-                href="http://localhost:1313/Lamb-Project-Website/ca/tutorial/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/ca/tutorial/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="eu"
-                href="http://localhost:1313/Lamb-Project-Website/eu/tutorial/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/eu/tutorial/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Lamb-Project-Website/eu/</loc>
+    <loc>https://lamb-project.github.io/Lamb-Project-Website/eu/</loc>
     <lastmod>2025-05-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/Lamb-Project-Website/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Lamb-Project-Website/en/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
-                href="http://localhost:1313/Lamb-Project-Website/ca/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/ca/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="eu"
-                href="http://localhost:1313/Lamb-Project-Website/eu/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/eu/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Lamb-Project-Website/eu/categories/</loc>
+    <loc>https://lamb-project.github.io/Lamb-Project-Website/eu/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/Lamb-Project-Website/categories/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Lamb-Project-Website/en/categories/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
-                href="http://localhost:1313/Lamb-Project-Website/ca/categories/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/ca/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="eu"
-                href="http://localhost:1313/Lamb-Project-Website/eu/categories/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/eu/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Lamb-Project-Website/eu/tags/</loc>
+    <loc>https://lamb-project.github.io/Lamb-Project-Website/eu/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/Lamb-Project-Website/tags/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Lamb-Project-Website/en/tags/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
-                href="http://localhost:1313/Lamb-Project-Website/ca/tags/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/ca/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="eu"
-                href="http://localhost:1313/Lamb-Project-Website/eu/tags/"
+                href="https://lamb-project.github.io/Lamb-Project-Website/eu/tags/"
                 />
   </url>
 </urlset>

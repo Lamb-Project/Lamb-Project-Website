@@ -15,7 +15,7 @@ layout: "home"
 
 {{< button href="/features" >}}Veure totes les característiques{{< /button >}}
 {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
-{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
+{{< button href="/Lamb-Project-Website/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
 {{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}}
 
 **LAMB** és una plataforma web que et permet **dissenyar, entrenar i publicar assistents d'aprenentatge basats en IA** de forma visual i intuïtiva. Funciona com un "constructor de chatbots docents" que combina models de llenguatge (GPT-4, Mistral, models locals) amb els teus propis materials educatius.
@@ -97,5 +97,5 @@ Català, castellà, anglès i euskera inclosos de sèrie.
 
 {{< button href="/features" >}}Veure totes les característiques{{< /button >}}
 {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
-{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
+{{< button href="/Lamb-Project-Website/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
 {{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}} 

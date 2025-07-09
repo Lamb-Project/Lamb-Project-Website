@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LAMB - Learning Assistants Manager and Builder</title>
-    <link>http://localhost:1313/Lamb-Project-Website/en/</link>
+    <link>https://lamb-project.github.io/Lamb-Project-Website/en/</link>
     <description>Recent content on LAMB - Learning Assistants Manager and Builder</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/Lamb-Project-Website/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lamb-project.github.io/Lamb-Project-Website/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick LAMB Tutorial</title>
-      <link>http://localhost:1313/Lamb-Project-Website/en/tutorial/</link>
+      <link>https://lamb-project.github.io/Lamb-Project-Website/en/tutorial/</link>
       <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Lamb-Project-Website/en/tutorial/</guid>
+      <guid>https://lamb-project.github.io/Lamb-Project-Website/en/tutorial/</guid>
       <description>&lt;h1 id=&#34;quick-lamb-tutorial&#34;&gt;&#xA;  Quick &lt;strong&gt;LAMB&lt;/strong&gt; Tutorial&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#quick-lamb-tutorial&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal&lt;/strong&gt;: in less than 15 minutes you will have a learning assistant that uses your own documents and will be available within your Moodle course.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-registration-and-access&#34;&gt;&#xA;  1. Registration and access&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-registration-and-access&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go to &lt;code&gt;https://lamp.lamp-project.org&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Click &lt;strong&gt;Sign Up&lt;/strong&gt; and complete the form (name, email, password, &lt;strong&gt;Secret Key&lt;/strong&gt; provided by coordination).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/screenshots/frame_0005.png&#34; alt=&#34;Registration form&#34; /&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-get-to-know-the-main-dashboard&#34;&gt;&#xA;  2. Get to know the main dashboard&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2-get-to-know-the-main-dashboard&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Upon entering you will see three key sections:&lt;/p&gt;</description>
     </item>
     <item>
       <title>LAMB Project Roadmap</title>
-      <link>http://localhost:1313/Lamb-Project-Website/en/roadmap/</link>
+      <link>https://lamb-project.github.io/Lamb-Project-Website/en/roadmap/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Lamb-Project-Website/en/roadmap/</guid>
+      <guid>https://lamb-project.github.io/Lamb-Project-Website/en/roadmap/</guid>
       <description>&lt;h1 id=&#34;lamb-project-roadmap&#34;&gt;&#xA;  LAMB PROJECT ROADMAP&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#lamb-project-roadmap&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Last update 8/7/2025&lt;/p&gt;&#xA;&lt;h2 id=&#34;lamb-main-project&#34;&gt;&#xA;  LAMB Main Project&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#lamb-main-project&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The main lamb project implements the Learning Assistant manager and Builder. It combines the LAMB frontend (svelte ) and Backend (Fastapi) on a single app. It requires a slightly modified of open-webui forked from the main project. And it can be connected to lamb-project lamb-kb-server.&lt;/p&gt;&#xA;&lt;h3 id=&#34;milestone-release-01&#34;&gt;&#xA;  Milestone Release 0.1&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#milestone-release-01&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt; : Provide a codebase that a sysadmin can deploy.&#xA;&lt;strong&gt;Owner&lt;/strong&gt; @granludo&lt;/p&gt;</description>
     </item>
   </channel>
