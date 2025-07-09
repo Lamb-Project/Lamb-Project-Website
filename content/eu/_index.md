@@ -92,4 +92,5 @@ Euskera, gaztelania, ingelesa eta katalana serie gisa.
 
 {{< button href="/features" >}}Ikusi ezaugarri guztiak{{< /button >}}
 {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ikusi GitHub-en{{< /button >}}
+{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
 {{< button href="/tutorial" style="primary" >}}📚 Tutorial azkarra (15 min){{< /button >}} 

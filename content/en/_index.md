@@ -92,4 +92,5 @@ Catalan, Spanish, English and Basque included as standard.
 
 {{< button href="/features" >}}See all features{{< /button >}}
 {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
+{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
 {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}} 

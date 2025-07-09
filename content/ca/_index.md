@@ -92,4 +92,5 @@ Català, castellà, anglès i euskera inclosos de sèrie.
 
 {{< button href="/features" >}}Veure totes les característiques{{< /button >}}
 {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
+{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
 {{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}} 
