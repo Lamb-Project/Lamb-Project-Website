@@ -13,6 +13,11 @@ layout: "home"
 
 # Sortu IAko laguntzaileak hezkuntzarako kodea idatzi gabe
 
+{{< button href="/features" >}}Ikusi ezaugarri guztiak{{< /button >}}
+{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ikusi GitHub-en{{< /button >}}
+{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
+{{< button href="/tutorial" style="primary" >}}📚 Tutorial azkarra (15 min){{< /button >}}
+
 **LAMB** web-plataforma bat da, **IAn oinarritutako ikaskuntza-laguntzaileak diseinatzeko, entrenatzeko eta argitaratzeko** modu bisual eta intuitiboan. "Irakasle-chatbot eraikitzaile" gisa funtzionatzen du, hizkuntza-modeloak (GPT-4, Mistral, tokiko modeloak) zure hezkuntza-materialekin konbinatuz.
 
 **LAMB** Marc Alier eta Juanan Pereira UPCko (Kataluniako Unibertsitate Politeknikoa) eta EHUko (Euskal Herriko Unibertsitatea) irakasle eta ikertzaileek garatutako kode irekiko proiektu bat da.

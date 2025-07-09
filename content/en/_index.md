@@ -13,6 +13,11 @@ layout: "home"
 
 # Create AI assistants for education without writing code
 
+{{< button href="/features" >}}See all features{{< /button >}}
+{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
+{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
+{{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
+
 **LAMB** is a web platform that allows you to **design, train and publish AI-based learning assistants** in a visual and intuitive way. It works as a "teaching chatbot builder" that combines language models (GPT-4, Mistral, local models) with your own educational materials.
 
 **LAMB** is an open source project developed by Marc Alier and Juanan Pereira, professors and researchers at the Universitat Politècnica de Catalunya (UPC) and Universidad del País Vasco (UPV/EHU).

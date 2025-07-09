@@ -1,21 +1,404 @@
-<!doctype html><html lang=eu dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Ikasi zure lehen ikaskuntza-laguntzailea nola sortu eta argitaratu 15 minutu baino gutxiagotan"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://lamb-project.github.io/Lamb-Project-Website/eu/tutorial/"><meta property="og:site_name" content="LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea"><meta property="og:title" content="LAMB tutorial azkarra"><meta property="og:description" content="Ikasi zure lehen ikaskuntza-laguntzailea nola sortu eta argitaratu 15 minutu baino gutxiagotan"><meta property="og:locale" content="eu"><meta property="og:type" content="article"><meta property="article:published_time" content="2025-05-29T00:00:00+00:00"><meta property="article:modified_time" content="2025-05-29T00:00:00+00:00"><meta property="og:image" content="https://lamb-project.github.io/Lamb-Project-Website/images/lamb_1.png"><title>LAMB tutorial azkarra | LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea</title><link rel=icon href=/Lamb-Project-Website/favicon.png><link rel=manifest href=/Lamb-Project-Website/manifest.json><link rel=canonical href=https://lamb-project.github.io/Lamb-Project-Website/eu/tutorial/><link rel=alternate hreflang=es href=https://lamb-project.github.io/Lamb-Project-Website/tutorial/ title="Tutorial rápido de LAMB"><link rel=alternate hreflang=en href=https://lamb-project.github.io/Lamb-Project-Website/en/tutorial/ title="Quick LAMB Tutorial"><link rel=alternate hreflang=ca href=https://lamb-project.github.io/Lamb-Project-Website/ca/tutorial/ title="Tutorial ràpid de LAMB"><link rel=stylesheet href=/Lamb-Project-Website/book.min.26ab4dc3f6076ceda2f9c263aa4029ae3341dbcce339f901aa432b11da6e5894.css integrity="sha256-JqtNw/YHbO2i+cJjqkAprjNB28zjOfkBqkMrEdpuWJQ=" crossorigin=anonymous><script defer src=/Lamb-Project-Website/fuse.min.js></script><script defer src=/Lamb-Project-Website/eu.search.min.7557bf856e64757c6a855cb17e32163442952f00e003e3901eee3979abf271ee.js integrity="sha256-dVe/hW5kdXxqhVyxfjIWNEKVLwDgA+OQHu45eavyce4=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/Lamb-Project-Website/eu/><span>LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Buscar aria-label=Buscar maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul class=book-languages><li><input type=checkbox id=languages class=toggle>
-<label for=languages class="flex justify-between"><a role=button class="flex align-center"><img src=/Lamb-Project-Website/svg/translate.svg class=book-icon alt=Languages>
-Euskera</a></label><ul><li><a href=/Lamb-Project-Website/tutorial/>Español</a></li><li><a href=/Lamb-Project-Website/en/tutorial/>English</a></li><li><a href=/Lamb-Project-Website/ca/tutorial/>Català</a></li></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/Lamb-Project-Website/svg/menu.svg class=book-icon alt=Menu></label><h3>LAMB tutorial azkarra</h3><label for=toc-control><img src=/Lamb-Project-Website/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><a href=#1-erregistroa-eta-sarbidea>1. Erregistroa eta sarbidea</a></li><li><a href=#2-ezagutu-panel-nagusia>2. Ezagutu panel nagusia</a></li><li><a href=#3-sortu-zure-lehen-laguntzailea>3. Sortu zure lehen laguntzailea</a></li><li><a href=#4-laguntzailearen-proba-azkarra>4. Laguntzailearen proba azkarra</a></li><li><a href=#5-sortu-ezagutza-base-bat>5. Sortu ezagutza-base bat</a></li><li><a href=#base-berria-2><img src=../../images/screenshots/frame_0019.png alt="Base berria 2"></a></li><li><a href=#6-dokumentuen-jaso>6. Dokumentuen jaso</a></li><li><a href=#7-konektatu-basea-zure-laguntzailearekin>7. Konektatu basea zure laguntzailearekin</a></li><li><a href=#8-debug-modua-aukerakoa-baina-erabilgarria>8. <em>Debug</em> modua (aukerakoa baina erabilgarria)</a></li><li><a href=#9-argitaratu-zure-laguntzailea-lti-tresna-gisa>9. Argitaratu zure laguntzailea LTI tresna gisa</a></li><li><a href=#10-txertatu-laguntzailea-moodle-n-lti-11>10. Txertatu laguntzailea Moodle-n (LTI 1.1)</a></li><li><a href=#11-ikaslearen-ikuspegia>11. Ikaslearen ikuspegia</a></li></ul></nav></aside></header><article class="markdown book-article"><h1 id=lamb-tutorial-azkarra><strong>LAMB</strong> tutorial azkarra
-<a class=anchor href=#lamb-tutorial-azkarra>#</a></h1><blockquote><p><strong>Helburua</strong>: 15 minutu baino gutxiagotan zure dokumentu propioak erabiltzen dituen ikaskuntza-laguntzaile bat izango duzu, zure Moodle ikastaroan erabilgarri.</p></blockquote><hr><h2 id=1-erregistroa-eta-sarbidea>1. Erregistroa eta sarbidea
-<a class=anchor href=#1-erregistroa-eta-sarbidea>#</a></h2><ol><li>Joan <code>https://lamp.lamp-project.org</code> helbidera.</li><li>Sakatu <strong>Sign Up</strong> eta bete formularioa (izena, helbide elektronikoa, pasahitza, koordinazioak emandako <strong>Secret Key</strong>).</li></ol><p><img src=../../images/screenshots/frame_0005.png alt="Erregistro formularioa"></p><hr><h2 id=2-ezagutu-panel-nagusia>2. Ezagutu panel nagusia
-<a class=anchor href=#2-ezagutu-panel-nagusia>#</a></h2><p>Sartzean hiru atal garrantzitsu ikusiko dituzu:</p><ul><li><strong>My Assistants</strong> – zure bot-ak dauden tokia.</li><li><strong>Knowledge Bases</strong> – zure base semantikoak.</li><li><strong>Open Web UI</strong> – txat interfazea.</li></ul><p><img src=../../images/screenshots/frame_0008.png alt="Panel nagusia"></p><hr><h2 id=3-sortu-zure-lehen-laguntzailea>3. Sortu zure lehen laguntzailea
-<a class=anchor href=#3-sortu-zure-lehen-laguntzailea>#</a></h2><ol><li><strong>My Assistants</strong> atalean sakatu <strong>New</strong>.</li><li>Jarri izen bat (adib. <em>Demo</em>), deskribatu bere eginkizuna eta aukeratu modeloa (GPT-4o, Mistral, etab.).</li><li>Gorde.</li></ol><p><img src=../../images/screenshots/frame_0009.png alt="Laguntzailearen sorrera"></p><hr><h2 id=4-laguntzailearen-proba-azkarra>4. Laguntzailearen proba azkarra
-<a class=anchor href=#4-laguntzailearen-proba-azkarra>#</a></h2><p>Egin klik txat ikonoan hitz egiteko eta erantzuten duela egiaztatzeko.</p><p><img src=../../images/screenshots/frame_0017.png alt="Probako txata"></p><hr><h2 id=5-sortu-ezagutza-base-bat>5. Sortu ezagutza-base bat
-<a class=anchor href=#5-sortu-ezagutza-base-bat>#</a></h2><ol><li>Ireki <strong>Knowledge Bases</strong> ► <strong>New</strong>.</li><li>Markatu basea <em>Private</em> bezala eta gorde.</li></ol><p><img src=../../images/screenshots/frame_0020.png alt="Base berria"></p><h2 id=base-berria-2><img src=../../images/screenshots/frame_0019.png alt="Base berria 2">
-<a class=anchor href=#base-berria-2>#</a></h2><h2 id=6-dokumentuen-jaso>6. Dokumentuen jaso
-<a class=anchor href=#6-dokumentuen-jaso>#</a></h2><ol><li>Zure basearen barruan sakatu <strong>Markdown Ingest</strong> (oraingoz metodorik egonkorrena).</li><li>Arrastatu PDF, DOCX edo <code>.md</code> fitxategiak.</li><li>Mantendu <em>Chunk size</em> ≈ 2000 testu luzeentzat.</li></ol><p><img src=../../images/screenshots/frame_0033.png alt="Dokumentuen igoera"></p><blockquote><p><strong>Aholkua</strong>: .ZIP fitxategiak ere igo ditzakezu, baldin eta .pdf, .docx, .txt edo .md dauzkaten.</p></blockquote><p><img src=../../images/screenshots/frame_0036.png alt="Dokumentuak KB-an"></p><p>Ezagutza-basea zuzenean kontsultatu dezakezu:</p><p><img src=../../images/screenshots/frame_0030.png alt="KB kontsultatu"></p><hr><h2 id=7-konektatu-basea-zure-laguntzailearekin>7. Konektatu basea zure laguntzailearekin
-<a class=anchor href=#7-konektatu-basea-zure-laguntzailearekin>#</a></h2><ol><li>Itzuli <strong>My Assistants</strong> atalera eta sortu laguntzaile bat.</li><li>Txantiloian bilatu <strong>RAG</strong> atala eta aukeratu sortu berri duzun basea.</li><li>Adierazi zenbat zati (<code>k = 3</code> nahikoa izan ohi da).</li></ol><p><img src=../../images/screenshots/frame_0043.png alt="KB kontsultatu"></p><ol start=4><li>Probatu zure laguntzailea OpenWebui-n.</li></ol><hr><h2 id=8-debug-modua-aukerakoa-baina-erabilgarria>8. <em>Debug</em> modua (aukerakoa baina erabilgarria)
-<a class=anchor href=#8-debug-modua-aukerakoa-baina-erabilgarria>#</a></h2><p>Klonatu laguntzailea, aldatu modeloa <strong>Bypass</strong>-era eta aktibatu <em>Simple RAG</em> LAMBek LLMri bidaltzen dion <em>prompt</em> osoa ikusteko.</p><p><img src=../../images/screenshots/frame_0076.png alt="Debug ikuspegia"></p><hr><h2 id=9-argitaratu-zure-laguntzailea-lti-tresna-gisa>9. Argitaratu zure laguntzailea LTI tresna gisa
-<a class=anchor href=#9-argitaratu-zure-laguntzailea-lti-tresna-gisa>#</a></h2><p>Zure LTI laguntzailea argitaratzeak zure ikasleei sortu duzun laguntzailea Moodle edo beste LMS bateko zure ikastarotik atzitzea ahalbidetuko die.</p><p>Laguntzailearen xehetasun ikuspegitik sakatu <strong>Publish</strong>.</p><p><img src=../../images/screenshots/frame_0080.png alt="Argitaratze pantaila"></p><p>Hiru datu sortuko dira:</p><ul><li><strong>Tool URL</strong></li><li><strong>Consumer Key</strong></li><li><strong>Shared Secret</strong></li></ul><p><img src=../../images/screenshots/frame_0081.png alt="Argitaratze pantaila"></p><h2 id=10-txertatu-laguntzailea-moodle-n-lti-11>10. Txertatu laguntzailea Moodle-n (LTI 1.1)
-<a class=anchor href=#10-txertatu-laguntzailea-moodle-n-lti-11>#</a></h2><ol><li>Zure ikastaroan ► <em>Gehitu jarduera</em> ► <strong>External Tool</strong>.</li></ol><p><img src=../../images/screenshots/frame_0089.png alt="Argitaratze pantaila">
+<!DOCTYPE html>
+<html lang="eu" dir="ltr">
+<head><script src="/Lamb-Project-Website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Lamb-Project-Website/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ikasi zure lehen ikaskuntza-laguntzailea nola sortu eta argitaratu 15 minutu baino gutxiagotan">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/Lamb-Project-Website/eu/tutorial/">
+  <meta property="og:site_name" content="LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea">
+  <meta property="og:title" content="LAMB tutorial azkarra">
+  <meta property="og:description" content="Ikasi zure lehen ikaskuntza-laguntzailea nola sortu eta argitaratu 15 minutu baino gutxiagotan">
+  <meta property="og:locale" content="eu">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2025-05-29T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-05-29T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/Lamb-Project-Website/images/lamb_1.png">
+<title>LAMB tutorial azkarra | LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea</title>
+<link rel="icon" href="/Lamb-Project-Website/favicon.png" >
+<link rel="manifest" href="/Lamb-Project-Website/manifest.json">
+<link rel="canonical" href="http://localhost:1313/Lamb-Project-Website/eu/tutorial/">
+  <link rel="alternate" hreflang="es" href="http://localhost:1313/Lamb-Project-Website/tutorial/" title="Tutorial rápido de LAMB">
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/Lamb-Project-Website/en/tutorial/" title="Quick LAMB Tutorial">
+  <link rel="alternate" hreflang="ca" href="http://localhost:1313/Lamb-Project-Website/ca/tutorial/" title="Tutorial ràpid de LAMB">
+<link rel="stylesheet" href="/Lamb-Project-Website/book.min.26ab4dc3f6076ceda2f9c263aa4029ae3341dbcce339f901aa432b11da6e5894.css" integrity="sha256-JqtNw/YHbO2i&#43;cJjqkAprjNB28zjOfkBqkMrEdpuWJQ=" crossorigin="anonymous">
+  <script defer src="/Lamb-Project-Website/fuse.min.js"></script>
+  <script defer src="/Lamb-Project-Website/eu.search.min.7557bf856e64757c6a855cb17e32163442952f00e003e3901eee3979abf271ee.js" integrity="sha256-dVe/hW5kdXxqhVyxfjIWNEKVLwDgA&#43;OQHu45eavyce4=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/Lamb-Project-Website/eu/"><span>LAMB - Ikaskuntza Laguntzaileen Kudeatzailea eta Eraikitzailea</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Buscar" aria-label="Buscar" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+  
+
+
+
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/Lamb-Project-Website/svg/translate.svg" class="book-icon" alt="Languages" />
+        Euskera
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="/Lamb-Project-Website/tutorial/">
+          Español
+        </a>
+      </li>
+      
+      <li>
+        <a href="/Lamb-Project-Website/en/tutorial/">
+          English
+        </a>
+      </li>
+      
+      <li>
+        <a href="/Lamb-Project-Website/ca/tutorial/">
+          Català
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/Lamb-Project-Website/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>LAMB tutorial azkarra</h3>
+
+  <label for="toc-control">
+    
+    <img src="/Lamb-Project-Website/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-erregistroa-eta-sarbidea">1. Erregistroa eta sarbidea</a></li>
+    <li><a href="#2-ezagutu-panel-nagusia">2. Ezagutu panel nagusia</a></li>
+    <li><a href="#3-sortu-zure-lehen-laguntzailea">3. Sortu zure lehen laguntzailea</a></li>
+    <li><a href="#4-laguntzailearen-proba-azkarra">4. Laguntzailearen proba azkarra</a></li>
+    <li><a href="#5-sortu-ezagutza-base-bat">5. Sortu ezagutza-base bat</a></li>
+    <li><a href="#base-berria-2"><img src="../../images/screenshots/frame_0019.png" alt="Base berria 2"></a></li>
+    <li><a href="#6-dokumentuen-jaso">6. Dokumentuen jaso</a></li>
+    <li><a href="#7-konektatu-basea-zure-laguntzailearekin">7. Konektatu basea zure laguntzailearekin</a></li>
+    <li><a href="#8-debug-modua-aukerakoa-baina-erabilgarria">8. <em>Debug</em> modua (aukerakoa baina erabilgarria)</a></li>
+    <li><a href="#9-argitaratu-zure-laguntzailea-lti-tresna-gisa">9. Argitaratu zure laguntzailea LTI tresna gisa</a></li>
+    <li><a href="#10-txertatu-laguntzailea-moodle-n-lti-11">10. Txertatu laguntzailea Moodle-n (LTI 1.1)</a></li>
+    <li><a href="#11-ikaslearen-ikuspegia">11. Ikaslearen ikuspegia</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="lamb-tutorial-azkarra">
+  <strong>LAMB</strong> tutorial azkarra
+  <a class="anchor" href="#lamb-tutorial-azkarra">#</a>
+</h1>
+<blockquote>
+<p><strong>Helburua</strong>: 15 minutu baino gutxiagotan zure dokumentu propioak erabiltzen dituen ikaskuntza-laguntzaile bat izango duzu, zure Moodle ikastaroan erabilgarri.</p></blockquote>
+<hr>
+<h2 id="1-erregistroa-eta-sarbidea">
+  1. Erregistroa eta sarbidea
+  <a class="anchor" href="#1-erregistroa-eta-sarbidea">#</a>
+</h2>
+<ol>
+<li>Joan <code>https://lamp.lamp-project.org</code> helbidera.</li>
+<li>Sakatu <strong>Sign Up</strong> eta bete formularioa (izena, helbide elektronikoa, pasahitza, koordinazioak emandako <strong>Secret Key</strong>).</li>
+</ol>
+<p><img src="../../images/screenshots/frame_0005.png" alt="Erregistro formularioa" /></p>
+<hr>
+<h2 id="2-ezagutu-panel-nagusia">
+  2. Ezagutu panel nagusia
+  <a class="anchor" href="#2-ezagutu-panel-nagusia">#</a>
+</h2>
+<p>Sartzean hiru atal garrantzitsu ikusiko dituzu:</p>
+<ul>
+<li><strong>My Assistants</strong> – zure bot-ak dauden tokia.</li>
+<li><strong>Knowledge Bases</strong> – zure base semantikoak.</li>
+<li><strong>Open Web UI</strong> – txat interfazea.</li>
+</ul>
+<p><img src="../../images/screenshots/frame_0008.png" alt="Panel nagusia" /></p>
+<hr>
+<h2 id="3-sortu-zure-lehen-laguntzailea">
+  3. Sortu zure lehen laguntzailea
+  <a class="anchor" href="#3-sortu-zure-lehen-laguntzailea">#</a>
+</h2>
+<ol>
+<li><strong>My Assistants</strong> atalean sakatu <strong>New</strong>.</li>
+<li>Jarri izen bat (adib. <em>Demo</em>), deskribatu bere eginkizuna eta aukeratu modeloa (GPT-4o, Mistral, etab.).</li>
+<li>Gorde.</li>
+</ol>
+<p><img src="../../images/screenshots/frame_0009.png" alt="Laguntzailearen sorrera" /></p>
+<hr>
+<h2 id="4-laguntzailearen-proba-azkarra">
+  4. Laguntzailearen proba azkarra
+  <a class="anchor" href="#4-laguntzailearen-proba-azkarra">#</a>
+</h2>
+<p>Egin klik txat ikonoan hitz egiteko eta erantzuten duela egiaztatzeko.</p>
+<p><img src="../../images/screenshots/frame_0017.png" alt="Probako txata" /></p>
+<hr>
+<h2 id="5-sortu-ezagutza-base-bat">
+  5. Sortu ezagutza-base bat
+  <a class="anchor" href="#5-sortu-ezagutza-base-bat">#</a>
+</h2>
+<ol>
+<li>Ireki <strong>Knowledge Bases</strong> ► <strong>New</strong>.</li>
+<li>Markatu basea <em>Private</em> bezala eta gorde.</li>
+</ol>
+<p><img src="../../images/screenshots/frame_0020.png" alt="Base berria" /></p>
+<h2 id="base-berria-2">
+  <img src="../../images/screenshots/frame_0019.png" alt="Base berria 2" />
+  <a class="anchor" href="#base-berria-2">#</a>
+</h2>
+<h2 id="6-dokumentuen-jaso">
+  6. Dokumentuen jaso
+  <a class="anchor" href="#6-dokumentuen-jaso">#</a>
+</h2>
+<ol>
+<li>Zure basearen barruan sakatu <strong>Markdown Ingest</strong> (oraingoz metodorik egonkorrena).</li>
+<li>Arrastatu PDF, DOCX edo <code>.md</code> fitxategiak.</li>
+<li>Mantendu <em>Chunk size</em> ≈ 2000 testu luzeentzat.</li>
+</ol>
+<p><img src="../../images/screenshots/frame_0033.png" alt="Dokumentuen igoera" /></p>
+<blockquote>
+<p><strong>Aholkua</strong>: .ZIP fitxategiak ere igo ditzakezu, baldin eta .pdf, .docx, .txt edo .md dauzkaten.</p></blockquote>
+<p><img src="../../images/screenshots/frame_0036.png" alt="Dokumentuak KB-an" /></p>
+<p>Ezagutza-basea zuzenean kontsultatu dezakezu:</p>
+<p><img src="../../images/screenshots/frame_0030.png" alt="KB kontsultatu" /></p>
+<hr>
+<h2 id="7-konektatu-basea-zure-laguntzailearekin">
+  7. Konektatu basea zure laguntzailearekin
+  <a class="anchor" href="#7-konektatu-basea-zure-laguntzailearekin">#</a>
+</h2>
+<ol>
+<li>Itzuli <strong>My Assistants</strong> atalera eta sortu laguntzaile bat.</li>
+<li>Txantiloian bilatu <strong>RAG</strong> atala eta aukeratu sortu berri duzun basea.</li>
+<li>Adierazi zenbat zati (<code>k = 3</code> nahikoa izan ohi da).</li>
+</ol>
+<p><img src="../../images/screenshots/frame_0043.png" alt="KB kontsultatu" /></p>
+<ol start="4">
+<li>Probatu zure laguntzailea OpenWebui-n.</li>
+</ol>
+<hr>
+<h2 id="8-debug-modua-aukerakoa-baina-erabilgarria">
+  8. <em>Debug</em> modua (aukerakoa baina erabilgarria)
+  <a class="anchor" href="#8-debug-modua-aukerakoa-baina-erabilgarria">#</a>
+</h2>
+<p>Klonatu laguntzailea, aldatu modeloa <strong>Bypass</strong>-era eta aktibatu <em>Simple RAG</em> LAMBek LLMri bidaltzen dion <em>prompt</em> osoa ikusteko.</p>
+<p><img src="../../images/screenshots/frame_0076.png" alt="Debug ikuspegia" /></p>
+<hr>
+<h2 id="9-argitaratu-zure-laguntzailea-lti-tresna-gisa">
+  9. Argitaratu zure laguntzailea LTI tresna gisa
+  <a class="anchor" href="#9-argitaratu-zure-laguntzailea-lti-tresna-gisa">#</a>
+</h2>
+<p>Zure LTI laguntzailea argitaratzeak zure ikasleei sortu duzun laguntzailea Moodle edo beste LMS bateko zure ikastarotik atzitzea ahalbidetuko die.</p>
+<p>Laguntzailearen xehetasun ikuspegitik sakatu <strong>Publish</strong>.</p>
+<p><img src="../../images/screenshots/frame_0080.png" alt="Argitaratze pantaila" /></p>
+<p>Hiru datu sortuko dira:</p>
+<ul>
+<li><strong>Tool URL</strong></li>
+<li><strong>Consumer Key</strong></li>
+<li><strong>Shared Secret</strong></li>
+</ul>
+<p><img src="../../images/screenshots/frame_0081.png" alt="Argitaratze pantaila" /></p>
+<h2 id="10-txertatu-laguntzailea-moodle-n-lti-11">
+  10. Txertatu laguntzailea Moodle-n (LTI 1.1)
+  <a class="anchor" href="#10-txertatu-laguntzailea-moodle-n-lti-11">#</a>
+</h2>
+<ol>
+<li>Zure ikastaroan ► <em>Gehitu jarduera</em> ► <strong>External Tool</strong>.</li>
+</ol>
+<p><img src="../../images/screenshots/frame_0089.png" alt="Argitaratze pantaila" />
 2. Itsatsi <strong>Tool URL</strong> <em>Secure Tool URL</em> atalean.
 3. Kopiatu <strong>Consumer Key</strong> eta <strong>Shared Secret</strong>.
 4. Doitu <em>Launch container</em> ► <em>New window</em>.
-5. Gorde.</p><p><img src=../../images/screenshots/frame_0090.png alt="Moodle konfigurazioa"></p><hr><h2 id=11-ikaslearen-ikuspegia>11. Ikaslearen ikuspegia
-<a class=anchor href=#11-ikaslearen-ikuspegia>#</a></h2><p>Ikasleek Moodle-tik sartzen dira; bot hau bakarrik ikusten dute eta haien txatak LAMBen gordeta geratzen dira, pribatutasun-politika betez.</p><p><img src=../../images/screenshots/frame_0091.png alt="Ikaslearen ikuspegia"></p></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><a href=#1-erregistroa-eta-sarbidea>1. Erregistroa eta sarbidea</a></li><li><a href=#2-ezagutu-panel-nagusia>2. Ezagutu panel nagusia</a></li><li><a href=#3-sortu-zure-lehen-laguntzailea>3. Sortu zure lehen laguntzailea</a></li><li><a href=#4-laguntzailearen-proba-azkarra>4. Laguntzailearen proba azkarra</a></li><li><a href=#5-sortu-ezagutza-base-bat>5. Sortu ezagutza-base bat</a></li><li><a href=#base-berria-2><img src=../../images/screenshots/frame_0019.png alt="Base berria 2"></a></li><li><a href=#6-dokumentuen-jaso>6. Dokumentuen jaso</a></li><li><a href=#7-konektatu-basea-zure-laguntzailearekin>7. Konektatu basea zure laguntzailearekin</a></li><li><a href=#8-debug-modua-aukerakoa-baina-erabilgarria>8. <em>Debug</em> modua (aukerakoa baina erabilgarria)</a></li><li><a href=#9-argitaratu-zure-laguntzailea-lti-tresna-gisa>9. Argitaratu zure laguntzailea LTI tresna gisa</a></li><li><a href=#10-txertatu-laguntzailea-moodle-n-lti-11>10. Txertatu laguntzailea Moodle-n (LTI 1.1)</a></li><li><a href=#11-ikaslearen-ikuspegia>11. Ikaslearen ikuspegia</a></li></ul></nav></div></aside></main></body></html>
+5. Gorde.</p>
+<p><img src="../../images/screenshots/frame_0090.png" alt="Moodle konfigurazioa" /></p>
+<hr>
+<h2 id="11-ikaslearen-ikuspegia">
+  11. Ikaslearen ikuspegia
+  <a class="anchor" href="#11-ikaslearen-ikuspegia">#</a>
+</h2>
+<p>Ikasleek Moodle-tik sartzen dira; bot hau bakarrik ikusten dute eta haien txatak LAMBen gordeta geratzen dira, pribatutasun-politika betez.</p>
+<p><img src="../../images/screenshots/frame_0091.png" alt="Ikaslearen ikuspegia" /></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-erregistroa-eta-sarbidea">1. Erregistroa eta sarbidea</a></li>
+    <li><a href="#2-ezagutu-panel-nagusia">2. Ezagutu panel nagusia</a></li>
+    <li><a href="#3-sortu-zure-lehen-laguntzailea">3. Sortu zure lehen laguntzailea</a></li>
+    <li><a href="#4-laguntzailearen-proba-azkarra">4. Laguntzailearen proba azkarra</a></li>
+    <li><a href="#5-sortu-ezagutza-base-bat">5. Sortu ezagutza-base bat</a></li>
+    <li><a href="#base-berria-2"><img src="../../images/screenshots/frame_0019.png" alt="Base berria 2"></a></li>
+    <li><a href="#6-dokumentuen-jaso">6. Dokumentuen jaso</a></li>
+    <li><a href="#7-konektatu-basea-zure-laguntzailearekin">7. Konektatu basea zure laguntzailearekin</a></li>
+    <li><a href="#8-debug-modua-aukerakoa-baina-erabilgarria">8. <em>Debug</em> modua (aukerakoa baina erabilgarria)</a></li>
+    <li><a href="#9-argitaratu-zure-laguntzailea-lti-tresna-gisa">9. Argitaratu zure laguntzailea LTI tresna gisa</a></li>
+    <li><a href="#10-txertatu-laguntzailea-moodle-n-lti-11">10. Txertatu laguntzailea Moodle-n (LTI 1.1)</a></li>
+    <li><a href="#11-ikaslearen-ikuspegia">11. Ikaslearen ikuspegia</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

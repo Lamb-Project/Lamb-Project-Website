@@ -13,6 +13,11 @@ layout: "home"
 
 # Crea assistents d'IA per a l'educació sense escriure codi
 
+{{< button href="/features" >}}Veure totes les característiques{{< /button >}}
+{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
+{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
+{{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}}
+
 **LAMB** és una plataforma web que et permet **dissenyar, entrenar i publicar assistents d'aprenentatge basats en IA** de forma visual i intuïtiva. Funciona com un "constructor de chatbots docents" que combina models de llenguatge (GPT-4, Mistral, models locals) amb els teus propis materials educatius.
 
 **LAMB** és un projecte de codi obert desenvolupat per Marc Alier i Juanan Pereira, professors i investigadors de la Universitat Politècnica de Catalunya (UPC) i Universidad del País Vasco (UPV/EHU).

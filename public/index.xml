@@ -1,22 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LAMB - Learning Assistants Manager and Builder on LAMB - Gestor y Constructor de Asistentes de Aprendizaje</title><link>https://lamb-project.github.io/Lamb-Project-Website/</link><description>Recent content in LAMB - Learning Assistants Manager and Builder on LAMB - Gestor y Constructor de Asistentes de Aprendizaje</description><generator>Hugo</generator><language>es</language><lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lamb-project.github.io/Lamb-Project-Website/index.xml" rel="self" type="application/rss+xml"/><item><title>Tutorial rápido de LAMB</title><link>https://lamb-project.github.io/Lamb-Project-Website/tutorial/</link><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate><guid>https://lamb-project.github.io/Lamb-Project-Website/tutorial/</guid><description>&lt;h1 id="tutorial-rápido-de-lamb">
- Tutorial rápido de &lt;strong>LAMB&lt;/strong>
- &lt;a class="anchor" href="#tutorial-r%c3%a1pido-de-lamb">#&lt;/a>
-&lt;/h1>
-&lt;blockquote>
-&lt;p>&lt;strong>Objetivo&lt;/strong>: en menos de 15 minutos tendrás un asistente de aprendizaje que utiliza tus propios documentos y estará disponible dentro de tu curso de Moodle.&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="1-registro-y-acceso">
- 1. Registro y acceso
- &lt;a class="anchor" href="#1-registro-y-acceso">#&lt;/a>
-&lt;/h2>
-&lt;ol>
-&lt;li>Ve a &lt;code>https://lamp.lamp-project.org&lt;/code>.&lt;/li>
-&lt;li>Pulsa &lt;strong>Sign Up&lt;/strong> y completa el formulario (nombre, correo, contraseña, &lt;strong>Secret Key&lt;/strong> que te facilita la coordinación).&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../images/screenshots/frame_0005.png" alt="Formulario de registro" />&lt;/p>
-&lt;hr>
-&lt;h2 id="2-conoce-el-panel-principal">
- 2. Conoce el panel principal
- &lt;a class="anchor" href="#2-conoce-el-panel-principal">#&lt;/a>
-&lt;/h2>
-&lt;p>Al entrar verás tres secciones clave:&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LAMB - Learning Assistants Manager and Builder on LAMB - Gestor y Constructor de Asistentes de Aprendizaje</title>
+    <link>http://localhost:1313/Lamb-Project-Website/</link>
+    <description>Recent content in LAMB - Learning Assistants Manager and Builder on LAMB - Gestor y Constructor de Asistentes de Aprendizaje</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/Lamb-Project-Website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial rápido de LAMB</title>
+      <link>http://localhost:1313/Lamb-Project-Website/tutorial/</link>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Lamb-Project-Website/tutorial/</guid>
+      <description>&lt;h1 id=&#34;tutorial-rápido-de-lamb&#34;&gt;&#xA;  Tutorial rápido de &lt;strong&gt;LAMB&lt;/strong&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#tutorial-r%c3%a1pido-de-lamb&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Objetivo&lt;/strong&gt;: en menos de 15 minutos tendrás un asistente de aprendizaje que utiliza tus propios documentos y estará disponible dentro de tu curso de Moodle.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-registro-y-acceso&#34;&gt;&#xA;  1. Registro y acceso&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-registro-y-acceso&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ve a &lt;code&gt;https://lamp.lamp-project.org&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Pulsa &lt;strong&gt;Sign Up&lt;/strong&gt; y completa el formulario (nombre, correo, contraseña, &lt;strong&gt;Secret Key&lt;/strong&gt; que te facilita la coordinación).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/screenshots/frame_0005.png&#34; alt=&#34;Formulario de registro&#34; /&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-conoce-el-panel-principal&#34;&gt;&#xA;  2. Conoce el panel principal&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2-conoce-el-panel-principal&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Al entrar verás tres secciones clave:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
