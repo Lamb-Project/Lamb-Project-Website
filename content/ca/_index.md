@@ -11,12 +11,23 @@ layout: "home"
   <img src="../images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
 </div>
 
-# Crea assistents d'IA per a l'educació sense escriure codi
+# Crea assistents d'IA per a l'educació integrats al teu Sistema de Gestió de l'Aprenentatge
 
-{{< button href="/features" >}}Veure totes les característiques{{< /button >}}
-{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
-{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
-{{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}}
+<div style="text-align: center; margin: 1.5rem 0;">
+  <a href="http://www.lamb-project.org" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/Website-lamb--project.org-blue" alt="Website"></a>
+  <a href="LICENSE" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/license-GPL%20v3-blue.svg" alt="Llicència"></a>
+  <a href="https://manifesto.safeaieducation.org" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/Safe_AI_Education-Manifesto-green" alt="IA Segura en Educació"></a>
+  <a href="https://github.com/Lamb-Project/lamb" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/GitHub-Lamb--Project-black" alt="GitHub"></a>
+</div>
+
+**Crea assistents d'IA per a l'educació integrats al teu Sistema de Gestió de l'Aprenentatge**
+
+<div style="text-align: center; margin: 2rem 0;">
+  {{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
+  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
+  {{< button href="/features" >}}Veure totes les característiques{{< /button >}}
+</div>
 
 **LAMB** és una plataforma web que et permet **dissenyar, entrenar i publicar assistents d'aprenentatge basats en IA** de forma visual i intuïtiva. Funciona com un "constructor de chatbots docents" que combina models de llenguatge (GPT-4, Mistral, models locals) amb els teus propis materials educatius.
 
@@ -95,7 +106,37 @@ Català, castellà, anglès i euskera inclosos de sèrie.
 
 **LAMB et dóna el control total per construir un "ChatGPT especialitzat" en la teva assignatura, connectar-lo al teu Moodle i mantenir les dades del teu alumnat completament segures.**
 
-{{< button href="/features" >}}Veure totes les característiques{{< /button >}}
-{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
-{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
-{{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}} 
+<div style="text-align: center; margin: 2rem 0;">
+  {{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
+  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
+  {{< button href="/features" >}}Veure totes les característiques{{< /button >}}
+</div>
+
+---
+
+## 🎓 Recerca i Fonament Acadèmic
+
+**LAMB** està construït sobre recerca acadèmica sòlida i s'adhereix al **[Manifest d'IA Segura en Educació](https://manifesto.safeaieducation.org)** - un marc integral per al desplegament ètic, segur i educativament alineat de la IA.
+
+### 📚 Publicació Acadèmica
+
+Si fas servir LAMB en la teva recerca, si us plau cita el nostre treball:
+
+**"LAMB: An open-source software framework to create artificial intelligence assistants deployed and integrated into learning management systems"**
+
+- **Autors:** Marc Alier, Juanan Pereira, Francisco José García-Peñalvo, Maria Jose Casañ, Jose Cabré
+- **Revista:** Computer Standards & Interfaces, Volum 92, Març 2025
+- **DOI:** [10.1016/j.csi.2024.103940](https://doi.org/10.1016/j.csi.2024.103940)
+
+### 🏛️ Socis Acadèmics
+
+- **Universidad del País Vasco (UPV/EHU)** - Institució de recerca i soci de desenvolupament
+- **Universitat Politècnica de Catalunya (UPC)** - Institució de recerca i soci de desenvolupament
+  - Facultat d'Informàtica de Barcelona
+  - Institut de Ciències de l'Educació - ICE
+  - Departament d'Enginyeria de Serveis i Sistemes d'Informació (ESSI)
+
+### 🙏 Agraïments
+
+Agraïments especials al **Projecte Open WebUI**, **Projecte Tsugi** (Dr. Chuck Severance), la comunitat de **Conferència TEEM**, i **Tknika** Centre de Recerca Aplicada de FP Basca pel seu suport i col·laboració.

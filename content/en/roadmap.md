@@ -7,58 +7,99 @@ draft: false
 
 # LAMB PROJECT ROADMAP
 
-Last update 8/7/2025
+**Last updated:** September 10, 2025
 
-## LAMB Main Project 
+---
 
-The main lamb project implements the Learning Assistant manager and Builder. It combines the LAMB frontend (svelte ) and Backend (Fastapi) on a single app. It requires a slightly modified of open-webui forked from the main project. And it can be connected to lamb-project lamb-kb-server. 
+## 🎯 LAMB Main Project 
 
+The main LAMB project implements the Learning Assistant Manager and Builder. It combines the LAMB frontend (Svelte 5) and backend (FastAPI) into a single application. It requires a slightly modified version of Open WebUI forked from the main project and can be connected to the LAMB Knowledge Base Server.
 
-### Milestone Release 0.1 
+### 📊 Current Status
 
-**Objective** : Provide a codebase that a sysadmin can deploy.
-**Owner** @granludo 
+- ✅ **Project fully open sourced** at [lamb-project.org](https://lamb-project.org)  
+- ✅ **Installation documentation** complete with Docker and manual setup options
+- ✅ **Core functionality** tested and stable
 
-### Tasks
-* Compile a semi-production ready codebase with a stable enough lamb + open-webui + lamb-kb-server  -> @granludo -> Est Aug 15 2025
-* Write and test a comprehensive documentation (maybe a screencast of the install process). -> @granludo -> Est Aug 15 2025
-* Create a docker-compose so the three pieces of lamb 0.1 can be launched on containers. -> @juananpe -> Est ??
-* Multi tennant features and admin
+---
 
-### Milestone Analytics and Evals
-(Big One)
-**Owner** TBD
-**Objective**
-Integrate the experimental developments for analitycs and LLM Evals into Lamb  
+### 🚀 Milestone: Release 0.1 
 
-### Milestone LTI Task activity 
-** Owner ** @MJCasañ 
-**Objective** 
-Create a new kind of LTI frontend for lamb assitants:
--> instructor sets up task and instructions for students
--> students deliver document(s) (adding names of peers, roles and kind of contributions)
--> lamb assitant makes rubric based assesment and feedback
--> instructor gets assesment and decides actions (send to student(s), corrections, grade)
--> grades can be sent to LMS via LTI gradebook integration
+**🎯 Objective:** Full stable multi-tenant codebase  
+**👥 Owner:** @granludo and @juananpe
 
-[--> It can be plugged into EvaluAItor agents ]
+#### 📋 Tasks
+- [ ] **Multi-tenant features** and admin → organizations
+- [ ] **KB-Server enhancements:** JSON ingestion + YouTube transcriptions importer
+- [ ] **Enhanced PDF import** for ingestion 
+- [ ] **Playwright full feature testing suite**
 
+---
 
-## LAMB-KB-Server
-**Owner** Noa
-**Objective**
-Add all the experimental features on the lamb-kb-server branches, and setup LAMB to access it dynamically.
-* Dockling based multimodal pdf parsing, chunking and ingestion
-* Dockling based document parsing and extraction (not provided as an embeddings kb, but as a set of raw md + img files)
-* Video ingestion plugin (based on old LLMPrimer workflows)
-* Import and Export of full kb-bases
-* Re-building of kb-bases (change of embeddings functions, chunking strategy, adding metadata)
-* Onthology driven domain enhanced ingestion, query and fine-tunning
+### 📈 Milestone: Analytics and Evaluations
+*(Major Feature)*
 
-## EvaluAItor Agents 
-**A whole big ass project** roadmap pending
+**🎯 Objective:** Integrate experimental developments for analytics and LLM evaluations into LAMB  
+**👥 Owner:** TBD
 
-## LAMB Jarvis 
-**A whole big ass project** roadmap pending
+#### 📋 Scope
+Integration of advanced analytics and evaluation frameworks for learning assistant performance assessment.
+
+---
+
+### 🎓 Milestone: LTI Task Activity 
+
+**🎯 Objective:** Create a new kind of LTI frontend for LAMB assistants  
+**👥 Owner:** @MJCasañ 
+
+#### 📋 Workflow
+1. **Instructor setup:** Task and instructions for students
+2. **Student delivery:** Document(s) with peer names, roles, and contributions
+3. **LAMB assessment:** Rubric-based assessment and feedback
+4. **Instructor review:** Assessment review and action decisions
+5. **Grade integration:** LMS gradebook integration via LTI
+
+> 🔗 **Note:** Can be integrated with EvaluAItor agents
+
+---
+
+## 🗃️ LAMB Knowledge Base Server
+
+**🎯 Objective:** Add experimental features and dynamic LAMB integration  
+**👥 Owner:** @granludo + Noa
+
+### 📋 Feature Development
+
+#### 🔄 Document Processing
+- [ ] **Dockling-based multimodal PDF** parsing, chunking, and ingestion
+- [ ] **Dockling document parsing** and extraction (raw MD + image files)
+- [ ] **Video ingestion plugin** (based on LLMPrimer workflows)
+
+#### 💾 Knowledge Base Management
+- [ ] **Import/Export** of full knowledge bases
+- [ ] **KB rebuilding:** Change embeddings functions, chunking strategy, metadata
+- [ ] **Ontology-driven domain enhancement** for ingestion, query, and fine-tuning
+
+---
+
+## 🤖 Future Projects
+
+### EvaluAItor Agents 
+**Status:** Major project in planning phase  
+**Roadmap:** Pending detailed specification
+
+### LAMB Jarvis 
+**Status:** Major project in planning phase  
+**Roadmap:** Pending detailed specification
+
+---
+
+## 📞 Contact & Contributions
+
+For questions about the roadmap or to contribute to development:
+
+- **GitHub Issues:** [github.com/Lamb-Project/lamb/issues](https://github.com/Lamb-Project/lamb/issues)
+- **Project Leaders:** Marc Alier (UPC), Juanan Pereira (UPV/EHU)
+- **Website:** [lamb-project.org](http://www.lamb-project.org)
 
 

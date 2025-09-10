@@ -11,12 +11,23 @@ layout: "home"
   <img src="../images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
 </div>
 
-# Create AI assistants for education without writing code
+# Create AI assistants for education integrated in your Learning Management System
 
-{{< button href="/features" >}}See all features{{< /button >}}
-{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
-{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
-{{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
+<div style="text-align: center; margin: 1.5rem 0;">
+  <a href="http://www.lamb-project.org" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/Website-lamb--project.org-blue" alt="Website"></a>
+  <a href="LICENSE" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/license-GPL%20v3-blue.svg" alt="License"></a>
+  <a href="https://manifesto.safeaieducation.org" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/Safe_AI_Education-Manifesto-green" alt="Safe AI in Education"></a>
+  <a href="https://github.com/Lamb-Project/lamb" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/GitHub-Lamb--Project-black" alt="GitHub"></a>
+</div>
+
+**Create AI assistants for education integrated in your Learning Management System**
+
+<div style="text-align: center; margin: 2rem 0;">
+  {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
+  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
+  {{< button href="/features" >}}See all features{{< /button >}}
+</div>
 
 **LAMB** is a web platform that allows you to **design, train and publish AI-based learning assistants** in a visual and intuitive way. It works as a "teaching chatbot builder" that combines language models (GPT-4, Mistral, local models) with your own educational materials.
 
@@ -95,7 +106,37 @@ Catalan, Spanish, English and Basque included as standard.
 
 **LAMB gives you total control to build a "specialized ChatGPT" for your subject, connect it to your Moodle and keep your students' data completely secure.**
 
-{{< button href="/features" >}}See all features{{< /button >}}
-{{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
-{{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
-{{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}} 
+<div style="text-align: center; margin: 2rem 0;">
+  {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
+  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
+  {{< button href="/features" >}}See all features{{< /button >}}
+</div>
+
+---
+
+## 🎓 Research & Academic Foundation
+
+**LAMB** is built on solid academic research and adheres to the **[Safe AI in Education Manifesto](https://manifesto.safeaieducation.org)** - a comprehensive framework for ethical, secure, and educationally-aligned AI deployment.
+
+### 📚 Academic Publication
+
+If you use LAMB in your research, please cite our work:
+
+**"LAMB: An open-source software framework to create artificial intelligence assistants deployed and integrated into learning management systems"**
+
+- **Authors:** Marc Alier, Juanan Pereira, Francisco José García-Peñalvo, Maria Jose Casañ, Jose Cabré
+- **Journal:** Computer Standards & Interfaces, Volume 92, March 2025
+- **DOI:** [10.1016/j.csi.2024.103940](https://doi.org/10.1016/j.csi.2024.103940)
+
+### 🏛️ Academic Partners
+
+- **Universidad del País Vasco (UPV/EHU)** - Research institution and development partner
+- **Universitat Politècnica de Catalunya (UPC)** - Research institution and development partner
+  - Barcelona School of Informatics
+  - Institut de Ciències de l'Educació - ICE
+  - Department of Service and Information System Engineering (ESSI)
+
+### 🙏 Acknowledgments
+
+Special thanks to the **Open WebUI Project**, **Tsugi Project** (Dr. Chuck Severance), **TEEM Conference** community, and **Tknika** Basque VET Applied Research Centre for their support and collaboration.
