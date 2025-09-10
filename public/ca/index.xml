@@ -1,19 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>LAMB - Learning Assistants Manager and Builder on LAMB - Gestor i Constructor d&#39;Assistents d&#39;Aprenentatge</title>
-    <link>https://lamb-project.github.io/Lamb-Project-Website/ca/</link>
-    <description>Recent content in LAMB - Learning Assistants Manager and Builder on LAMB - Gestor i Constructor d&#39;Assistents d&#39;Aprenentatge</description>
-    <generator>Hugo</generator>
-    <language>ca</language>
-    <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lamb-project.github.io/Lamb-Project-Website/ca/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tutorial ràpid de LAMB</title>
-      <link>https://lamb-project.github.io/Lamb-Project-Website/ca/tutorial/</link>
-      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://lamb-project.github.io/Lamb-Project-Website/ca/tutorial/</guid>
-      <description>&lt;h1 id=&#34;tutorial-ràpid-de-lamb&#34;&gt;&#xA;  Tutorial ràpid de &lt;strong&gt;LAMB&lt;/strong&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#tutorial-r%c3%a0pid-de-lamb&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Objectiu&lt;/strong&gt;: en menys de 15 minuts tindràs un assistent d&amp;rsquo;aprenentatge que utilitza els teus propis documents i estarà disponible dins del teu curs de Moodle.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-registre-i-accés&#34;&gt;&#xA;  1. Registre i accés&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-registre-i-acc%c3%a9s&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ves a &lt;code&gt;https://lamp.lamp-project.org&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Prem &lt;strong&gt;Sign Up&lt;/strong&gt; i completa el formulari (nom, correu, contrasenya, &lt;strong&gt;Secret Key&lt;/strong&gt; que et facilita la coordinació).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/screenshots/frame_0005.png&#34; alt=&#34;Formulari de registre&#34; /&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-coneix-el-panell-principal&#34;&gt;&#xA;  2. Coneix el panell principal&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2-coneix-el-panell-principal&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;En entrar veuràs tres seccions clau:&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LAMB - Learning Assistants Manager and Builder on LAMB - Gestor i Constructor d'Assistents d'Aprenentatge</title><link>http://www.lamb-project.org/ca/</link><description>Recent content in LAMB - Learning Assistants Manager and Builder on LAMB - Gestor i Constructor d'Assistents d'Aprenentatge</description><generator>Hugo</generator><language>ca</language><lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://www.lamb-project.org/ca/index.xml" rel="self" type="application/rss+xml"/><item><title>Tutorial ràpid de LAMB</title><link>http://www.lamb-project.org/ca/tutorial/</link><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate><guid>http://www.lamb-project.org/ca/tutorial/</guid><description>&lt;h1 id="tutorial-ràpid-de-lamb"&gt;
+ Tutorial ràpid de &lt;strong&gt;LAMB&lt;/strong&gt;
+ &lt;a class="anchor" href="#tutorial-r%c3%a0pid-de-lamb"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Objectiu&lt;/strong&gt;: en menys de 15 minuts tindràs un assistent d&amp;rsquo;aprenentatge que utilitza els teus propis documents i estarà disponible dins del teu curs de Moodle.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="1-registre-i-accés"&gt;
+ 1. Registre i accés
+ &lt;a class="anchor" href="#1-registre-i-acc%c3%a9s"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Ves a &lt;code&gt;https://lamp.lamp-project.org&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Prem &lt;strong&gt;Sign Up&lt;/strong&gt; i completa el formulari (nom, correu, contrasenya, &lt;strong&gt;Secret Key&lt;/strong&gt; que et facilita la coordinació).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="../../images/screenshots/frame_0005.png" alt="Formulari de registre" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-coneix-el-panell-principal"&gt;
+ 2. Coneix el panell principal
+ &lt;a class="anchor" href="#2-coneix-el-panell-principal"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;En entrar veuràs tres seccions clau:&lt;/p&gt;</description></item></channel></rss>

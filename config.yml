@@ -1,4 +1,4 @@
-baseURL: 'https://lamb-project.github.io/Lamb-Project-Website/'
+baseURL: 'http://www.lamb-project.org/'
 languageCode: 'es'
 title: 'LAMB - Learning Assistants Manager and Builder'
 theme: 'hugo-book'
