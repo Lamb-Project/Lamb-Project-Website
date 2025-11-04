@@ -9,6 +9,8 @@ type: "docs"
 
 # Que necesitas para crear un asistente / agente IA
 
+{{< youtube btSKVMMFhqo >}}
+
 Cuando decides crear un asistente de inteligencia artificial para educación u otros usos, necesitas tres elementos básicos: un modelo de lenguaje (LLM), un conjunto de instrucciones (prompts) y una base de conocimiento específica para evitar alucinaciones y proporcionar información precisa en el tono adecuado.
 
 ![elementos básicos de un asistente](image1.png)
