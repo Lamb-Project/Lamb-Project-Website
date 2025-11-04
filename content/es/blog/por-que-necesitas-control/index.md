@@ -4,6 +4,7 @@ description: "LAMB te permite mantener el control sobre tus herramientas de IA, 
 date: 2025-11-04
 draft: false
 weight: 1
+type: "docs"
 ---
 
 # Que necesitas para crear un asistente / agente IA
