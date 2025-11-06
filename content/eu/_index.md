@@ -24,6 +24,7 @@ layout: "home"
 
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="/tutorial" style="primary" >}}📚 Tutorial azkarra (15 min){{< /button >}}
+  {{< button href="developers" style="secondary" >}}👨‍💻 Garatzaileentzat{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ikusi GitHub-en{{< /button >}}
   {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
   {{< button href="/features" >}}Ikusi ezaugarri guztiak{{< /button >}}
@@ -108,6 +109,7 @@ Euskera, gaztelania, ingelesa eta katalana serie gisa.
 
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="/tutorial" style="primary" >}}📚 Tutorial azkarra (15 min){{< /button >}}
+  {{< button href="developers" style="secondary" >}}👨‍💻 Garatzaileentzat{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ikusi GitHub-en{{< /button >}}
   {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
   {{< button href="/features" >}}Ikusi ezaugarri guztiak{{< /button >}}

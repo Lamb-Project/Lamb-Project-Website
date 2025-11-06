@@ -24,6 +24,7 @@ layout: "home"
 
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
+  {{< button href="developers" style="secondary" >}}👨‍💻 For Developers{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
   {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
   {{< button href="/features" >}}See all features{{< /button >}}
@@ -108,6 +109,7 @@ Catalan, Spanish, English and Basque included as standard.
 
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
+  {{< button href="developers" style="secondary" >}}👨‍💻 For Developers{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
   {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
   {{< button href="/features" >}}See all features{{< /button >}}
