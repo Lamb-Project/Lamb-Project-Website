@@ -24,6 +24,7 @@ layout: "home"
 
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="tutorial" style="primary" >}}📚 Tutorial rápido (15 min){{< /button >}}
+  {{< button href="/es/manual" style="primary" >}}📖 Manual de Usuario{{< /button >}}
   {{< button href="blog" style="secondary" >}}📝 Blog{{< /button >}}
   {{< button href="developers" style="secondary" >}}👨‍💻 Para Desarrolladores{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ver en GitHub{{< /button >}}
@@ -111,6 +112,7 @@ Catalán, castellano, inglés y euskera incluidos de serie.
 
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="tutorial" style="primary" >}}📚 Tutorial rápido (15 min){{< /button >}}
+  {{< button href="/es/manual" style="primary" >}}📖 Manual de Usuario{{< /button >}}
   {{< button href="blog" style="secondary" >}}📝 Blog{{< /button >}}
   {{< button href="developers" style="secondary" >}}👨‍💻 Para Desarrolladores{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ver en GitHub{{< /button >}}
