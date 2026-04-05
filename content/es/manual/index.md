@@ -436,7 +436,7 @@ Si su institucion ha configurado **LTI Unificado**, una sola herramienta LTI se 
 El enfoque LTI Unificado tambien proporciona un **Panel del Instructor** con:
 - Estadisticas de uso (cuantos estudiantes, cuantos mensajes)
 - Seguimiento de acceso de estudiantes
-- Transcripciones de chat anonimizadas (si se habilita durante la configuracion)
+- Transcripciones de chat (si se habilita durante la configuracion) mostrando las conversaciones de estudiantes con los asistentes
 
 ### 8.3 Despublicar
 

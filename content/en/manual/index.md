@@ -436,7 +436,7 @@ If your institution has set up **Unified LTI**, a single LTI tool is configured 
 The Unified LTI approach also provides an **Instructor Dashboard** with:
 - Usage statistics (how many students, how many messages)
 - Student access tracking
-- Anonymized chat transcripts (if enabled during setup)
+- Chat transcripts (if enabled during setup) showing student conversations with the assistants
 
 ### 8.3 Unpublishing
 
