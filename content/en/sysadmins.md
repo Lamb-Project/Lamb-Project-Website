@@ -337,24 +337,6 @@ Create a file named `Caddyfile` in the same directory as your `docker-compose.ym
 }
 ```
 
-##### Configuration Explanation
-
-**Global Block:**
-- `email {$CADDY_EMAIL}`: Email for automatic SSL/TLS certificate issuance via Let's Encrypt
-
-**Main LAMB Host (`{$LAMB_PUBLIC_HOST}`):**
-- `encode gzip`: Response compression for improved performance
-- `/creator/*`: Assistant creator interface → LAMB service
-- `/api/*`: Backend API → LAMB service
-- `/lamb/*`: LAMB-specific routes (with prefix stripping)
-- `/kb/*`: Knowledge Base (with prefix stripping) → KB service
-- `/openwebui/*`: 301 redirect to the specific OpenWebUI host (for backward compatibility)
-- Other routes: Proxy to main LAMB service
-
-**OpenWebUI Host (`{$OWI_PUBLIC_HOST}`):**
-- Dedicated OpenWebUI configuration with gzip compression
-- All requests are sent to the `openwebui:8080` service
-
 ##### Required Environment Variables
 
 Add the following variables to your `.env` file:
@@ -410,21 +392,6 @@ Since the version including PR #362, LAMB supports worker configuration through 
 | **Production (medium load)** | `LAMB_WORKERS=4` | Optimal configuration for most use cases |
 | **Production (high load)** | `LAMB_WORKERS=4-8` | Adjust according to available CPU cores |
 
-##### Calculating the Optimal Number of Workers
-
-A general rule for calculating the optimal number of workers is:
-
-```
-Workers = (2 × CPU Cores) + 1
-```
-
-For example, on a server with 2 cores:
-```
-Workers = (2 × 2) + 1 = 5
-```
-
-However, it is recommended to start with conservative values (2-4 workers) and adjust based on observed performance metrics.
-
 ##### Configuration Example in `.env`
 
 ```bash
@@ -441,9 +408,3 @@ docker compose logs lamb | grep -i worker
 ```
 
 You should see messages indicating that Uvicorn has started with the specified number of workers.
-
-##### Additional Considerations
-
-- **RAM Memory**: Each worker consumes additional memory. Ensure the server has sufficient RAM available.
-- **Horizontal Scaling**: For very high loads, consider distributing the load across multiple LAMB instances instead of indefinitely increasing the number of workers.
-- **Monitoring**: Implement monitoring tools to observe CPU and memory usage and adjust worker configuration as needed.

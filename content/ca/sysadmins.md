@@ -337,24 +337,6 @@ Creeu un fitxer anomenat `Caddyfile` al mateix directori que el vostre `docker-c
 }
 ```
 
-##### Explicació de la Configuració
-
-**Bloc Global:**
-- `email {$CADDY_EMAIL}`: Email per a l'emissió de certificats SSL/TLS automàtics mitjançant Let's Encrypt
-
-**Host Principal de LAMB (`{$LAMB_PUBLIC_HOST}`):**
-- `encode gzip`: Compressió de respostes per millorar el rendiment
-- `/creator/*`: Interfície del creador d'assistents → servei LAMB
-- `/api/*`: API backend → servei LAMB
-- `/lamb/*`: Rutes específiques de LAMB (amb eliminació del prefix)
-- `/kb/*`: Knowledge Base (amb eliminació del prefix) → servei KB
-- `/openwebui/*`: Redirecció 301 al host específic d'OpenWebUI (per a retrocompatibilitat)
-- Resta de rutes: Proxy al servei LAMB principal
-
-**Host d'OpenWebUI (`{$OWI_PUBLIC_HOST}`):**
-- Configuració dedicada per a OpenWebUI amb compressió gzip
-- Totes les peticions s'envien al servei `openwebui:8080`
-
 ##### Variables d'Entorn Necessàries
 
 Afegiu les variables següents al vostre fitxer `.env`:
@@ -410,21 +392,6 @@ Des de la versió que inclou el PR #362, LAMB suporta la configuració de worker
 | **Producció (càrrega mitjana)** | `LAMB_WORKERS=4` | Configuració òptima per a la majoria de casos d'ús |
 | **Producció (alta càrrega)** | `LAMB_WORKERS=4-8` | Ajustar segons el nombre de nuclis de CPU disponibles |
 
-##### Càlcul del Nombre Òptim de Workers
-
-Una regla general per calcular el nombre òptim de workers és:
-
-```
-Workers = (2 × Nuclis de CPU) + 1
-```
-
-Per exemple, en un servidor amb 2 nuclis:
-```
-Workers = (2 × 2) + 1 = 5
-```
-
-No obstant això, és recomanable començar amb valors conservadors (2-4 workers) i ajustar segons les mètriques de rendiment observades.
-
 ##### Exemple de Configuració a `.env`
 
 ```bash
@@ -441,9 +408,3 @@ docker compose logs lamb | grep -i worker
 ```
 
 Hauríeu de veure missatges indicant que Uvicorn ha iniciat amb el nombre especificat de workers.
-
-##### Consideracions Addicionals
-
-- **Memòria RAM**: Cada worker consumeix memòria addicional. Assegureu-vos que el servidor té suficient RAM disponible.
-- **Escalat horitzontal**: Per a càrregues molt altes, considereu distribuir la càrrega entre múltiples instàncies de LAMB en lloc d'augmentar indefinidament el nombre de workers.
-- **Monitorització**: Implementeu eines de monitorització per observar l'ús de CPU i memòria i ajustar la configuració de workers segons sigui necessari.

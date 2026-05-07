@@ -410,21 +410,6 @@ PR #362 barne hartzen duen bertsiotik aurrera, LAMBek worker-en konfigurazioa on
 | **Produkzioa (karga ertaina)** | `LAMB_WORKERS=4` | Erabilera kasu gehienetarako konfigurazio optimoa |
 | **Produkzioa (karga handia)** | `LAMB_WORKERS=4-8` | Eskuragarri dauden CPU nukleoaren arabera doitu |
 
-##### Worker-en Kopuru Optimoaren Kalkulua
-
-Worker-en kopuru optimoa kalkulatzeko arau orokorra hau da:
-
-```
-Workers = (2 × CPU Nukleoak) + 1
-```
-
-Adibidez, 2 nukleoko zerbitzari batean:
-```
-Workers = (2 × 2) + 1 = 5
-```
-
-Hala ere, gomendagarria da balio kontserbadoreekin hastea (2-4 worker) eta behaturiko errendimendu metrikak kontuan hartuz doitzea.
-
 ##### Konfigurazio Adibidea `.env`-n
 
 ```bash
@@ -441,9 +426,3 @@ docker compose logs lamb | grep -i worker
 ```
 
 Uvicornek zehaztutako worker kopuruarekin hasi duela adierazten duten mezuak ikusi beharko zenituzke.
-
-##### Kontuan Hartzeko Beste Zenbait Alderdi
-
-- **RAM Memoria**: Worker bakoitzak memoria gehigarria kontsumitzen du. Ziurtatu zerbitzariak nahikoa RAM erabilgarri duela.
-- **Eskala horizontala**: Karga oso handietarako, kontuan hartu karga hainbat LAMB instantziaren artean banatzea worker-en kopurua mugagabe handitu beharrean.
-- **Monitorizazioa**: Inplementatu monitorizazio tresnak CPU eta memoriaren erabilera behatzeko eta worker-en konfigurazioa behar den bezala doitzeko.
