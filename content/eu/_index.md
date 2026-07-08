@@ -25,9 +25,12 @@ layout: "home"
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="/tutorial" style="primary" >}}📚 Tutorial azkarra (15 min){{< /button >}}
   {{< button href="developers" style="secondary" >}}👨‍💻 Garatzaileentzat{{< /button >}}
+  {{< button href="blog" style="secondary" >}}📝 Bloga{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="secondary" >}}🖥️ Tokian Zabaldu{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="secondary" >}}☁️ Ekoizpenean Zabaldu{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ikusi GitHub-en{{< /button >}}
-  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
-  {{< button href="/features" >}}Ikusi ezaugarri guztiak{{< /button >}}
+  {{< button href="/eu/roadmap" style="secondary" >}}📋 Ibilbide-orria{{< /button >}}
+  {{< button href="#ezaugarri-nagusiak" >}}Ikusi ezaugarri guztiak{{< /button >}}
 </div>
 
 **LAMB** web-plataforma bat da, **IAn oinarritutako ikaskuntza-laguntzaileak diseinatzeko, entrenatzeko eta argitaratzeko** modu bisual eta intuitiboan. "Irakasle-chatbot eraikitzaile" gisa funtzionatzen du, hizkuntza-modeloak (GPT-4, Mistral, tokiko modeloak) zure hezkuntza-materialekin konbinatuz.
@@ -69,10 +72,10 @@ Bakoitza bere jarraibide, doinua eta limite pertsonalizatuekin.
 
 ### Ezagutza-base Malguak
 - **Datu-eredu moldagarria**: eduki eta egitura mota desberdinak baimentzen dituen arkitektura malgua
-- PDF, DOCX, Markdown euskarria (formato gehiago laster)
+- PDF, Word, PowerPoint eta gehiago euskarria (MarkItDown bidez), URL eta YouTube transkripzioen ingesta gehituta
 - Base publikoak edo pribatuak beharren arabera
 - Bilaketa semantikorako embedding bektorialen sistema
-- Kanpo-iturrietarako konektoreak garatzen (Google Drive, YouTube, APIs)
+- Kanpo-iturrietarako konektore gehigarriak garatzen (Google Drive eta gehiago)
 
 ### IA Modelo Anitzak
 - OpenAI GPT-4o
@@ -110,9 +113,12 @@ Euskera, gaztelania, ingelesa eta katalana serie gisa.
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="/tutorial" style="primary" >}}📚 Tutorial azkarra (15 min){{< /button >}}
   {{< button href="developers" style="secondary" >}}👨‍💻 Garatzaileentzat{{< /button >}}
+  {{< button href="blog" style="secondary" >}}📝 Bloga{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="secondary" >}}🖥️ Tokian Zabaldu{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="secondary" >}}☁️ Ekoizpenean Zabaldu{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ikusi GitHub-en{{< /button >}}
-  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
-  {{< button href="/features" >}}Ikusi ezaugarri guztiak{{< /button >}}
+  {{< button href="/eu/roadmap" style="secondary" >}}📋 Ibilbide-orria{{< /button >}}
+  {{< button href="#ezaugarri-nagusiak" >}}Ikusi ezaugarri guztiak{{< /button >}}
 </div>
 
 ---

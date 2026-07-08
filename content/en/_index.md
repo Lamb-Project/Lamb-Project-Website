@@ -25,10 +25,13 @@ layout: "home"
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
   {{< button href="/en/manual" style="primary" >}}📖 User Manual{{< /button >}}
+  {{< button href="blog" style="secondary" >}}📝 Blog{{< /button >}}
   {{< button href="developers" style="secondary" >}}👨‍💻 For Developers{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="secondary" >}}🖥️ Deploy Locally{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="secondary" >}}☁️ Deploy in Production{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
   {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
-  {{< button href="/features" >}}See all features{{< /button >}}
+  {{< button href="#main-features" >}}See all features{{< /button >}}
 </div>
 
 **LAMB** is a web platform that allows you to **design, train and publish AI-based learning assistants** in a visual and intuitive way. It works as a "teaching chatbot builder" that combines language models (GPT-4, Mistral, local models) with your own educational materials.
@@ -70,10 +73,10 @@ Each with their own instructions, tone and personalized limits.
 
 ### Flexible Knowledge Bases
 - **Adaptable data model**: flexible architecture that allows different types of content and structures
-- Support for PDF, DOCX, Markdown (more formats coming soon)
+- Support for PDF, Word, PowerPoint and more (via MarkItDown), plus URL and YouTube transcript ingestion
 - Public or private bases according to needs
 - Vector embeddings system for semantic search
-- Connectors in development for external sources (Google Drive, YouTube, APIs)
+- Additional connectors in development for external sources (Google Drive and more)
 
 ### Multiple AI Models
 - OpenAI GPT-4o
@@ -111,10 +114,13 @@ Catalan, Spanish, English and Basque included as standard.
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
   {{< button href="/en/manual" style="primary" >}}📖 User Manual{{< /button >}}
+  {{< button href="blog" style="secondary" >}}📝 Blog{{< /button >}}
   {{< button href="developers" style="secondary" >}}👨‍💻 For Developers{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="secondary" >}}🖥️ Deploy Locally{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="secondary" >}}☁️ Deploy in Production{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
   {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
-  {{< button href="/features" >}}See all features{{< /button >}}
+  {{< button href="#main-features" >}}See all features{{< /button >}}
 </div>
 
 ---

@@ -14,7 +14,7 @@ weight: 100
 
 ## 1. Erregistroa eta sarbidea
 
-1. Joan `https://lamp.lamp-project.org` helbidera.
+1. Joan `https://lamb.lamb-project.org` helbidera.
 2. Sakatu **Sign Up** eta bete formularioa (izena, helbide elektronikoa, pasahitza, koordinazioak emandako **Secret Key**).
 
 ![Erregistro formularioa](../../images/screenshots/frame_0005.png)

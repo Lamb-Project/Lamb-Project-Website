@@ -63,24 +63,25 @@ Produktuaren eskakizunen dokumentua honekin:
 - **Vector Store**: ChromaDB
 - **Containerizazioa**: Docker, Docker Compose
 
-## 🚀 Garapenarekin Hastea
+## 🚀 Zabaldu LAMB
 
-1. **Klonatu biltegia**:
-   ```bash
-   git clone https://github.com/Lamb-Project/lamb.git
-   cd lamb
-   ```
+Beheko bi gidak **IA bidezko kodetze-agente** bati (GitHub Copilot, Claude Code, Cursor, etab.) zuzenean emateko idatzita daude: agenteak galdera batzuk egingo dizkizu (API gakoak, domeinua, portuak) eta pila osoa zuretzat zabalduko du, hasieratik amaierara.
 
-2. **Konfiguratu ingurunea**:
-   ```bash
-   export LAMB_PROJECT_PATH=$(pwd)
-   docker-compose up -d
-   ```
+### 🖥️ Tokiko / Garapen Zabalkundea
 
-3. **Sartu zerbitzuetara**:
-   - Frontend: http://localhost:5173
-   - Backend: http://localhost:9099
-   - Open WebUI: http://localhost:8080
+Jarri LAMB pila oso bat martxan zure makinan Docker Compose erabiliz — DNSrik gabe, TLS ziurtagirik gabe, dena `localhost`-en.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="primary" >}}🖥️ Tokian Zabaldu{{< /button >}}
+</div>
+
+### ☁️ Ekoizpen Zabalkundea
+
+Zabaldu ekoizpenerako prest dagoen LAMB instantzia bat hodeiko zerbitzari batean (Hetzner Cloud), zeure domeinuarekin eta HTTPS automatikoarekin Caddy bidez.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="primary" >}}☁️ Ekoizpenean Zabaldu{{< /button >}}
+</div>
 
 ## 💬 Komunitatea
 

@@ -63,24 +63,25 @@ Documento de requerimientos del producto con:
 - **Vector Store**: ChromaDB
 - **Containerización**: Docker, Docker Compose
 
-## 🚀 Empezar a Desarrollar
+## 🚀 Despliega LAMB
 
-1. **Clone el repositorio**:
-   ```bash
-   git clone https://github.com/Lamb-Project/lamb.git
-   cd lamb
-   ```
+Las dos guías siguientes están escritas para entregarse directamente a un **agente de codificación con IA** (GitHub Copilot, Claude Code, Cursor, etc.): el agente te hace unas pocas preguntas (claves de API, dominio, puertos) y despliega toda la pila por ti, de principio a fin.
 
-2. **Configurar el entorno**:
-   ```bash
-   export LAMB_PROJECT_PATH=$(pwd)
-   docker-compose up -d
-   ```
+### 🖥️ Despliegue Local / Desarrollo
 
-3. **Acceder a los servicios**:
-   - Frontend: http://localhost:5173
-   - Backend: http://localhost:9099
-   - Open WebUI: http://localhost:8080
+Levanta una pila LAMB completa en tu propia máquina con Docker Compose — sin DNS, sin certificados TLS, todo en `localhost`.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="primary" >}}🖥️ Despliegue Local{{< /button >}}
+</div>
+
+### ☁️ Despliegue en Producción
+
+Despliega una instancia de LAMB lista para producción en un servidor en la nube (Hetzner Cloud), con tu propio dominio y HTTPS automático vía Caddy.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="primary" >}}☁️ Despliegue en Producción{{< /button >}}
+</div>
 
 ## 💬 Comunidad
 

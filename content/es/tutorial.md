@@ -14,7 +14,7 @@ weight: 100
 
 ## 1. Registro y acceso
 
-1. Ve a `https://lamp.lamp-project.org`.
+1. Ve a `https://lamb.lamb-project.org`.
 2. Pulsa **Sign Up** y completa el formulario (nombre, correo, contraseña, **Secret Key** que te facilita la coordinación).
 
 ![Formulario de registro](../images/screenshots/frame_0005.png)

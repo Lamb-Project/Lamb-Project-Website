@@ -27,9 +27,11 @@ layout: "home"
   {{< button href="/es/manual" style="primary" >}}📖 Manual de Usuario{{< /button >}}
   {{< button href="blog" style="secondary" >}}📝 Blog{{< /button >}}
   {{< button href="developers" style="secondary" >}}👨‍💻 Para Desarrolladores{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="secondary" >}}🖥️ Despliegue Local{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="secondary" >}}☁️ Despliegue en Producción{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ver en GitHub{{< /button >}}
-  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
-  {{< button href="/features" >}}Ver todas las características{{< /button >}}
+  {{< button href="/es/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
+  {{< button href="#características-principales" >}}Ver todas las características{{< /button >}}
 </div>
 
 **LAMB** es una plataforma web que te permite **diseñar, entrenar y publicar asistentes de aprendizaje basados en IA** de forma visual e intuitiva. Funciona como un "constructor de chatbots docentes" que combina modelos de lenguaje (GPT-4, Mistral, modelos locales) con tus propios materiales educativos.
@@ -72,10 +74,10 @@ Cada uno con sus propias instrucciones, tono y límites personalizados.
 
 ### Bases de Conocimiento Flexibles
 - **Modelo de datos adaptable**: arquitectura flexible que permite diferentes tipos de contenido y estructuras
-- Soporte para PDF, DOCX, Markdown (más formatos próximamente)
+- Soporte para PDF, Word, PowerPoint y más (vía MarkItDown), además de ingesta de URLs y transcripciones de YouTube
 - Bases públicas o privadas según necesidades
 - Sistema de embeddings vectoriales para búsqueda semántica
-- Conectores en desarrollo para fuentes externas (Google Drive, YouTube, APIs)
+- Conectores adicionales en desarrollo para fuentes externas (Google Drive y más)
 
 ### Múltiples Modelos de IA
 - OpenAI GPT-4o
@@ -115,9 +117,11 @@ Catalán, castellano, inglés y euskera incluidos de serie.
   {{< button href="/es/manual" style="primary" >}}📖 Manual de Usuario{{< /button >}}
   {{< button href="blog" style="secondary" >}}📝 Blog{{< /button >}}
   {{< button href="developers" style="secondary" >}}👨‍💻 Para Desarrolladores{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="secondary" >}}🖥️ Despliegue Local{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="secondary" >}}☁️ Despliegue en Producción{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Ver en GitHub{{< /button >}}
-  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
-  {{< button href="/features" >}}Ver todas las características{{< /button >}}
+  {{< button href="/es/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
+  {{< button href="#características-principales" >}}Ver todas las características{{< /button >}}
 </div>
 
 ---

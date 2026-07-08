@@ -25,9 +25,12 @@ layout: "home"
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}}
   {{< button href="developers" style="secondary" >}}👨‍💻 Per a Desenvolupadors{{< /button >}}
+  {{< button href="blog" style="secondary" >}}📝 Blog{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="secondary" >}}🖥️ Desplegament Local{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="secondary" >}}☁️ Desplegament en Producció{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
-  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
-  {{< button href="/features" >}}Veure totes les característiques{{< /button >}}
+  {{< button href="/ca/roadmap" style="secondary" >}}📋 Full de ruta{{< /button >}}
+  {{< button href="#característiques-principals" >}}Veure totes les característiques{{< /button >}}
 </div>
 
 **LAMB** és una plataforma web que et permet **dissenyar, entrenar i publicar assistents d'aprenentatge basats en IA** de forma visual i intuïtiva. Funciona com un "constructor de chatbots docents" que combina models de llenguatge (GPT-4, Mistral, models locals) amb els teus propis materials educatius.
@@ -69,10 +72,10 @@ Cadascun amb les seves pròpies instruccions, to i límits personalitzats.
 
 ### Bases de Coneixement Flexibles
 - **Model de dades adaptable**: arquitectura flexible que permet diferents tipus de contingut i estructures
-- Suport per PDF, DOCX, Markdown (més formats pròximament)
+- Suport per PDF, Word, PowerPoint i més (via MarkItDown), a més d'ingestió d'URLs i transcripcions de YouTube
 - Bases públiques o privades segons necessitats
 - Sistema d'embeddings vectorials per a cerca semàntica
-- Connectors en desenvolupament per a fonts externes (Google Drive, YouTube, APIs)
+- Connectors addicionals en desenvolupament per a fonts externes (Google Drive i més)
 
 ### Múltiples Models d'IA
 - OpenAI GPT-4o
@@ -110,9 +113,12 @@ Català, castellà, anglès i euskera inclosos de sèrie.
 <div style="text-align: center; margin: 2rem 0;">
   {{< button href="/tutorial" style="primary" >}}📚 Tutorial ràpid (15 min){{< /button >}}
   {{< button href="developers" style="secondary" >}}👨‍💻 Per a Desenvolupadors{{< /button >}}
+  {{< button href="blog" style="secondary" >}}📝 Blog{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="secondary" >}}🖥️ Desplegament Local{{< /button >}}
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="secondary" >}}☁️ Desplegament en Producció{{< /button >}}
   {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}Veure a GitHub{{< /button >}}
-  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap (English){{< /button >}}
-  {{< button href="/features" >}}Veure totes les característiques{{< /button >}}
+  {{< button href="/ca/roadmap" style="secondary" >}}📋 Full de ruta{{< /button >}}
+  {{< button href="#característiques-principals" >}}Veure totes les característiques{{< /button >}}
 </div>
 
 ---

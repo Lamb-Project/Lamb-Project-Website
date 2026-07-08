@@ -63,24 +63,25 @@ Document de requeriments del producte amb:
 - **Vector Store**: ChromaDB
 - **Containerització**: Docker, Docker Compose
 
-## 🚀 Començar a Desenvolupar
+## 🚀 Desplega LAMB
 
-1. **Clonar el repositori**:
-   ```bash
-   git clone https://github.com/Lamb-Project/lamb.git
-   cd lamb
-   ```
+Les dues guies següents estan escrites per lliurar-se directament a un **agent de codificació amb IA** (GitHub Copilot, Claude Code, Cursor, etc.): l'agent et fa unes poques preguntes (claus d'API, domini, ports) i desplega tota la pila per tu, de principi a fi.
 
-2. **Configurar l'entorn**:
-   ```bash
-   export LAMB_PROJECT_PATH=$(pwd)
-   docker-compose up -d
-   ```
+### 🖥️ Desplegament Local / Desenvolupament
 
-3. **Accedir als serveis**:
-   - Frontend: http://localhost:5173
-   - Backend: http://localhost:9099
-   - Open WebUI: http://localhost:8080
+Aixeca una pila LAMB completa a la teva pròpia màquina amb Docker Compose — sense DNS, sense certificats TLS, tot a `localhost`.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="primary" >}}🖥️ Desplegament Local{{< /button >}}
+</div>
+
+### ☁️ Desplegament en Producció
+
+Desplega una instància de LAMB llesta per a producció en un servidor al núvol (Hetzner Cloud), amb el teu propi domini i HTTPS automàtic via Caddy.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="primary" >}}☁️ Desplegament en Producció{{< /button >}}
+</div>
 
 ## 💬 Comunitat
 

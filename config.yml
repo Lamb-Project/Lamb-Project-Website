@@ -59,7 +59,6 @@ params:
   
   # Footer
   copyright: 'LAMB Project'
-  privacy_policy: '/privacy'
 
 # Configuración de contenido
 markup:

@@ -14,7 +14,7 @@ weight: 100
 
 ## 1. Registration and access
 
-1. Go to `https://lamp.lamp-project.org`.
+1. Go to `https://lamb.lamb-project.org`.
 2. Click **Sign Up** and complete the form (name, email, password, **Secret Key** provided by coordination).
 
 ![Registration form](../../images/screenshots/frame_0005.png)

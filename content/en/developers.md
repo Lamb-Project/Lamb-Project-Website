@@ -63,24 +63,25 @@ Product requirements document with:
 - **Vector Store**: ChromaDB
 - **Containerization**: Docker, Docker Compose
 
-## 🚀 Getting Started with Development
+## 🚀 Deploy LAMB
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Lamb-Project/lamb.git
-   cd lamb
-   ```
+Both guides below are written to be handed directly to an **AI coding agent** (GitHub Copilot, Claude Code, Cursor, etc.) — the agent asks you a handful of questions (API keys, domain, ports) and deploys the whole stack for you, end to end.
 
-2. **Set up environment**:
-   ```bash
-   export LAMB_PROJECT_PATH=$(pwd)
-   docker-compose up -d
-   ```
+### 🖥️ Local / Development Deployment
 
-3. **Access services**:
-   - Frontend: http://localhost:5173
-   - Backend: http://localhost:9099
-   - Open WebUI: http://localhost:8080
+Get a full LAMB stack running on your own machine with Docker Compose — no DNS, no TLS certificates, everything on `localhost`.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployLocal.md" style="primary" >}}🖥️ Deploy Locally{{< /button >}}
+</div>
+
+### ☁️ Production Deployment
+
+Deploy a production-ready LAMB instance to a cloud server (Hetzner Cloud), with your own domain and automatic HTTPS via Caddy.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://github.com/Lamb-Project/lamb/blob/main/Documentation/deployNext.md" style="primary" >}}☁️ Deploy in Production{{< /button >}}
+</div>
 
 ## 💬 Community
 

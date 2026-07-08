@@ -14,7 +14,7 @@ weight: 100
 
 ## 1. Registre i accés
 
-1. Ves a `https://lamp.lamp-project.org`.
+1. Ves a `https://lamb.lamb-project.org`.
 2. Prem **Sign Up** i completa el formulari (nom, correu, contrasenya, **Secret Key** que et facilita la coordinació).
 
 ![Formulari de registre](../../images/screenshots/frame_0005.png)
