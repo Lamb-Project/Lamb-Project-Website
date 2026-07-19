@@ -34,20 +34,23 @@ LAMB started as a **Learning Assistants Manager and Builder**: the platform wher
 
 It has grown into something larger: **the hub that provides the application services Smart Learning Applications need to integrate into the ecosystem of the learning institution.** Identity flows from course enrollment. Knowledge flows from course materials. Model access — commercial APIs or the university's own inference — is provisioned, quota-bound and auditable. Assessment flows back to the gradebook. Insight flows back to the educator.
 
-## What educators do with LAMB
+## What LAMB provides
 
-- **Design and deploy learning assistants** based on their own contents, published into Moodle in minutes via LTI.
-- **Create rubric-based graders** with a custom activity delivery task — group delivery and group grading included — with the teacher always holding the final grade.
-- **Run custom AI activities** on the university's AI infrastructure, in a controlled, easy-to-govern manner.
-- **Gain insight into student learning** from real assistant usage.
-- **Work with an agent that reads the Moodle course directly** and reports back — from assistant design improvements to gaps in the teaching strategy.
+### 1. A secure, modular, provider-independent AI access layer
 
-## What institutions get
+LAMB manages the institution's connections to AI — commercial APIs or the university's own local inference — behind one modular, provider-independent connection manager. Secure here means **governed**: access to LLM inference is granted at the granularity teaching actually runs on — per **course**, per **role**, per **activity**, per **time frame**, per **token budget** — and monitored, with usage attributed and auditable. Switch providers without touching the teaching.
 
-- **Governance for the AI layer.** Who has access, in which course, on what schedule, with what budget: decided by enrollment, timetable and quota — enforced by the platform, visible to the institution.
-- **Privacy by architecture.** Students work inside institutional systems; identity and activity logs stay in the institution.
-- **Sovereignty without lock-in.** Open source (GPL-3.0), model-agnostic: switch between commercial APIs and local, European-hosted models without touching the teaching.
-- **Standards-based integration.** LTI External Tool and LAMB's moodle-cli for Moodle; OpenAI-compatible APIs; assistants exported and imported as JSON.
+### 2. An easy-to-use infrastructure for teachers to create their own smart learning activities
+
+Everything a teacher needs to build AI into their course, without writing code: **knowledge bases** from their own materials; **learning assistants**; **rubrics** and **LLM-as-judge task delivery** — group delivery and group grading included, with the teacher always holding the final grade; **agentic pipelines** for advanced grading and feedback processes; and **data analytics** on how students actually work. Plus **AAC**, the teacher's own agent: it reads the analytics of both Moodle and LAMB, and helps the teacher design, improve and understand their smart learning activities.
+
+### 3. A simple framework for innovators to build experimental smart learning applications
+
+A smart learning application should not require a platform team. The **[lamb-tool-template](https://github.com/Lamb-Project/lamb-tool-template)** is a minimal, well-built LTI tool wired to LAMB's services: launched from the LMS, powered by a LAMB assistant over the OpenAI-compatible API, grades passed back to the gradebook. Clone it, change the parts you care about, deploy it — GPL-3.0, and tools built on it can fold back into the LAMB ecosystem.
+
+### 4. One governance console for all of it
+
+Providers, models, access grants, quotas, users, activities: managed from the same place, the **LAMB organization admin console**. One governance surface for the institution's whole AI layer.
 
 ## Built on a philosophy
 
