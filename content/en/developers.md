@@ -30,6 +30,14 @@ We appreciate all types of contributions:
 
 We maintain complete and updated documentation for developers:
 
+### Development Runbook
+
+Practical guide to developing and operating LAMB, with workflows, common commands, and checks before sharing changes. The runbook is currently available in Spanish.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://lamb-development-runbook.juanan970788.chatgpt.site/" style="secondary" >}}📖 Open Development Runbook{{< /button >}}
+</div>
+
 ### System Architecture
 
 Complete document on LAMB architecture, including:

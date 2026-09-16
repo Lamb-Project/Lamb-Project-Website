@@ -30,6 +30,14 @@ Apreciem tot tipus de contribucions:
 
 Mantenim documentació completa i actualitzada per a desenvolupadors:
 
+### Guia de desenvolupament i operació
+
+Guia pràctica per desenvolupar i operar LAMB, amb fluxos de treball, ordres habituals i comprovacions abans de compartir canvis. La guia està disponible actualment en castellà.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://lamb-development-runbook.juanan970788.chatgpt.site/" style="secondary" >}}📖 Obrir guia de desenvolupament i operació{{< /button >}}
+</div>
+
 ### Arquitectura del Sistema
 
 Document complet sobre l'arquitectura de LAMB, incloent:
