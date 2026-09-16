@@ -30,6 +30,14 @@ Mota guztietako ekarpenak estimatzen ditugu:
 
 Garatzaileentzat dokumentazio osoa eta eguneratua mantentzen dugu:
 
+### Garapen eta eragiketa gida
+
+LAMB garatzeko eta martxan mantentzeko gida praktikoa, lan-fluxuekin, ohiko komandoekin eta aldaketak partekatu aurreko egiaztapenekin. Gida gaztelaniaz dago eskuragarri gaur egun.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://lamb-development-runbook.juanan970788.chatgpt.site/" style="secondary" >}}📖 Ireki garapen eta eragiketa gida{{< /button >}}
+</div>
+
 ### Sistemaren Arkitektura
 
 LAMBen arkitekturari buruzko dokumentu osoa, hau barne:

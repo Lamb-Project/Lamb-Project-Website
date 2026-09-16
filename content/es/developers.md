@@ -30,6 +30,14 @@ Apreciamos todo tipo de contribuciones:
 
 Mantenemos documentación completa y actualizada para desarrolladores:
 
+### Guía de desarrollo y explotación
+
+Guía práctica para desarrollar y operar LAMB, con flujos de trabajo, comandos habituales y comprobaciones antes de compartir cambios.
+
+<div style="margin: 1rem 0;">
+  {{< button href="https://lamb-development-runbook.juanan970788.chatgpt.site/" style="secondary" >}}📖 Abrir guía de desarrollo y explotación{{< /button >}}
+</div>
+
 ### Arquitectura del Sistema
 
 Documento completo sobre la arquitectura de LAMB, incluyendo:
