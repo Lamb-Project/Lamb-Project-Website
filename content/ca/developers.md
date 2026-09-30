@@ -8,6 +8,12 @@ weight: 200
 
 # Per a Desenvolupadors
 
+## Crea la teva eina educativa
+
+Guia il·lustrada en anglès per desplegar una eina LTI connectada a LAMB, provar-la amb el LMS de proves i ampliar-ne les funcions. Inclou claus API personals, xat i enviament de qualificacions.
+
+[Guia de la plantilla d’eines (anglès)](/en/tool-template/)
+
 ## LAMB és un projecte Open Source
 
 **LAMB** és un projecte de **codi obert** desenvolupat sota llicència GPL v3. Som a GitHub i agraïm enormement les col·laboracions i contribucions de la comunitat.

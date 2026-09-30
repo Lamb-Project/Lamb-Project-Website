@@ -8,6 +8,12 @@ weight: 200
 
 # For Developers
 
+## Build your own educational tool
+
+Deploy a LAMB-connected LTI tool, test it with the mock LMS, and extend its functionality. The illustrated guide covers personal API keys, instructor and student launches, chat, grade passback, and a worked Python extension.
+
+[Read the tool-template guide](/en/tool-template/)
+
 ## LAMB is an Open Source Project
 
 **LAMB** is an **open source** project developed under GPL v3 license. We're on GitHub and we greatly appreciate community collaborations and contributions.

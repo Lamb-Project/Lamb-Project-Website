@@ -8,6 +8,12 @@ weight: 200
 
 # Garatzaileentzat
 
+## Sortu zure hezkuntza-tresna
+
+LAMBera konektatutako LTI tresna bat hedatzeko, probatzeko eta zabaltzeko gida ilustratua, ingelesez. API gako pertsonalak, txata eta kalifikazioen bidalketa azaltzen ditu.
+
+[Tresna-txantiloiaren gida (ingelesez)](/en/tool-template/)
+
 ## LAMB kode irekiko proiektu bat da
 
 **LAMB** GPL v3 lizentziapean garatutako **kode irekiko** proiektu bat da. GitHub-en gaude eta komunitateak egiten dituen lankidetza eta ekarpenak eskertu egiten ditugu.

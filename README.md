@@ -12,3 +12,7 @@ git submodule update --init --recursive
 ```
 
 Then `hugo server` to preview, or `hugo --minify` to build (matches the GitHub Actions workflow in `.github/workflows/hugo.yml`).
+
+## Tool-template guide
+
+The illustrated English guide lives in `content/en/tool-template/` and is linked from each language’s developer page. Its page bundle includes reviewed screenshots, the architecture diagram and a downloadable Playwright smoke test. Keep the checked template revision and any known limitations current when updating it.

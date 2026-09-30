@@ -8,6 +8,12 @@ weight: 200
 
 # Para Desarrolladores
 
+## Crea tu propia herramienta educativa
+
+Guía ilustrada en inglés para desplegar una herramienta LTI conectada a LAMB, probarla con el LMS de pruebas y ampliar sus funciones. Incluye claves API personales, chat y envío de calificaciones.
+
+[Guía de la plantilla de herramientas (inglés)](/en/tool-template/)
+
 ## LAMB es un proyecto Open Source
 
 **LAMB** es un proyecto de **código abierto** desarrollado bajo licencia GPL v3. Estamos en GitHub y agradecemos enormemente las colaboraciones y contribuciones de la comunidad.
