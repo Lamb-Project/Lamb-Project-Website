@@ -1,0 +1,1 @@
+<div class="lamb-versions">{{ range site.Data.documentation.versions }}<a href="{{ .path }}"><span><strong>LAMB {{ .label }}</strong><small>{{ if eq .version site.Data.documentation.current }}Current documentation edition{{ else }}Archived documentation{{ end }}</small></span><span class="lamb-version-status">{{ .status }} ↗</span></a>{{ end }}</div>

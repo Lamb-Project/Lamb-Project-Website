@@ -1,0 +1,1 @@
+{{ $recipients := site.Data.contact.recipients }}{{ if $recipients }}{{ $subject := .Get "subject" | default "LAMB institutional enquiry" }}{{ $url := printf "mailto:%s?subject=%s" $recipients ($subject | urlquery) }}<a class="lamb-button" href="{{ $url | safeURL }}">{{ .Get "label" | default "Email Marc and Juanan" }}</a>{{ end }}

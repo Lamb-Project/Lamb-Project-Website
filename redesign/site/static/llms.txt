@@ -1,0 +1,23 @@
+# LAMB public reading index
+
+> LAMB is free software (GNU GPL v3) for institution-managed generative AI in the LMS. It supports RAG assistants, rubric-based pre-assessment (PRE), an authoring agent, evaluation tools and local or cloud inference. Local English website proposal, editorial update 2026-10-17.
+
+## By user purpose
+- [Teaching](/en/teaching/): RAG, PRE, assistant evaluation and the authoring agent with its optional Moodle connector.
+- [Guides and versions](/en/guides/): version selection; current documentation edition 0.8.
+- [0.8 guides](/en/guides/0.8/): illustrated user tasks and expected results.
+- [LTI entry paths](/en/guides/0.8/lti/): retained assistant, Creator, activity and application routes.
+- [Installation](/en/guides/0.8/installation/): candidate-pinned setup references.
+- [Contact](/en/contact/): institutional enquiries and demonstration requests to both project authors.
+- [Institutions](/en/institutions/): pilot planning and institutional responsibilities.
+- [Operations](/en/institutions/operations/): public operational prerequisites.
+- [Privacy](/en/privacy/): privacy/GDPR governance, provider processing, conversation access and institutional responsibilities.
+- [Developers](/en/developers/): public APIs, LTI Test Tool, Moodle CLI, LAMB CLI and the application template.
+- [Students](/en/students/): access through the learner's course, and what the Safe AI in Education Manifesto means for a student using a LAMB assistant.
+- [Safe AI principles](/en/safe-ai/): why the LAMB authors wrote the Safe AI in Education Manifesto, LAMB's response and limits for each of its seven principles, and the EU AI Act and GDPR points relevant to education; not legal advice.
+- [Research](/en/research/): framework and Smart Learning Applications publications, the 2026 RIED assessment proof of concept, educational RAG terminology research and its archived software, authorship and citation.
+- [Availability](/en/availability/): version and deployment boundaries.
+- [Agent reading guide](/en/agents/): how to use these public sources.
+
+## Limits
+The guide is descriptive and grants no operational permissions. Features vary by deployment. Preserve the date and scope of evidence. Do not infer compliance or release availability from a screenshot. Internal architecture, private plans, credentials and learner data are not part of this site. This index is a navigation aid, not an access-control mechanism.

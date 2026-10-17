@@ -1,0 +1,4 @@
+{{ define "main" }}
+{{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
+<main id="content" class="lamb-home">{{ .Content }}</main>
+{{ end }}

@@ -1,0 +1,4 @@
+<figure class="lamb-capture">
+ <a href="{{ .Get "src" }}" aria-label="Open full-size screenshot: {{ .Get "alt" }}"><img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" loading="lazy" width="1280"></a>
+ <figcaption>{{ .Get "caption" }} <a href="/en/guides/{{ .Page.Params.documentationVersion | default site.Data.documentation.current }}/screenshots/">Capture details</a> · <a href="{{ .Get "src" }}">Full size</a></figcaption>
+</figure>

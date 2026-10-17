@@ -1,0 +1,80 @@
+baseURL: http://localhost:18910/
+title: LAMB
+theme: hextra
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+enableRobotsTXT: true
+disableKinds: [taxonomy, term]
+languages:
+  en:
+    languageName: English
+    languageCode: en
+    contentDir: content/en
+    weight: 1
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+menu:
+  main:
+    - name: Teaching
+      pageRef: /teaching
+      weight: 1
+    - name: Institutions
+      pageRef: /institutions
+      weight: 2
+    - name: Developers
+      pageRef: /developers
+      weight: 3
+    - name: Guides
+      pageRef: /guides
+      weight: 4
+    - name: Research
+      pageRef: /research
+      weight: 5
+    - name: Contact
+      pageRef: /contact
+      weight: 6
+    - name: GitHub
+      url: https://github.com/Lamb-Project/lamb
+      weight: 7
+    - name: Search
+      weight: 8
+      params:
+        type: search
+params:
+  description: Create and test AI learning assistants with your course materials, then bring them into your learning management system.
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    width: wide
+    logo:
+      path: images/lamb-logo.png
+      width: 40
+      height: 60
+  theme:
+    default: light
+    displayToggle: false
+  footer:
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: false
+    width: wide
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      js: vendor/flexsearch.bundle.min.js
+      index: content
+      tokenize: forward
+  editURL:
+    enable: false
+  displayUpdatedDate: false
+  page:
+    contextMenu:
+      enable: false
+cascade:
+  - params:
+      noindex: true
