@@ -22,7 +22,7 @@ Use the [version index](/en/guides/) before giving procedural instructions. The 
 
 ## Services and contact
 
-LAMB's creators, Marc Alier and Juanan Pereira, offer training and consultancy (both covering AI governance; consultancy includes demonstrations), and keynotes and seminars: see [Work with the LAMB team](/en/contact/). Enquiries go to contact-lamb-project@proton.me. They do not host LAMB, provide operational support or sign service-level agreements.
+The LAMB team offers training and consultancy (both covering AI governance; consultancy includes demonstrations), and keynotes and seminars, for educators, developers and institutions: see [Work with the LAMB team](/en/contact/). Enquiries go to contact-lamb-project@proton.me. The team does not host LAMB, but can refer institutions to LAMB integrators for hosting, integration and support. LAMB was created by Marc Alier and Juanan Pereira.
 
 ## Keep the evidence attached
 
