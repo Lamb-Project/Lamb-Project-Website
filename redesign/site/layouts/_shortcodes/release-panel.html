@@ -1,1 +1,1 @@
-{{ $version := site.Data.documentation.current }}<div class="lamb-release"><div><strong>Explore LAMB {{ $version }}</strong><p>Teaching guides, existing LTI entry paths and institutional deployment.</p></div><a href="/en/guides/{{ $version }}/">Browse the {{ $version }} guides ↗</a></div>
+{{ $version := site.Data.documentation.current }}<div class="lamb-release"><div><strong>{{ T "exploreLamb" }} {{ $version }}</strong><p>{{ T "releaseText" }}</p></div><a href="{{ printf "guides/%s/" $version | relLangURL }}">{{ printf (T "browseGuides") $version }}</a></div>

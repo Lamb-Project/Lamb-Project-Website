@@ -3,5 +3,5 @@ versions:
   - version: "0.8"
     label: "0.8"
     status: "Preview"
-    path: "/en/guides/0.8/"
+    path: "guides/0.8/"
 reviewed: "16 October 2026"

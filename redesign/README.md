@@ -40,3 +40,15 @@ Note for a later merge: the repository's deployment workflow pins Hugo 0.139.0, 
 ## Status
 
 Prepared by Marc Alier's workshop (Dick, the LAMB documentation agent) for review by Juanan Pereira, 17 October 2026. Two further guides, connecting LAMB and Moodle, and working with LAMB LEGATUS, are being written and checked and will be added to this branch.
+
+## Language editions
+
+Since 18 October 2026 the site has four editions: English (`content/en/`, the source), Spanish (`content/es/`), Catalan (`content/ca/`) and Basque (`content/eu/`). Each page has the same `translationKey` and path in every edition. Rules for a translated page:
+
+- Every `##`/`###` heading carries the English heading's id as `{#english-id}`, so cross-page and cross-language anchors keep working.
+- Internal links use the edition's prefix (`/es/…`); `src` and email `subject` values stay as in English.
+- Bold interface labels use LAMB's own string from `frontend/*/src/lib/locales/<lang>.json` when it exists, otherwise the English label shown on screen.
+- Layout and shortcode text comes from `site/i18n/<lang>.yaml`; Catalan uses the typographic apostrophe (the theme puts some strings inside single-quoted JavaScript).
+- A change to an English page must reach the three other editions. `verify.mjs` checks every edition; the journeys run on `/en/`.
+
+The Basque edition was machine-translated and reviewed by a model; it needs a native reader. Screenshots and the last-mile diagram are in English in every edition.

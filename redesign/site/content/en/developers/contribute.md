@@ -21,6 +21,6 @@ For a suspected vulnerability, check the repository's current security-reporting
 
 ## Documentation and translation
 
-Documentation contributions should name the version they describe and preserve the distinction between a working capability and a proposal. Update a screenshot and its steps together when the interface changes. The website's English redesign is a draft; Spanish, Catalan and Basque will need equivalent task coverage.
+Documentation contributions should name the version they describe and preserve the distinction between a working capability and a proposal. Update a screenshot and its steps together when the interface changes. The website is a review draft in English, Spanish, Catalan and Basque; a change to one edition should reach all four.
 
 [Project issues](https://github.com/Lamb-Project/lamb/issues) · [Research and citation](/en/research/)

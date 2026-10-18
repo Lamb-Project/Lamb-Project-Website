@@ -1,5 +1,5 @@
 {{ if not .IsHome }}
 {{ with .Params.documentationVersion }}
-<div class="lamb-doc-version"><span><strong>LAMB {{ . }}</strong> · {{ if eq . site.Data.documentation.current }}Current documentation edition{{ else }}Archived documentation{{ end }}</span><a href="/en/guides/">All versions ↗</a></div>
-{{ else }}<p class="lamb-meta">LAMB {{ site.Data.documentation.current }} <span>Local review edition · English</span></p>{{ end }}
+<div class="lamb-doc-version"><span><strong>LAMB {{ . }}</strong> · {{ if eq . site.Data.documentation.current }}{{ T "currentEdition" }}{{ else }}{{ T "archivedEdition" }}{{ end }}</span><a href="{{ "guides/" | relLangURL }}">{{ T "allVersions" }}</a></div>
+{{ else }}<p class="lamb-meta">LAMB {{ site.Data.documentation.current }} <span>{{ T "reviewEdition" }} · {{ T "langLabel" }}</span></p>{{ end }}
 {{ end }}

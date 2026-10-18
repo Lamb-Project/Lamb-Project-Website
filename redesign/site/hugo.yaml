@@ -11,41 +11,164 @@ languages:
     languageCode: en
     contentDir: content/en
     weight: 1
+    params:
+      description: "Create and test AI learning assistants with your course materials, then bring them into your learning management system."
+    menus:
+      main:
+        - name: Teaching
+          pageRef: /teaching
+          weight: 1
+        - name: Institutions
+          pageRef: /institutions
+          weight: 2
+        - name: Developers
+          pageRef: /developers
+          weight: 3
+        - name: Guides
+          pageRef: /guides
+          weight: 4
+        - name: Research
+          pageRef: /research
+          weight: 5
+        - name: Contact
+          pageRef: /contact
+          weight: 6
+        - name: GitHub
+          url: https://github.com/Lamb-Project/lamb
+          weight: 7
+        - name: Search
+          weight: 8
+          params:
+            type: search
+        - name: Language
+          weight: 9
+          params:
+            type: language-switch
+            label: true
+  es:
+    languageName: Español
+    languageCode: es
+    contentDir: content/es
+    weight: 2
+    params:
+      description: "Crea y prueba asistentes de aprendizaje con IA a partir de los materiales de tu asignatura y llévalos a tu entorno virtual de aprendizaje."
+    menus:
+      main:
+        - name: Docencia
+          pageRef: /teaching
+          weight: 1
+        - name: Instituciones
+          pageRef: /institutions
+          weight: 2
+        - name: Desarrollo
+          pageRef: /developers
+          weight: 3
+        - name: Guías
+          pageRef: /guides
+          weight: 4
+        - name: Investigación
+          pageRef: /research
+          weight: 5
+        - name: Contacto
+          pageRef: /contact
+          weight: 6
+        - name: GitHub
+          url: https://github.com/Lamb-Project/lamb
+          weight: 7
+        - name: Search
+          weight: 8
+          params:
+            type: search
+        - name: Language
+          weight: 9
+          params:
+            type: language-switch
+            label: true
+  ca:
+    languageName: Català
+    languageCode: ca
+    contentDir: content/ca
+    weight: 3
+    params:
+      description: "Crea i prova assistents d'aprenentatge amb IA a partir dels materials de la teva assignatura i porta'ls al teu entorn virtual d'aprenentatge."
+    menus:
+      main:
+        - name: Docència
+          pageRef: /teaching
+          weight: 1
+        - name: Institucions
+          pageRef: /institutions
+          weight: 2
+        - name: Desenvolupament
+          pageRef: /developers
+          weight: 3
+        - name: Guies
+          pageRef: /guides
+          weight: 4
+        - name: Recerca
+          pageRef: /research
+          weight: 5
+        - name: Contacte
+          pageRef: /contact
+          weight: 6
+        - name: GitHub
+          url: https://github.com/Lamb-Project/lamb
+          weight: 7
+        - name: Search
+          weight: 8
+          params:
+            type: search
+        - name: Language
+          weight: 9
+          params:
+            type: language-switch
+            label: true
+  eu:
+    languageName: Euskara
+    languageCode: eu
+    contentDir: content/eu
+    weight: 4
+    params:
+      description: "Sortu eta probatu IA bidezko ikaskuntza-laguntzaileak zure ikasgaiko materialekin, eta eraman itzazu zure ikaskuntza-ingurune birtualera."
+    menus:
+      main:
+        - name: Irakaskuntza
+          pageRef: /teaching
+          weight: 1
+        - name: Instituzioak
+          pageRef: /institutions
+          weight: 2
+        - name: Garapena
+          pageRef: /developers
+          weight: 3
+        - name: Gidak
+          pageRef: /guides
+          weight: 4
+        - name: Ikerketa
+          pageRef: /research
+          weight: 5
+        - name: Harremanak
+          pageRef: /contact
+          weight: 6
+        - name: GitHub
+          url: https://github.com/Lamb-Project/lamb
+          weight: 7
+        - name: Search
+          weight: 8
+          params:
+            type: search
+        - name: Language
+          weight: 9
+          params:
+            type: language-switch
+            label: true
 markup:
   goldmark:
     renderer:
       unsafe: true
   highlight:
     noClasses: false
-menu:
-  main:
-    - name: Teaching
-      pageRef: /teaching
-      weight: 1
-    - name: Institutions
-      pageRef: /institutions
-      weight: 2
-    - name: Developers
-      pageRef: /developers
-      weight: 3
-    - name: Guides
-      pageRef: /guides
-      weight: 4
-    - name: Research
-      pageRef: /research
-      weight: 5
-    - name: Contact
-      pageRef: /contact
-      weight: 6
-    - name: GitHub
-      url: https://github.com/Lamb-Project/lamb
-      weight: 7
-    - name: Search
-      weight: 8
-      params:
-        type: search
 params:
-  description: Create and test AI learning assistants with your course materials, then bring them into your learning management system.
   navbar:
     displayTitle: true
     displayLogo: true
