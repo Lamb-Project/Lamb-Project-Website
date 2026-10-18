@@ -1,6 +1,6 @@
 ---
 title: LAMB - Learning Assistants Manager and Builder
-description: Free software for institution-managed generative AI in your LMS, with RAG assistants, rubric-based pre-assessment, an authoring agent and developer tools.
+description: Free software for institution-managed generative AI in your LMS, with RAG assistants, rubric-based pre-assessment, LAMB LEGATUS (an agent for teachers), a Moodle connection and developer tools.
 translationKey: home
 ---
 
@@ -17,7 +17,7 @@ translationKey: home
 </section>
 
 <div class="lamb-strip"><span><b>Free software</b> · GNU GPL v3</span><span><b>Inside your LMS</b> · Moodle, Canvas and LTI</span><span><b>Your choice of AI</b> · Self-hosted or cloud inference</span></div>
-<nav class="lamb-overview-nav" aria-label="Explore LAMB capabilities"><a href="#institutional-ai">Institutional governance</a><a href="#teaching-tools">RAG, PRE & evaluation</a><a href="#authoring-agent">The authoring agent</a><a href="#last-mile">The last mile for your AI</a><a href="#developer-ecosystem">Developer tools</a></nav>
+<nav class="lamb-overview-nav" aria-label="Explore LAMB capabilities"><a href="#institutional-ai">Institutional governance</a><a href="#teaching-tools">RAG, PRE & evaluation</a><a href="#lamb-legatus">LAMB LEGATUS and Moodle</a><a href="#last-mile">The last mile for your AI</a><a href="#developer-ecosystem">Developer tools</a></nav>
 
 <section id="institutional-ai" class="lamb-governance">
 <div><p class="lamb-kicker">For the whole institution</p><h2>Generative AI within<br>your learning environment.</h2><p>LAMB integrates into the institutional LMS through LTI, bringing AI activities into the courses teachers and students already use.</p><a class="lamb-text-link" href="/en/institutions/">Plan institutional adoption ↗</a></div>
@@ -30,9 +30,9 @@ translationKey: home
 <div class="lamb-teaching-pair"><article><span class="lamb-kicker">PRE · Pre-assessment</span><h3>Apply rubrics. Review the assessment.</h3><p>Create pre-assessment assistants that apply a rubric to student work and propose feedback. The teacher reviews the result and decides how it is used in assessment.</p><a class="lamb-text-link" href="/en/teaching/#rubric-based-pre-assessment-pre">Explore PRE ↗</a></article><article><span class="lamb-kicker">Analysis & evaluation</span><h3>Check how your assistants behave.</h3><p>Use test cases, saved results and activity analysis to inspect responses, identify weaknesses and assess changes to your assistants.</p><a class="lamb-text-link" href="/en/guides/testing/">Test and evaluate an assistant ↗</a></article></div>
 </section>
 
-<section id="authoring-agent" class="lamb-agent-section">
-<div><p class="lamb-kicker">An agent alongside the teacher</p><h2>Create, analyse<br>and improve activities.</h2><p>LAMB’s authoring agent helps teachers prepare assistants, examine their behaviour and improve learning activities. With the Moodle connector, it can work with authorized course content and teaching activity directly.</p><a class="lamb-text-link" href="/en/teaching/#the-authoring-agent-and-moodle">Meet the authoring agent ↗</a></div>
-<div class="lamb-agent-workflow"><h3>From a Moodle course to an assistant</h3><ol><li><strong>Connect your course.</strong> Use your authorized Moodle account and the services your institution enables.</li><li><strong>Select the material.</strong> Ask the agent to inspect course resources and prepare the selected content for a RAG assistant.</li><li><strong>Review and improve.</strong> Approve the proposed changes, test responses and refine the activity with the agent.</li></ol><p><strong>No additional Moodle plugin is required.</strong> The connector uses standard Moodle web services; enabled services and account permissions determine what it can access.</p></div>
+<section id="lamb-legatus" class="lamb-agent-section">
+<div><p class="lamb-kicker">An agent that works for the teacher</p><h2>LAMB LEGATUS.<br>Design by conversation.</h2><p>LAMB LEGATUS is an agent built into LAMB: a harness around a language model, with tools for LAMB and your Moodle course, your account's permissions, and an approval step the model cannot skip. It helps you create and improve assistants, build and run tests, and prepare knowledge bases from your course. Changes to your assistants, materials and Moodle course wait for your approval.</p><a class="lamb-text-link" href="/en/teaching/#lamb-legatus-an-agent-for-the-teacher">Meet LAMB LEGATUS ↗</a></div>
+<div class="lamb-agent-workflow"><h3>From a Moodle course to an assistant</h3><ol><li><strong>Connect your course.</strong> Use your authorized Moodle account and the services your institution enables.</li><li><strong>Select the material.</strong> Ask LAMB LEGATUS to inspect course resources and prepare the selected content for a RAG assistant.</li><li><strong>Review and improve.</strong> Approve the proposed changes, test responses and refine the activity with LAMB LEGATUS.</li></ol><p><strong>No additional Moodle plugin is required.</strong> The connector uses standard Moodle web services; enabled services and account permissions determine what it can access.</p></div>
 </section>
 
 <section id="last-mile" class="lamb-section">

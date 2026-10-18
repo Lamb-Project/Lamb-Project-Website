@@ -25,7 +25,7 @@ LAMB was designed around the [Safe AI in Education Manifesto](/en/safe-ai/), wri
 
 **You can tell what the AI wrote.** Every answer in the chat appears under the assistant's name. AI answers can be incomplete or wrong, even when they sound confident. Check important claims against your course materials and ask your teacher when something is unclear.
 
-**The AI company does not get your name.** LAMB does not send your name or email to the model service. What you type in the conversation, and the text of any file you submit for AI evaluation, does reach the model, including any name written in it. If your institution runs the model itself, that text stays with your institution; if it uses an outside provider, the provider receives it under the institution's account. If your course gives you a personal LLM key, the access page explains what is recorded before you take it.
+**The AI company does not get your name from your chats.** LAMB does not send your name or email to the model service with your chats or submissions. If your teacher uses LAMB LEGATUS with their Moodle course, course information it reads, such as names, forum posts and grades, does reach the model service your institution chose. What you type in the conversation, and the text of any file you submit for AI evaluation, does reach the model, including any name written in it. If your institution runs the model itself, that text stays with your institution; if it uses an outside provider, the provider receives it under the institution's account. If your course gives you a personal LLM key, the access page explains what is recorded before you take it.
 
 ## Who can see what I write?
 

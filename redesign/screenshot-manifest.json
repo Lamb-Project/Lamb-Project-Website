@@ -460,5 +460,19 @@
   "height": 622,
   "content": "synthetic",
   "capture_method": "Real Playwright screenshot from the automated full-chain run e2e-08-full.mjs (52 of 52 steps passed) on the v08 stack, which mounts /opt/lamb-0.8 read-only; run started 10 seconds after 9daf2db8 was committed; LTI test tool in place of Moodle; local model; crop of the activity card; no UI labels or values replaced"
+ },
+ {
+  "file": "images/guides/pre-review.png",
+  "source": "tools/lamb-dev/runtime-08/full-20261016T1724/shots/27-teacher-file-eval-grading.png",
+  "sha256": "16c14fdea10a1c1fc596c33dbdab4bdcd0fcb5b951fa85a682d7a5aa45891a57",
+  "captured": "2026-10-16",
+  "product_version": "0.8",
+  "deployed_revision": "9daf2db836ec7ab69cf89f7ac8ae7a8140405bdb",
+  "surface": "Teacher (LTI), file evaluation",
+  "template_revision": null,
+  "width": 1040,
+  "height": 1145,
+  "content": "synthetic",
+  "capture_method": "Real Playwright screenshot from the automated full-chain run e2e-08-full.mjs (52 of 52 steps passed) on the v08 stack mounting /opt/lamb-0.8 read-only; LTI test tool in place of Moodle; crop of the activity card; no UI labels or values replaced"
  }
 ]

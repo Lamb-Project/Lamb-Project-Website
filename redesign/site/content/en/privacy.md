@@ -14,7 +14,7 @@ The institution determines how the service is used and operated. Configuring LAM
 | Area | What to manage |
 |---|---|
 | Access | Organizations, accounts, authoring permissions and LMS activity access |
-| Model providers | Approved generation, embedding and authoring-agent services, using local or cloud inference |
+| Model providers | Approved generation, embedding and LAMB LEGATUS model services, using local or cloud inference |
 | Course content | Which materials can be imported or sent to a model, and who may use them |
 | Conversation review | Which review features are enabled, who has access and what learners are told |
 | Students' model access | Whether teachers may hand out LLM access keys, which models, teacher allowances, per-student limits and timetables, and what students are told before taking a key |

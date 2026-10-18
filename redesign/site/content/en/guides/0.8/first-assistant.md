@@ -36,7 +36,7 @@ Scroll to **Save**. After saving, open **Properties** and check the saved name, 
 
 ## 4. Try the assistant
 
-Open **Chat with [assistant name]**. Ask a typical student question, then one outside the assistant's intended scope. Read both answers. This chat tests the learning assistant; the separate authoring-agent conversation serves a different purpose.
+Open **Chat with [assistant name]**. Ask a typical student question, then one outside the assistant's intended scope. Read both answers. This chat tests the learning assistant; the separate LAMB LEGATUS conversation serves a different purpose.
 
 {{< capture src="/images/guides/assistant-chat.png" alt="Learning assistant chat tab in the Creator interface" caption="A completed response in the LAMB 0.8 Creator chat, 17 October 2026. The assistant has no course documents connected yet." >}}
 

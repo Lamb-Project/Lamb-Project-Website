@@ -1,12 +1,12 @@
 ---
 title: Work with LAMB LEGATUS
-description: Use LAMB's built-in assistant for teachers to build, improve and test assistants, with your approval before anything changes.
+description: Use LAMB's built-in agent for teachers to build, improve and test assistants, with your approval before anything changes.
 translationKey: v08-legatus
 weight: 3
 aliases: [/guides/legatus/]
 ---
 
-**For teachers.** LAMB LEGATUS is LAMB's built-in assistant for teachers. You describe what you want in plain language, and it helps you create and improve assistants, work with knowledge bases and rubrics, write and run tests, and find your way around LAMB. It acts for you, and you keep the decisions: changes to your work wait for your approval. The name comes from the Roman legatus, who acted on behalf of the Senate.
+**For teachers.** LAMB LEGATUS is LAMB's built-in agent for teachers. You describe what you want in plain language, and it helps you create and improve assistants, work with knowledge bases and rubrics, write and run tests, and find your way around LAMB. It acts for you, and you keep the decisions: changes to your work wait for your approval. The name comes from the Roman legatus, who acted on behalf of the Senate.
 
 Screenshots show LAMB 0.8 on 17 October 2026 with synthetic content and a local model. Your organization may use a different model.
 

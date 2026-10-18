@@ -6,7 +6,7 @@ weight: 5
 aliases: [/guides/moodle/]
 ---
 
-**For LMS administrators and teachers.** This guide has two independent parts. Part 1 puts LAMB activities and assistants into a Moodle course. Part 2 lets a teacher connect their own Moodle account so that LAMB LEGATUS, LAMB's built-in assistant for teachers, can read that teacher's courses and import course materials into a knowledge base.
+**For LMS administrators and teachers.** This guide has two independent parts. Part 1 puts LAMB activities and assistants into a Moodle course. Part 2 lets a teacher connect their own Moodle account so that LAMB LEGATUS, LAMB's built-in agent for teachers, can read that teacher's courses and import course materials into a knowledge base.
 
 **LAMB needs no Moodle plugin.** Part 1 uses Moodle's standard External tool with LTI 1.1. Part 2 uses Moodle's standard web services for the mobile app. Nothing is installed on the Moodle server: the only Moodle changes are the standard administration settings described below.
 

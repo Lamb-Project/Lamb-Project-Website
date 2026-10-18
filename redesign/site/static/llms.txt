@@ -1,14 +1,14 @@
 # LAMB public reading index
 
-> LAMB is free software (GNU GPL v3) for institution-managed generative AI in the LMS. It supports RAG assistants, rubric-based pre-assessment (PRE), an authoring agent, evaluation tools and local or cloud inference. Local English website proposal, editorial update 2026-10-17.
+> LAMB is free software (GNU GPL v3) for institution-managed generative AI in the LMS. It supports RAG assistants, rubric-based pre-assessment (PRE), LAMB LEGATUS (an agent for teachers), a Moodle connection without a Moodle plugin, governed model access for students, evaluation tools and local or cloud inference. Local English website proposal, editorial update 2026-10-17.
 
 ## By user purpose
-- [Teaching](/en/teaching/): RAG, PRE, assistant evaluation and the authoring agent with its optional Moodle connector.
+- [Teaching](/en/teaching/): RAG, PRE, assistant evaluation, LAMB LEGATUS (the agent for teachers, a harness that asks before it acts) and the Moodle connection (LTI 1.1 activities and the optional connector; no Moodle plugin).
 - [Guides and versions](/en/guides/): version selection; current documentation edition 0.8.
 - [0.8 guides](/en/guides/0.8/): illustrated user tasks and expected results.
 - [LTI entry paths](/en/guides/0.8/lti/): retained assistant, Creator, activity and application routes.
 - [Connect LAMB and Moodle](/en/guides/0.8/moodle/): LTI 1.1 External tool setup in Moodle, and connecting a teacher's Moodle account for LAMB LEGATUS through standard Moodle web services; no Moodle plugin.
-- [Work with LAMB LEGATUS](/en/guides/0.8/legatus/): the built-in assistant for teachers, example requests, approvals, limits, model and data.
+- [Work with LAMB LEGATUS](/en/guides/0.8/legatus/): the built-in agent for teachers, example requests, approvals, limits, model and data.
 - [Give students model access under your rules](/en/guides/0.8/llm-access/): LLM access activities: organization policy, teacher allowances, per-student limits, timetables, personal student keys.
 - [Installation](/en/guides/0.8/installation/): candidate-pinned setup references.
 - [Work with the LAMB team](/en/contact/): training and consultancy (both covering AI governance; consultancy includes demonstrations), keynotes and seminars, and research collaboration (software engineering for AI agents, AI governance, AI in education, assessment with AI agents) from the LAMB team, for educators, developers and institutions; referrals to LAMB integrators for hosting and support; enquiries to contact-lamb-project@proton.me.

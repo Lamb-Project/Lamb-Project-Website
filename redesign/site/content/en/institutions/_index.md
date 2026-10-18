@@ -8,7 +8,7 @@ aliases: [/next/]
 
 LAMB brings generative AI into the institution’s learning environment. Teachers and students use assistants and activities through the LMS, while the institution manages access, model providers and the conditions under which course data is processed.
 
-It is **free software under GNU GPL v3**, with source code available for inspection, adaptation and sharing under the license. LTI connects activities to LMS platforms such as Moodle and Canvas. The optional Moodle connector also gives the authoring agent access to permitted course content and activity through standard web services, without installing a Moodle plugin.
+It is **free software under GNU GPL v3**, with source code available for inspection, adaptation and sharing under the license. LTI connects activities to LMS platforms such as Moodle and Canvas. The optional Moodle connector also gives LAMB LEGATUS, the agent for teachers, access to permitted course content and activity through standard web services, without installing a Moodle plugin.
 
 ## Three ways to begin
 

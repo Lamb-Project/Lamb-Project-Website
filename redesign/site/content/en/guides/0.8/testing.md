@@ -32,7 +32,7 @@ Use **Run** for one case or **Run All** for the saved set. Wait for results, the
 
 ## 4. Review, improve and rerun
 
-Compare the answer with the expectation. Use **Evaluate** to record your judgment and notes. If you change the assistant, save the change and rerun affected cases. Review any authoring-agent suggestions before relying on them.
+Compare the answer with the expectation. Use **Evaluate** to record your judgment and notes. If you change the assistant, save the change and rerun affected cases. Review any LAMB LEGATUS suggestions before relying on them.
 
 **Expected result:** you have saved examples of both the question and the observed answer, with a judgment tied to your learning purpose. Passing a small set of cases does not establish universal correctness.
 

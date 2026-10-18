@@ -65,7 +65,7 @@ When a teacher can read the transcripts of a chat activity, LAMB 0.8 shows each 
 >
 > Safe AI in Education Manifesto 0.5.0, Principle 4
 
-**LAMB's response.** The teacher chooses the activity type that fits the course design, and how the assistant works with the materials: several retrieval strategies are available, including one that applies a rubric. An authoring agent helps teachers design an assistant without writing code. Teachers can share prompt templates, rubrics and assistants with colleagues and reuse them.
+**LAMB's response.** The teacher chooses the activity type that fits the course design, and how the assistant works with the materials: several retrieval strategies are available, including one that applies a rubric. LAMB LEGATUS, the agent for teachers, helps them design an assistant without writing code. Teachers can share prompt templates, rubrics and assistants with colleagues and reuse them.
 
 **What stays with the institution and the teacher.** The instructional design itself, and the time to test an assistant with real tasks before students use it.
 
