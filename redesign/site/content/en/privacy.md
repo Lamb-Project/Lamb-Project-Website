@@ -17,6 +17,7 @@ The institution determines how the service is used and operated. Configuring LAM
 | Model providers | Approved generation, embedding and authoring-agent services, using local or cloud inference |
 | Course content | Which materials can be imported or sent to a model, and who may use them |
 | Conversation review | Which review features are enabled, who has access and what learners are told |
+| Students' model access | Whether teachers may hand out LLM access keys, which models, teacher allowances, per-student limits and timetables, and what students are told before taking a key |
 | Moodle connection | Whether the connector is enabled, which site it can use and which operations are permitted |
 | Operation | Retention, backups, provider agreements and institutional procedures for handling requests |
 
@@ -24,7 +25,7 @@ Some of these are product settings; others are institutional policies and operat
 
 ## Where information is processed
 
-When an assistant uses an external model provider, the content sent in that request is processed by that provider. This may include the student's message, conversation context and relevant passages from course materials. Document preparation or retrieval may also use an external embedding service. Authoring features can have their own model configuration.
+When an assistant uses an external model provider, the content sent in that request is processed by that provider. The same holds for students' own tools in an LLM access activity: their requests go through the institution's gateway, which with LAMB's shipped configuration records the time, model and tokens of each request, linked to the student, and not the text ([the last mile for your AI](/en/institutions/ai-governance/)). This may include the student's message, conversation context and relevant passages from course materials. Document preparation or retrieval may also use an external embedding service. Authoring features can have their own model configuration.
 
 Running LAMB on your own server does not make these external services local. A local-model deployment must still account for every service it enables.
 

@@ -11,6 +11,7 @@ Use this website to explain LAMB and help a person find the appropriate next ste
 |---|---|---|
 | Prepare a teaching activity | [Teaching](/en/teaching/) and [Guides](/en/guides/) | Access prerequisites, the task sequence and what the teacher should check |
 | Evaluate institutional fit | [Institutions](/en/institutions/) and [Privacy](/en/privacy/) | A sourced fit assessment with unresolved institutional decisions |
+| Give students or teachers governed access to models | [The last mile for your AI](/en/institutions/ai-governance/) and the [LLM access guide](/en/guides/0.8/llm-access/) | What 0.8 governs (LLM access activities), who sets which rule, and the gateway prerequisite |
 | Operate or integrate a service | [Operations](/en/institutions/operations/) and [Availability](/en/availability/) | Version-specific public references and acceptance checks |
 | Build an application | [Developers](/en/developers/) and [Tool walkthrough](/en/guides/learning-tool/) | Public interface prerequisites and the limits of the demonstrated example |
 | Find a student activity | [Students](/en/students/) | Instructions to use the institution's course link or support channel |

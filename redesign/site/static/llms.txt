@@ -9,9 +9,11 @@
 - [LTI entry paths](/en/guides/0.8/lti/): retained assistant, Creator, activity and application routes.
 - [Connect LAMB and Moodle](/en/guides/0.8/moodle/): LTI 1.1 External tool setup in Moodle, and connecting a teacher's Moodle account for LAMB LEGATUS through standard Moodle web services; no Moodle plugin.
 - [Work with LAMB LEGATUS](/en/guides/0.8/legatus/): the built-in assistant for teachers, example requests, approvals, limits, model and data.
+- [Give students model access under your rules](/en/guides/0.8/llm-access/): LLM access activities: organization policy, teacher allowances, per-student limits, timetables, personal student keys.
 - [Installation](/en/guides/0.8/installation/): candidate-pinned setup references.
 - [Work with the LAMB team](/en/contact/): training and consultancy (both covering AI governance; consultancy includes demonstrations), keynotes and seminars, and research collaboration (software engineering for AI agents, AI governance, AI in education, assessment with AI agents) from the LAMB team, for educators, developers and institutions; referrals to LAMB integrators for hosting and support; enquiries to contact-lamb-project@proton.me.
 - [Institutions](/en/institutions/): pilot planning and institutional responsibilities.
+- [The last mile for your AI](/en/institutions/ai-governance/): AI governance in LAMB 0.8: organization rules, teacher allowances and per-student keys with limits and timetables to the institution's models, through an optional gateway; scope of 0.8 and what comes next.
 - [Operations](/en/institutions/operations/): public operational prerequisites.
 - [Privacy](/en/privacy/): privacy/GDPR governance, provider processing, conversation access and institutional responsibilities.
 - [Developers](/en/developers/): public APIs, LTI Test Tool, Moodle CLI, LAMB CLI and the application template.

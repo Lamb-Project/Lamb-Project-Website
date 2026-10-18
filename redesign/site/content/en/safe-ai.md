@@ -39,7 +39,7 @@ Teachers can read chat transcripts with students' names only if they turned that
 
 **LAMB's response.** LAMB is free software under GNU GPL v3, and an institution can run all of it on its own servers, including a local model service. Students reach LAMB from their course in the LMS and never register with LAMB or with an AI company. Each organization in LAMB sets its own model providers and keys.
 
-The model provider does not receive the student's name or email. LAMB rebuilds every chat request, so the provider receives the model name, the teacher's instructions, the conversation and any retrieved course excerpts, and no identity details. In the LLM-access activity, which gives students a personal key for their own tools, the gateway sees an opaque reference instead of a name or email. The analytics that an assistant's owner sees include the text of students' conversations, with each student shown as a numbered user, never by name or email.
+The model provider does not receive the student's name or email. LAMB rebuilds every chat request, so the provider receives the model name, the teacher's instructions, the conversation and any retrieved course excerpts, and no identity details. In the LLM access activity, which gives students a personal key for their own tools, the gateway sees an opaque reference instead of a name or email. The analytics that an assistant's owner sees include the text of students' conversations, with each student shown as a numbered user, never by name or email.
 
 When a teacher can read the transcripts of a chat activity, LAMB 0.8 shows each student a one-time notice before the chat opens. It says that the teachers of the activity can read everything the student writes and the assistant's answers, with the student's name. A student who does not agree is told not to enter and to talk to the teacher. No notice tells students that the assistant's owner can read their conversations, without names, in the analytics.
 
@@ -53,7 +53,7 @@ When a teacher can read the transcripts of a chat activity, LAMB 0.8 shows each 
 >
 > Safe AI in Education Manifesto 0.5.0, Principle 3
 
-**LAMB's response.** LAMB is built for education rather than general use. It works inside the LMS as course activities: a chat with selected assistants, file evaluation, and, where the institution has deployed its LLM gateway and an administrator has enabled it, LLM access. It is organized by institution, with owner, administrator and member roles. Administrators decide which providers and models their teachers can use. An assistant can have a cost limit, and in the LLM-access activity the teacher sets per-student token limits and a timetable that opens and closes access.
+**LAMB's response.** LAMB is built for education rather than general use. It works inside the LMS as course activities: a chat with selected assistants, file evaluation, and, where the institution has deployed its LLM gateway and an administrator has enabled it, LLM access. It is organized by institution, with owner, administrator and member roles. Administrators decide which providers and models their teachers can use. An assistant can have a cost limit, and in the LLM access activity the teacher sets per-student token limits and a timetable that opens and closes access.
 
 **What stays with the institution and the teacher.** The institution's AI policy, its rules on cheating and plagiarism, and which tools it approves. LAMB gives administrators levers; it does not write the policy.
 
@@ -89,7 +89,7 @@ When a teacher can read the transcripts of a chat activity, LAMB 0.8 shows each 
 >
 > Safe AI in Education Manifesto 0.5.0, Principle 6
 
-**LAMB's response.** LAMB is clear about who sees what. In the chat, the student sees the assistant's name and the teacher's description, and every answer appears under the assistant's name. When transcript review is on, the transcript notice tells students plainly that the teacher can read their chats with their name. Before the student takes a key, the LLM-access page explains what the gateway records and that an outside provider receives the requests without the student's name; it names the model once the key is issued. In file evaluation, the AI grade and the teacher's grade are labelled separately.
+**LAMB's response.** LAMB is clear about who sees what. In the chat, the student sees the assistant's name and the teacher's description, and every answer appears under the assistant's name. When transcript review is on, the transcript notice tells students plainly that the teacher can read their chats with their name. Before the student takes a key, the LLM access page explains what the gateway records and that an outside provider receives the requests without the student's name; it names the model once the key is issued. In file evaluation, the AI grade and the teacher's grade are labelled separately.
 
 **What stays with the institution and the teacher.** Telling students, in the assistant's description or instructions, what the assistant is for, what it cannot do and that its answers can be wrong.
 
@@ -155,7 +155,7 @@ The 2 December 2027 date applies to systems put into service from then on. A sys
 
 Since 2 August 2026, people must be told when they are interacting with an AI system, unless it is obvious, at the latest at the first interaction. Providers of systems that generate text must also mark the output in a machine-readable way, with a transition period until 2 December 2026 for systems already on the market.
 
-**How LAMB helps.** Students meet a named assistant inside a course activity, and every answer appears under that name. Before a student takes a key, the LLM-access page explains what the gateway records and what an outside provider receives, and it names the model once the key is issued. File evaluation labels the AI grade.
+**How LAMB helps.** Students meet a named assistant inside a course activity, and every answer appears under that name. Before a student takes a key, the LLM access page explains what the gateway records and what an outside provider receives, and it names the model once the key is issued. File evaluation labels the AI grade.
 
 **What the institution should do.** Make sure students are told, in the activity or the course, that they are talking to an AI. The chat itself shows no general notice of that kind and does not name the model. LAMB adds no machine-readable marking to generated text, so the institution should check how its model provider handles that duty.
 
@@ -173,8 +173,8 @@ The General Data Protection Regulation applies to every LAMB installation that h
 
 | GDPR point | How LAMB helps | What the institution still decides |
 |---|---|---|
-| Data minimization | Providers receive the conversation without the student's name or email; LLM-access keys use an opaque reference; teacher analytics show conversations with numbered users instead of names | What students are told not to type; LAMB does not filter personal data out of messages |
-| Information to students | The transcript notice and the LLM-access notice explain, before use, named transcript review and what the gateway records; no notice mentions that the assistant's owner can read conversations, without names, in the analytics | The privacy notice, the lawful basis and how to exercise rights; the transcript notice is information, not a legal basis |
+| Data minimization | Providers receive the conversation without the student's name or email; LLM access keys use an opaque reference; teacher analytics show conversations with numbered users instead of names | What students are told not to type; LAMB does not filter personal data out of messages |
+| Information to students | The transcript notice and the LLM access notice explain, before use, named transcript review and what the gateway records; no notice mentions that the assistant's owner can read conversations, without names, in the analytics | The privacy notice, the lawful basis and how to exercise rights; the transcript notice is information, not a legal basis |
 | Processors and transfers | Local models keep conversations on campus; providers are chosen per organization | Contracts with any cloud provider and the conditions for any transfer outside the EU |
 | Automated decisions | In file evaluation, the teacher's grade is the decision | That no significant decision rests on an AI output alone, and how students can contest one |
 | Impact assessment | Free software that can be inspected, run on campus and tested | Whether a data-protection impact assessment is needed, and carrying it out |

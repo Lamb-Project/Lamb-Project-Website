@@ -14,6 +14,7 @@ weight: 8
 | Creator API access and tool template | Requires a supporting deployment, organization permission and an authorized published assistant. The tool walkthrough names its checked template revision. |
 | Rubric-based pre-assessment (PRE), authoring agent and analytics | Part of the 0.8 documentation scope. Review proposed assessments and use the controls and permissions enabled in your deployment. |
 | Moodle course content and activity | Optional standard-web-service connector for the authoring agent. Requires administrator enablement, available Moodle services and authorized course access; no custom Moodle plugin. |
+| LLM access (the last mile for your AI) | New in 0.8. Personal student keys to the organization's models, with organization rules, teacher allowances, per-student limits and timetables. Requires the optional gateway add-on and system administrator configuration; covers LLM access activities, not chat or file-evaluation activities. |
 | LAMB 0.8 | The documentation baseline for this website. This local review uses the 0.8 candidate; it is not a stable-release announcement. |
 
 ## Documentation that stays with your version

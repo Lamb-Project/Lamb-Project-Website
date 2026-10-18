@@ -16,6 +16,10 @@ Choose the next step that fits your team.
 
 {{< adoption-routes >}}
 
+## The last mile for your AI
+
+Your institution may already run its own models or use a provider that meets its requirements. LAMB gives each student access to them under rules set by the school and the teacher: teacher allowances, per-student limits, timetables and a personal key whose use is counted. In 0.8 this covers LLM access activities, for students' own tools. [The last mile for your AI →](/en/institutions/ai-governance/)
+
 ## Governance and provider choice
 
 Decide who can create and use AI activities, which generation and embedding services are approved, and how content and conversations may be accessed. These choices make LAMB part of the institution’s privacy, GDPR and AI-governance work. Regulatory compliance depends on the institution’s policies and deployment, as well as the software configuration.
@@ -31,6 +35,7 @@ Choose from supported providers using self-hosted inference, cloud services or a
 | Educators need course-specific assistants | An interface for instructions, materials and testing | Who creates assistants, which sources are allowed and how quality is reviewed |
 | Students need access in their course | LMS integration paths | Supported LMS/LTI configuration, enrolment and support |
 | Teams need a choice of AI services | Configurable model connections | Local or external providers, approved data, spending and service agreements |
+| Students need model access for their own tools | LLM access activities: personal keys with limits, timetables and usage records | Which models, how many tokens per teacher and per student, and when |
 | Administrators need an operated service | Organization and user administration | Hosting, backups, monitoring, updates and operational ownership |
 | Innovators need a starting point | Public API and educational tool resources | Scope, deployment responsibility and acceptance of each application |
 

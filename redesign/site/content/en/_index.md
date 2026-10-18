@@ -17,7 +17,7 @@ translationKey: home
 </section>
 
 <div class="lamb-strip"><span><b>Free software</b> · GNU GPL v3</span><span><b>Inside your LMS</b> · Moodle, Canvas and LTI</span><span><b>Your choice of AI</b> · Self-hosted or cloud inference</span></div>
-<nav class="lamb-overview-nav" aria-label="Explore LAMB capabilities"><a href="#institutional-ai">Institutional governance</a><a href="#teaching-tools">RAG, PRE & evaluation</a><a href="#authoring-agent">The authoring agent</a><a href="#developer-ecosystem">Developer tools</a></nav>
+<nav class="lamb-overview-nav" aria-label="Explore LAMB capabilities"><a href="#institutional-ai">Institutional governance</a><a href="#teaching-tools">RAG, PRE & evaluation</a><a href="#authoring-agent">The authoring agent</a><a href="#last-mile">The last mile for your AI</a><a href="#developer-ecosystem">Developer tools</a></nav>
 
 <section id="institutional-ai" class="lamb-governance">
 <div><p class="lamb-kicker">For the whole institution</p><h2>Generative AI within<br>your learning environment.</h2><p>LAMB integrates into the institutional LMS through LTI, bringing AI activities into the courses teachers and students already use.</p><a class="lamb-text-link" href="/en/institutions/">Plan institutional adoption ↗</a></div>
@@ -33,6 +33,11 @@ translationKey: home
 <section id="authoring-agent" class="lamb-agent-section">
 <div><p class="lamb-kicker">An agent alongside the teacher</p><h2>Create, analyse<br>and improve activities.</h2><p>LAMB’s authoring agent helps teachers prepare assistants, examine their behaviour and improve learning activities. With the Moodle connector, it can work with authorized course content and teaching activity directly.</p><a class="lamb-text-link" href="/en/teaching/#the-authoring-agent-and-moodle">Meet the authoring agent ↗</a></div>
 <div class="lamb-agent-workflow"><h3>From a Moodle course to an assistant</h3><ol><li><strong>Connect your course.</strong> Use your authorized Moodle account and the services your institution enables.</li><li><strong>Select the material.</strong> Ask the agent to inspect course resources and prepare the selected content for a RAG assistant.</li><li><strong>Review and improve.</strong> Approve the proposed changes, test responses and refine the activity with the agent.</li></ol><p><strong>No additional Moodle plugin is required.</strong> The connector uses standard Moodle web services; enabled services and account permissions determine what it can access.</p></div>
+</section>
+
+<section id="last-mile" class="lamb-section">
+<div class="lamb-section-intro"><div><p class="lamb-kicker">AI governance</p><h2>The last mile<br>for your AI.</h2></div><p>The right model, to the right person, in the right amount, at the right time.</p></div>
+<div class="lamb-teaching-showcase"><div><h3>Your models, under your rules, for every student</h3><p>An inference service does not know who is enrolled, in which course or with which role. Your LMS does, and LAMB learns it through LTI each time a student opens an activity. The organization sets the rules and each teacher's allowance; the teacher sets limits and a timetable in the course; each student gets a personal key for their own tools, and the use of every key is counted.</p><a class="lamb-text-link" href="/en/institutions/ai-governance/">How the last mile works ↗</a></div><figure class="lamb-diagram"><a href="/en/institutions/ai-governance/" aria-label="How the last mile works"><img src="/images/diagrams/last-mile.svg" alt="Diagram: your AI infrastructure gives LAMB the authorized models; your LMS tells LAMB through LTI who is enrolled, in which course, with which role and in which school; LAMB's AI governance layer applies organization rules and the teacher's activity, and a gateway gives each person a scoped key. In LAMB 0.8 it governs students' own tools; assistants, LAMB LEGATUS and learning apps are in design." width="1200" height="800" loading="lazy"></a><figcaption>Students' own tools are governed in LAMB 0.8; assistants, LAMB LEGATUS and learning apps are in design.</figcaption></figure></div>
 </section>
 
 <section id="developer-ecosystem" class="lamb-section">
