@@ -10,14 +10,14 @@
 - [Connect LAMB and Moodle](/en/guides/0.8/moodle/): LTI 1.1 External tool setup in Moodle, and connecting a teacher's Moodle account for LAMB LEGATUS through standard Moodle web services; no Moodle plugin.
 - [Work with LAMB LEGATUS](/en/guides/0.8/legatus/): the built-in assistant for teachers, example requests, approvals, limits, model and data.
 - [Installation](/en/guides/0.8/installation/): candidate-pinned setup references.
-- [Work with the LAMB team](/en/contact/): training and consultancy (both covering AI governance; consultancy includes demonstrations), keynotes and seminars from the LAMB team, for educators, developers and institutions; referrals to LAMB integrators for hosting and support; enquiries to contact-lamb-project@proton.me.
+- [Work with the LAMB team](/en/contact/): training and consultancy (both covering AI governance; consultancy includes demonstrations), keynotes and seminars, and research collaboration (software engineering for AI agents, AI governance, AI in education, assessment with AI agents) from the LAMB team, for educators, developers and institutions; referrals to LAMB integrators for hosting and support; enquiries to contact-lamb-project@proton.me.
 - [Institutions](/en/institutions/): pilot planning and institutional responsibilities.
 - [Operations](/en/institutions/operations/): public operational prerequisites.
 - [Privacy](/en/privacy/): privacy/GDPR governance, provider processing, conversation access and institutional responsibilities.
 - [Developers](/en/developers/): public APIs, LTI Test Tool, Moodle CLI, LAMB CLI and the application template.
 - [Students](/en/students/): access through the learner's course, and what the Safe AI in Education Manifesto means for a student using a LAMB assistant.
 - [Safe AI principles](/en/safe-ai/): why the LAMB authors wrote the Safe AI in Education Manifesto, LAMB's response and limits for each of its seven principles, and the EU AI Act and GDPR points relevant to education; not legal advice.
-- [Research](/en/research/): framework and Smart Learning Applications publications, the 2026 RIED assessment proof of concept, educational RAG terminology research and its archived software, authorship and citation.
+- [Research](/en/research/): research lines; research groups EduSTEAM (UPC), ONEKIN (UPV/EHU), GRIAL (Universidad de Salamanca) and Smart Learning (Universidad de Alicante) and their researchers; framework and Smart Learning Applications publications, the 2026 RIED assessment proof of concept, educational RAG terminology research and its archived software, authorship and citation.
 - [Availability](/en/availability/): version and deployment boundaries.
 - [Agent reading guide](/en/agents/): how to use these public sources.
 

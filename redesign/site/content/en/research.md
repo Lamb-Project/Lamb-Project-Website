@@ -1,13 +1,46 @@
 ---
 title: The project and its research
-description: LAMB's authorship, research foundation and public principles.
+description: LAMB's research groups, researchers, research lines and publications.
 translationKey: research
 weight: 5
 ---
 
-LAMB was created by **Marc Alier and Juanan Pereira**, who work at the Universitat Politècnica de Catalunya and the Universidad del País Vasco / Euskal Herriko Unibertsitatea. Institutional use and support include those university communities and **Tknika**, the Basque vocational-training innovation centre.
+LAMB was created by **Marc Alier and Juanan Pereira**. It is software for educators and a research project: researchers from groups at four universities have written its papers and the principles that guide its design.
 
-The project develops software for educators to create learning assistants and integrate them into institutional learning environments. Research papers describe the work at their publication dates; they are not release notes for the current software.
+## Research lines
+
+- **Software engineering for AI agents:** how agentic systems and the harnesses that run them are designed, built, tested and kept under control.
+- **AI governance strategies:** how institutions decide, document and review their use of AI.
+- **AI in education:** generative AI in teaching and learning, with the educator in control.
+- **Assessment with AI agents:** advanced assessment designs in which AI agents support evaluation under human oversight.
+
+The LAMB team welcomes research partners for joint projects, funding proposals and studies: see [research collaboration](/en/contact/#research-collaboration).
+
+## Research groups
+
+<div class="lamb-dev-tools">
+<a href="https://futur.upc.edu/34275132"><strong>EduSTEAM ↗</strong><span>STEAM University Learning Research Group, Universitat Politècnica de Catalunya (UPC), Department of Services and Information Systems Engineering (ESSI). Marc Alier and María José Casañ.</span></a>
+<a href="https://onekin.org"><strong>ONEKIN ↗</strong><span>Onekin Research Group, Universidad del País Vasco / Euskal Herriko Unibertsitatea (UPV/EHU), Department of Computer Languages and Systems, Faculty of Informatics. Juanan Pereira.</span></a>
+<a href="https://grial.usal.es/"><strong>GRIAL ↗</strong><span>Research Group in InterAction and eLearning, Universidad de Salamanca, headed by Francisco José García-Peñalvo. Andrea Vázquez-Ingelmo and Alicia García-Holgado.</span></a>
+<a href="https://observatorio-cientifico.ua.es/investigadores/359745/detalle"><strong>Smart Learning ↗</strong><span>Smart Learning Technologies Research Group, Universidad de Alicante. Faraón Llorens Largo.</span></a>
+</div>
+
+## Researchers
+
+| Researcher | Institution | Work with LAMB |
+|---|---|---|
+| Marc Alier | Universitat Politècnica de Catalunya | Co-creator of LAMB; LAMB paper, retrieval and assessment studies, Smart Learning Applications concept, Safe AI in Education Manifesto |
+| Juanan Pereira | UPV/EHU | Co-creator of LAMB; LAMB paper, retrieval and assessment studies, Manifesto |
+| Francisco José García-Peñalvo | Universidad de Salamanca | LAMB paper, retrieval and assessment studies, Manifesto |
+| María José Casañ | Universitat Politècnica de Catalunya | LAMB paper, retrieval and assessment studies, Smart Learning Applications concept, Manifesto |
+| Faraón Llorens Largo | Universidad de Alicante | Safe AI in Education Manifesto |
+| Daniel Amo Filvà | La Salle, Universitat Ramon Llull | Smart Learning Applications concept |
+| Andrea Vázquez-Ingelmo | Universidad de Salamanca | AI-assisted assessment study |
+| Alicia García-Holgado | Universidad de Salamanca | AI-assisted assessment study |
+| Jose Cabré | Universitat Politècnica de Catalunya | LAMB paper |
+| Arnau Granados | Universitat Politècnica de Catalunya | Retrieval study |
+
+Research papers describe the work at their publication dates; they are not release notes for the current software.
 
 ## Cite the framework
 
@@ -51,4 +84,4 @@ These principles guide decisions; a particular deployment still needs to establi
 
 ## Software and acknowledgments
 
-[LAMB's source code](https://github.com/Lamb-Project/lamb) is distributed under GPL v3. The project acknowledges the Open WebUI and Tsugi communities, the TEEM community and Tknika. When reporting research using LAMB, record the software revision and the activity design alongside the paper citation.
+[LAMB's source code](https://github.com/Lamb-Project/lamb) is distributed under GPL v3. Academic partners are UPV/EHU and UPC, through the Barcelona School of Informatics (FIB), the Institute of Educational Sciences (ICE) and the ESSI department. Tknika, the Basque vocational-training applied research centre, uses and supports LAMB. The project acknowledges the Open WebUI and Tsugi communities and the TEEM community. When reporting research using LAMB, record the software revision and the activity design alongside the paper citation.

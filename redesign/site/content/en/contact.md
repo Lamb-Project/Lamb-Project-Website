@@ -1,6 +1,6 @@
 ---
 title: Work with the LAMB team
-description: Training, consultancy, keynotes and seminars from the LAMB team, for educators, developers and institutions.
+description: Training, consultancy, keynotes and seminars, and research collaboration from the LAMB team, for educators, developers and institutions.
 translationKey: contact
 weight: 7
 ---
@@ -12,6 +12,7 @@ The LAMB team offers:
 - **Training** for educators, developers and the people who run LAMB, including AI governance.
 - **Consultancy** for institutions, teaching teams and development teams adopting LAMB or AI in teaching, including AI governance.
 - **Keynotes and seminars** on safe AI in education, AI governance and LAMB.
+- **Research collaboration** in software engineering for AI agents, AI governance, AI in education and assessment with AI agents.
 
 Write to **contact-lamb-project@proton.me**. Tell us who you are, what you would like to do with LAMB and any dates you have in mind.
 
@@ -45,6 +46,19 @@ For institutions, teaching teams and development teams adopting LAMB, or AI in t
 Talks for conferences, faculties and staff days: the Safe AI in Education Manifesto, generative AI in education, AI governance in universities, and what building LAMB has taught us. Seminars can include a live demonstration.
 
 {{< contact-link subject="LAMB keynote or seminar enquiry" label="Email us to invite a talk" >}}
+
+## Research collaboration
+
+The LAMB team works on four research lines and welcomes partners for joint projects, funding proposals and studies:
+
+- **Software engineering for AI agents:** how agentic systems and the harnesses that run them are designed, built, tested and kept under control.
+- **AI governance strategies:** how institutions decide, document and review their use of AI.
+- **AI in education:** generative AI in teaching and learning, with the educator in control.
+- **Assessment with AI agents:** advanced assessment designs in which AI agents support evaluation under human oversight.
+
+Our publications are on the [research page](/en/research/).
+
+{{< contact-link subject="LAMB research collaboration" label="Email us about research" >}}
 
 ## Hosting and support
 

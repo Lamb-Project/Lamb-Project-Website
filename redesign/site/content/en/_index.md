@@ -48,5 +48,5 @@ translationKey: home
 
 </section>
 
-<section class="lamb-project-note"><div><h2>A project grounded in education</h2><p>Developed by Marc Alier and Juanan Pereira, LAMB connects software development, teaching practice and the Safe AI in Education Manifesto.</p></div><a class="lamb-text-link" href="/en/research/">Project, authors & research ↗</a></section>
+<section class="lamb-project-note"><div><h2>A project grounded in research</h2><p>Created by Marc Alier and Juanan Pereira, LAMB is studied and written about with research groups at UPC, UPV/EHU, the Universidad de Salamanca and the Universidad de Alicante: EduSTEAM, ONEKIN, GRIAL and Smart Learning.</p></div><a class="lamb-text-link" href="/en/research/">Research groups & publications ↗</a></section>
 <section class="lamb-student"><div><h2>Looking for your course assistant?</h2><p>Your teacher or institution provides access through your course.</p></div><a class="lamb-text-link" href="/en/students/">Start here as a student ↗</a></section>
