@@ -17,7 +17,7 @@ aliases: [/guides/lti/]
 | Configure a course activity and launch it as teacher or learner | LAMB activity tool | An instructor completes the activity setup before learners enter |
 | Launch a separately hosted educational application | The application's own LTI tool | Configure that application's launch details and its authorized access to LAMB |
 
-These are distinct entry points. A consumer key, shared secret or launch URL from one is not interchangeable with another. The documented integrations use **LTI 1.1**; this guide does not claim LTI 1.3 support.
+These are distinct entry points. A consumer key, shared secret or launch URL from one is not interchangeable with another. For the Moodle fields, privacy settings and a walkthrough of the LAMB activity tool on a demonstration Moodle, see [Connect LAMB and Moodle](/en/guides/0.8/moodle/). The documented integrations use **LTI 1.1**; this guide does not claim LTI 1.3 support.
 
 ## One published assistant
 

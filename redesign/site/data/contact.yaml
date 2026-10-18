@@ -1,7 +1,4 @@
-# Hidden on 17 October 2026 at Marc's request (direct addresses as a security concern).
-# Empty = no mailto buttons are rendered. Restore the joint recipients here to bring them back.
-recipients: ""
-names: "Marc Alier and Juanan Pereira"
-# Public directory sources checked 2026-10-16:
-# https://www.fib.upc.edu/es/grados/grado-en-ingenieria-informatica/profesorado
-# https://www.ehu.eus/es/web/graduak/grado-ingenieria-informatica/profesorado?idPdi=273496&redirect=fichaPDI
+# Project mailbox (Marc, 18 October 2026). Personal addresses stay off the site (hidden 17 October
+# as a security concern). Empty = no mailto buttons are rendered.
+recipients: "contact-lamb-project@proton.me"
+names: "Marc Alier and Juanan Pereira"  # not used by templates; kept for reference

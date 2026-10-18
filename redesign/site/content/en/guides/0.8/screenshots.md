@@ -14,6 +14,8 @@ The Creator screenshots in these tutorials were captured from **LAMB 0.8 on 17 O
 | Knowledge bases and RAG configuration | 17 October 2026 | A demonstration document is uploaded, processing completes, its passage is retrieved, and a new Simple Rag assistant selects the source |
 | Test cases and results | 17 October 2026 | A case is saved and run against the RAG assistant; the captured response is available for review |
 | Learning-tool template | 17 October 2026 | The public template connects to LAMB 0.8; instructor and learner launches use a local demonstration LMS, and the learner receives a new assistant response |
+| Moodle External tool and activity setup | 17 October 2026 | A demonstration Moodle 4.5 site with synthetic accounts: site tool configuration, activity chooser, first teacher launch and instructor view; no student launch was captured |
+| Moodle connector and LAMB LEGATUS | 17 October 2026 | Organization connector settings in read-only mode, a teacher connection made with a pasted token (the QR route needs HTTPS), an import waiting for approval, and LAMB LEGATUS proposals, saved tests and organization model settings with a local model |
 
 The examples use demonstration accounts and synthetic course material. No institutional Moodle course or real learner submission was accessed for these captures. Model names, local addresses and identifiers are examples, not configuration values to copy into your institution.
 

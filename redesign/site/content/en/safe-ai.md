@@ -129,7 +129,7 @@ Since 2 February 2025, providers and deployers have had duties on AI literacy. S
 
 **How LAMB helps.** Teachers build their own assistants, can see the full prompt that is sent to the model, and test assistants before students use them. That is hands-on contact with how these systems work.
 
-**What the institution must do.** Take measures to support the AI literacy of the staff who configure and use LAMB, for example training. LAMB does not include a training programme.
+**What the institution must do.** Take measures to support the AI literacy of the staff who configure and use LAMB, for example training. The software does not include a training programme. The LAMB team offers [staff training on AI literacy and AI governance](/en/contact/#training).
 
 ### Prohibited practices: emotion recognition
 

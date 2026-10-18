@@ -18,7 +18,11 @@ Use this website to explain LAMB and help a person find the appropriate next ste
 
 ## Choose the documentation version
 
-Use the [version index](/en/guides/) before giving procedural instructions. The current documentation edition is 0.8, at `/en/guides/0.8/`. Existing LTI paths remain in scope. A historical guide does not imply that its feature is deprecated. Institutional enquiries and demo requests go to [Marc and Juanan together](/en/contact/).
+Use the [version index](/en/guides/) before giving procedural instructions. The current documentation edition is 0.8, at `/en/guides/0.8/`. Existing LTI paths remain in scope. A historical guide does not imply that its feature is deprecated.
+
+## Services and contact
+
+LAMB's creators, Marc Alier and Juanan Pereira, offer training and consultancy (both covering AI governance; consultancy includes demonstrations), and keynotes and seminars: see [Work with the LAMB team](/en/contact/). Enquiries go to contact-lamb-project@proton.me. They do not host LAMB, provide operational support or sign service-level agreements.
 
 ## Keep the evidence attached
 

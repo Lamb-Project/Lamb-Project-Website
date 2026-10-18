@@ -45,4 +45,4 @@ For an existing installation, back up the persistent data and rehearse the upgra
 
 ## Want to discuss the setup?
 
-[Contact Marc and Juanan](/en/contact/) or [request a demonstration](/en/contact/#request-a-demonstration). Tell them which environment and teaching workflow you are considering.
+The LAMB team offers [training](/en/contact/#training) and [consultancy](/en/contact/#consultancy); consultancy can start with a demonstration. Write to contact-lamb-project@proton.me and say which environment and teaching workflow you are considering.
