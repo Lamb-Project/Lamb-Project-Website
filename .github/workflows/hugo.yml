@@ -22,17 +22,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.139.0
+      HUGO_VERSION: 0.155.1
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install the pinned Hextra theme
+        # Downloads Hextra v0.13.0 at a fixed commit and refuses it if the SHA-256 differs.
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 setup.py
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
@@ -40,10 +42,25 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+        # official.yaml lifts the noindex that every other build keeps and sets params.official.
         run: |
           hugo \
+            --source site \
+            --config hugo.yaml,official.yaml \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --destination "${{ github.workspace }}/public"
+          # GitHub Pages serves a custom 404 only from the root; Hugo writes one per language.
+          cp public/en/404.html public/404.html
+      - name: Check the files other systems fetch and that the site is indexable
+        # LAMB's Creator reads its news panel from /news/news_<lang>.md (LAMB_NEWS_HOME).
+        run: |
+          for f in news/news_en.md news/news_es.md news/news_ca.md news/news_eu.md en/index.html es/index.html ca/index.html eu/index.html 404.html robots.txt sitemap.xml; do
+            test -s "public/$f" || { echo "missing public/$f"; exit 1; }
+          done
+          if grep -qx 'Disallow: /' public/robots.txt; then echo "robots.txt disallows the whole site"; exit 1; fi
+          leaks=$(grep -rl 'name=robots content="noindex' public --include=index.html || true)
+          if [ -n "$leaks" ]; then echo "pages still carry noindex:"; echo "$leaks" | head; exit 1; fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

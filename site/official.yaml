@@ -1,0 +1,9 @@
+# Overlay for the official build of https://lamb-project.org/ (GitHub Pages workflow):
+#   hugo --config hugo.yaml,official.yaml
+# Every other build (local preview, wasabi review copy) keeps noindex and a Disallow robots.txt.
+baseURL: https://lamb-project.org/
+params:
+  official: true
+cascade:
+  - params:
+      noindex: false

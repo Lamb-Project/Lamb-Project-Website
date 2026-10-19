@@ -1,0 +1,6 @@
+<div class="lamb-footer">
+  <div><a class="lamb-wordmark" href="{{ "" | relLangURL }}">LAMB</a><p>{{ T "tagline" }}<br>{{ T "createdBy" }} <strong>Marc Alier</strong> {{ if eq site.Language.Lang "eu" }}eta{{ else if eq site.Language.Lang "en" }}and{{ else if eq site.Language.Lang "ca" }}i{{ else }}y{{ end }} <strong>Juanan Pereira</strong>{{ if ne site.Language.Lang "eu" }}.{{ end }}<br>{{ T "mascotCredit" }} <a href="https://edicions.forment.net">Marta Forment</a>.</p></div>
+  <div><a href="{{ "contact/" | relLangURL }}">{{ T "workWithUs" }}</a><a href="{{ "guides/" | relLangURL }}">{{ T "guidesVersions" }}</a><a href="{{ "students/" | relLangURL }}">{{ T "forStudents" }}</a><a href="{{ "safe-ai/" | relLangURL }}">{{ T "safeAI" }}</a><a href="{{ "privacy/" | relLangURL }}">{{ T "privacyControl" }}</a><a href="{{ "availability/" | relLangURL }}">{{ T "versionsAvailability" }}</a></div>
+  <div><a href="{{ "agents/" | relLangURL }}">{{ T "forAgents" }}</a><a href="/llms.txt">{{ T "readingIndex" }}</a><a href="https://github.com/Lamb-Project/lamb">{{ T "sourceCode" }}</a></div>
+  <p class="lamb-footer-note">LAMB {{ site.Data.documentation.current }} · {{ T (cond site.Params.official "officialEdition" "reviewEdition") }} · {{ T "langLabel" }}</p>
+</div>
