@@ -5,6 +5,8 @@ translationKey: developers
 weight: 3
 ---
 
+LAMB [GitHuben](https://github.com/Lamb-Project/lamb) garatzen dugu, eta [`dev` adarra](https://github.com/Lamb-Project/lamb/tree/dev) erabiltzen dugu garapenerako. LAMB zure ordenagailuan instala dezakezu [`Documentation/installation/deployLocal.md`](https://github.com/Lamb-Project/lamb/blob/dev/Documentation/installation/deployLocal.md) fitxategia programazio-agente bati emanez: agente batek jarraitzeko idatzita dago, eta agenteak behar dituen datuak eskatzen dizkizu. Dena localhost-en exekutatzen da, Dockerrekin.
+
 LAMBek laguntzaileak eta ereduetarako sarbidea kudeatzeko geruza bat eskaintzen du, hezkuntza-aplikazioek instituzio-ingurune batean erabil dezaketena. Eraiki irakaskuntza-tresna berri bat, automatizatu lan-fluxu bat edo egin ekarpenak software librearen ekosistemari. LAMB GNU GPL v3 lizentziapean dago.
 
 ## Eraiki tresna bat ikaskuntza-jarduera baterako {#build-a-tool-for-a-learning-activity}

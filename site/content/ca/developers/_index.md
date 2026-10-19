@@ -5,6 +5,8 @@ translationKey: developers
 weight: 3
 ---
 
+Desenvolupem LAMB a [GitHub](https://github.com/Lamb-Project/lamb) i fem servir la [branca `dev`](https://github.com/Lamb-Project/lamb/tree/dev) per al desenvolupament. Pots instal·lar LAMB en local passant a un agent de programació el fitxer [`Documentation/installation/deployLocal.md`](https://github.com/Lamb-Project/lamb/blob/dev/Documentation/installation/deployLocal.md): està escrit perquè el segueixi un agent, que et demana les dades que necessita. Tot funciona a localhost amb Docker.
+
 LAMB ofereix una capa de gestió d’assistents i d’accés a models que les aplicacions educatives poden fer servir dins d’un entorn institucional. Construeix una eina docent nova, automatitza un flux de treball o contribueix a l’ecosistema de programari lliure. LAMB té llicència GNU GPL v3.
 
 ## Construeix una eina per a una activitat d’aprenentatge {#build-a-tool-for-a-learning-activity}
