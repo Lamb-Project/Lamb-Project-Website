@@ -6,7 +6,7 @@ weight: 8
 aliases: [/roadmap/]
 ---
 
-**Editorial scope updated 17 October 2026.** Ask your administrator which LAMB revision your institution runs. A feature shown on this website may require a newer deployment or administrator configuration.
+**Editorial scope updated 10 November 2026.** Ask your administrator which LAMB revision your institution runs. A feature shown on this website may require a newer deployment or administrator configuration.
 
 | Capability | LAMB 0.8 documentation scope |
 |---|---|
@@ -17,6 +17,7 @@ aliases: [/roadmap/]
 | Moodle course content and activity | Optional standard-web-service connector for LAMB LEGATUS. Requires administrator enablement, available Moodle services and authorized course access; no custom Moodle plugin. |
 | LLM access (the last mile for your AI) | New in 0.8. Personal student keys to the organization's models, with organization rules, teacher allowances, per-student limits and timetables. Requires the optional gateway add-on and system administrator configuration; covers LLM access activities, not chat or file-evaluation activities. |
 | LAMB 0.8 | The documentation baseline for this website. It documents the 0.8 release candidate; it is not a stable-release announcement. |
+| LAMB 0.9 | Release candidate. The [release notes](/en/releases/0.9/) describe what it adds to 0.8: LTI 1.3 for course activities, prompt filters, LAMB LEGATUS Auto mode and assistant activity analysis. The guides have not been re-issued for 0.9 yet. |
 
 ## Documentation that stays with your version
 
@@ -30,4 +31,4 @@ A branch name or newer screenshot alone does not establish a stable release or a
 
 Check your installation's version, your role and the features your organization enables. Ask local support before applying instructions from another version. When reporting a problem, include those details and a sanitized screenshot.
 
-[Screenshot provenance](/en/guides/screenshots/) · [Source repository](https://github.com/Lamb-Project/lamb)
+[Release notes](/en/releases/) · [Screenshot provenance](/en/guides/screenshots/) · [Source repository](https://github.com/Lamb-Project/lamb)

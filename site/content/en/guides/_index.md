@@ -17,6 +17,7 @@ Choose the version used by your institution. Documentation starts with **LAMB 0.
 - [Choose an LMS entry path](/en/guides/0.8/lti/) and [publish for your course](/en/guides/0.8/publishing/).
 - [Build an educational tool](/en/guides/0.8/learning-tool/).
 - [Prepare a 0.8 installation](/en/guides/0.8/installation/).
+- [Read what changed in 0.8 and in the 0.9 release candidate](/en/releases/).
 
 ## Earlier documentation
 

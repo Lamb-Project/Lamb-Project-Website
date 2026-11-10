@@ -6,7 +6,7 @@ weight: 8
 aliases: [/roadmap/]
 ---
 
-**Edukien esparrua 2026ko urriaren 17an eguneratua.** Galdetu zure administratzaileari zein LAMB berrikuspen exekutatzen duen zure instituzioak. Webgune honetan agertzen den funtzio batek hedapen berriago bat edo administratzailearen konfigurazioa behar izan dezake.
+**Edukien esparrua 2026ko azaroaren 10ean eguneratua.** Galdetu zure administratzaileari zein LAMB berrikuspen exekutatzen duen zure instituzioak. Webgune honetan agertzen den funtzio batek hedapen berriago bat edo administratzailearen konfigurazioa behar izan dezake.
 
 | Gaitasuna | LAMB 0.8 dokumentazioaren esparrua |
 |---|---|
@@ -17,6 +17,7 @@ aliases: [/roadmap/]
 | Moodleko ikastaro-edukia eta jarduera | LAMB LEGATUSerako aukerako konektorea, web-zerbitzu estandarrak erabiltzen dituena. Administratzaileak gaitzea, Moodle zerbitzu erabilgarriak eta ikastarorako sarbide baimendua behar ditu; ez du Moodle-plugin pertsonalizaturik behar. |
 | LLM access (zure AAren azken kilometroa) | Berria 0.8 bertsioan. Ikasleentzako gako pertsonalak erakundearen ereduetarako, erakundearen arauekin, irakasleen kuotekin, ikasle bakoitzeko mugekin eta ordutegiekin. Atebidearen aukerako gehigarria eta sistema-administratzailearen konfigurazioa behar ditu; LLM access jarduerak hartzen ditu, ez txat-jarduerak edo fitxategien ebaluazioko jarduerak. |
 | LAMB 0.8 | Webgune honen dokumentazio-oinarria. 0.8 hautagaia dokumentatzen du; ez da bertsio egonkor baten iragarpena. |
+| LAMB 0.9 | Hautagai-bertsioa. [Bertsio-oharrek](/eu/releases/0.9/) deskribatzen dute zer gehitzen dion 0.8 bertsioari: LTI 1.3 ikastaroko jardueretarako, prompt-iragazkiak, LAMB LEGATUSen Auto modua eta laguntzailearen jardueraren analisia. Gidak ez dira oraindik berrargitaratu 0.9 bertsiorako. |
 
 ## Zure bertsioarekin geratzen den dokumentazioa {#documentation-that-stays-with-your-version}
 
@@ -30,4 +31,4 @@ Adar-izen batek edo pantaila-argazki berriago batek berak ez du frogatzen bertsi
 
 Egiaztatu zure instalazioaren bertsioa, zure rola eta zure erakundeak gaitzen dituen funtzioak. Galdetu tokiko laguntza-zerbitzuari beste bertsio bateko jarraibideak aplikatu aurretik. Arazo baten berri ematean, sartu xehetasun horiek eta datu sentikorrik gabeko pantaila-argazki bat.
 
-[Pantaila-argazkien jatorria](/eu/guides/screenshots/) · [Iturburu-biltegia](https://github.com/Lamb-Project/lamb)
+[Bertsio-oharrak](/eu/releases/) · [Pantaila-argazkien jatorria](/eu/guides/screenshots/) · [Iturburu-biltegia](https://github.com/Lamb-Project/lamb)

@@ -17,6 +17,7 @@ Tria la versió que fa servir la teva institució. La documentació comença amb
 - [Tria una via d’accés des de l’LMS](/ca/guides/0.8/lti/) i [publica per al teu curs](/ca/guides/0.8/publishing/).
 - [Construeix una eina educativa](/ca/guides/0.8/learning-tool/).
 - [Prepara una instal·lació de la 0.8](/ca/guides/0.8/installation/).
+- [Llegeix què ha canviat a la 0.8 i a la versió candidata 0.9](/ca/releases/).
 
 ## Documentació anterior {#earlier-documentation}
 

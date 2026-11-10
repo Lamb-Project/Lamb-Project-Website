@@ -6,7 +6,7 @@ weight: 8
 aliases: [/roadmap/]
 ---
 
-**Alcance editorial actualizado el 17 de octubre de 2026.** Pregunta a tu administrador qué revisión de LAMB usa tu institución. Una funcionalidad que aparece en este sitio web puede requerir un despliegue más reciente o una configuración por parte del administrador.
+**Alcance editorial actualizado el 10 de noviembre de 2026.** Pregunta a tu administrador qué revisión de LAMB usa tu institución. Una funcionalidad que aparece en este sitio web puede requerir un despliegue más reciente o una configuración por parte del administrador.
 
 | Capacidad | Alcance de la documentación de LAMB 0.8 |
 |---|---|
@@ -17,6 +17,7 @@ aliases: [/roadmap/]
 | Contenido y actividad de los cursos de Moodle | Conector opcional de servicios web estándar para LAMB LEGATUS. Requiere que el administrador lo habilite, que los servicios de Moodle estén disponibles y un acceso autorizado al curso; sin ningún plugin de Moodle a medida. |
 | LLM access (la última milla de tu IA) | Novedad de la 0.8. Claves personales para los estudiantes con acceso a los modelos de la organización, con reglas de la organización, asignaciones por docente, límites por estudiante y horarios. Requiere el complemento opcional de la pasarela y la configuración del administrador del sistema; cubre las actividades LLM access, no las actividades de chat ni de evaluación de archivos. |
 | LAMB 0.8 | La base de la documentación de este sitio web. Documenta la candidata 0.8; no es el anuncio de una versión estable. |
+| LAMB 0.9 | Versión candidata. Las [notas de versión](/es/releases/0.9/) describen lo que añade a la 0.8: LTI 1.3 para las actividades de curso, filtros del prompt, el modo Auto de LAMB LEGATUS y el análisis de actividad de los asistentes. Las guías todavía no se han reeditado para la 0.9. |
 
 ## Documentación que se queda con tu versión {#documentation-that-stays-with-your-version}
 
@@ -30,4 +31,4 @@ El nombre de una rama o una captura más reciente no establecen, por sí solos, 
 
 Comprueba la versión de tu instalación, tu rol y las funcionalidades que habilita tu organización. Pregunta al soporte local antes de aplicar instrucciones de otra versión. Cuando informes de un problema, incluye esos datos y una captura de pantalla sin información sensible.
 
-[Origen de las capturas](/es/guides/screenshots/) · [Repositorio de código fuente](https://github.com/Lamb-Project/lamb)
+[Notas de versión](/es/releases/) · [Origen de las capturas](/es/guides/screenshots/) · [Repositorio de código fuente](https://github.com/Lamb-Project/lamb)

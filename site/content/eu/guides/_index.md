@@ -17,6 +17,7 @@ Aukeratu zure instituzioak erabiltzen duen bertsioa. Dokumentazioa **LAMB 0.8** 
 - [Aukeratu LMS sarbide-bide bat](/eu/guides/0.8/lti/) eta [argitaratu zure ikastarorako](/eu/guides/0.8/publishing/).
 - [Eraiki hezkuntza-tresna bat](/eu/guides/0.8/learning-tool/).
 - [Prestatu 0.8 instalazio bat](/eu/guides/0.8/installation/).
+- [Irakurri zer aldatu den 0.8 bertsioan eta 0.9 hautagai-bertsioan](/eu/releases/).
 
 ## Aurreko dokumentazioa {#earlier-documentation}
 

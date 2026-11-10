@@ -34,6 +34,7 @@ hugo --source site --minify --destination public
 
 - `site/content/<lang>/`: the pages, Markdown with front matter (`title`, `description`, `translationKey`, `weight`). English is the source.
 - `site/content/<lang>/guides/0.8/`: the illustrated 0.8 guides. Old guide addresses redirect through `aliases`.
+- `site/content/<lang>/releases/`: the release notes, one page per version (what changed, why, and what an administrator must do when upgrading) and an index. Their screenshots are under `site/static/images/releases/<version>/` and each page has its own "About the screenshots" section; the `capture` shortcode takes a `details` address for them.
 - `site/layouts/`: homepage, footer and shortcodes. `site/i18n/<lang>.yaml`: layout and shortcode text.
 - `site/data/documentation.yaml`: the documented version and its status; `site/data/contact.yaml`: the contact mailbox.
 - `site/static/images/guides/`: real screenshots of LAMB 0.8 with synthetic data. `screenshot-manifest.json` records each one's capture date, product version, deployed revision and SHA-256.
@@ -43,10 +44,11 @@ hugo --source site --minify --destination public
 
 1. Describe what LAMB actually does in the documented version. Every feature claim should be checkable in the LAMB code; say "depends on the installation" when it does.
 2. Screenshots are real captures from a running LAMB with synthetic accounts and data. Never edit, mock or generate product UI, and never show a credential, a real name or a real email.
-3. Moodle integration uses standard LTI 1.1 and standard Moodle web services only. Do not document or suggest any Moodle plugin or Moodle-side code.
+3. Moodle integration uses standard LTI (1.1, and from LAMB 0.9 also 1.3 for the activity tool) and standard Moodle web services only. Do not document or suggest any Moodle plugin or Moodle-side code.
 4. No em-dashes in the text. One `#` heading per page (the title); sections use `##`.
 5. The Safe AI page (`safe-ai.md`) is not legal advice and says so. Keep legal statements tied to their sources and dates.
 6. LAMB 0.8 is documented as a release candidate (`status: "Preview"` in `site/data/documentation.yaml`) until it is tagged. When it is, change the status and the wording on the availability and guides pages in all four languages.
+7. Release notes describe a version as it is in the code on the stated revision. A candidate's notes say "release candidate" until the version is tagged, and state the known limits an administrator must act on. Security findings are not described there.
 
 ## Language editions
 

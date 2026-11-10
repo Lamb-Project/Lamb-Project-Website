@@ -6,7 +6,7 @@ weight: 8
 aliases: [/roadmap/]
 ---
 
-**Abast editorial actualitzat el 17 d’octubre de 2026.** Pregunta a l’administrador quina revisió de LAMB fa servir la teva institució. Una funcionalitat que es mostra en aquest web pot requerir un desplegament més recent o una configuració per part de l’administrador.
+**Abast editorial actualitzat el 10 de novembre de 2026.** Pregunta a l’administrador quina revisió de LAMB fa servir la teva institució. Una funcionalitat que es mostra en aquest web pot requerir un desplegament més recent o una configuració per part de l’administrador.
 
 | Capacitat | Abast de la documentació de LAMB 0.8 |
 |---|---|
@@ -17,6 +17,7 @@ aliases: [/roadmap/]
 | Contingut i activitat dels cursos de Moodle | Connector opcional de serveis web estàndard per a LAMB LEGATUS. Requereix que l’administrador l’habiliti, que els serveis de Moodle estiguin disponibles i un accés autoritzat al curs; sense cap plugin de Moodle fet a mida. |
 | LLM access (l’última milla per a la teva IA) | Nou a la 0.8. Claus personals dels estudiants per als models de l’organització, amb regles de l’organització, assignacions per docent, límits per estudiant i horaris. Requereix el complement opcional de la passarel·la i la configuració per part de l’administrador del sistema; cobreix les activitats LLM access, no les de xat ni les d’avaluació de fitxers. |
 | LAMB 0.8 | La base de la documentació d’aquest web. Documenta la versió candidata 0.8; no és l’anunci d’una versió estable. |
+| LAMB 0.9 | Versió candidata. Les [notes de versió](/ca/releases/0.9/) descriuen què afegeix a la 0.8: LTI 1.3 per a les activitats de curs, filtres del prompt, el mode Auto de LAMB LEGATUS i l’anàlisi de l’activitat dels assistents. Les guies encara no s’han tornat a publicar per a la 0.9. |
 
 ## Documentació que es manté amb la teva versió {#documentation-that-stays-with-your-version}
 
@@ -30,4 +31,4 @@ El nom d’una branca o una captura més recent no demostren, per si sols, que h
 
 Comprova la versió de la teva instal·lació, el teu rol i les funcionalitats que habilita la teva organització. Pregunta al suport local abans d’aplicar instruccions d’una altra versió. Quan informis d’un problema, inclou aquestes dades i una captura de pantalla sense informació sensible.
 
-[Procedència de les captures](/ca/guides/screenshots/) · [Repositori de codi font](https://github.com/Lamb-Project/lamb)
+[Notes de versió](/ca/releases/) · [Procedència de les captures](/ca/guides/screenshots/) · [Repositori de codi font](https://github.com/Lamb-Project/lamb)

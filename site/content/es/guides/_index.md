@@ -17,6 +17,7 @@ Elige la versión que usa tu institución. La documentación empieza con **LAMB 
 - [Elige una vía de entrada desde el LMS](/es/guides/0.8/lti/) y [publica para tu curso](/es/guides/0.8/publishing/).
 - [Construye una herramienta educativa](/es/guides/0.8/learning-tool/).
 - [Prepara una instalación de la 0.8](/es/guides/0.8/installation/).
+- [Lee qué ha cambiado en la 0.8 y en la versión candidata 0.9](/es/releases/).
 
 ## Documentación anterior {#earlier-documentation}
 
