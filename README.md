@@ -34,7 +34,7 @@ hugo --source site --minify --destination public
 
 - `site/content/<lang>/`: the pages, Markdown with front matter (`title`, `description`, `translationKey`, `weight`). English is the source.
 - `site/content/<lang>/guides/0.8/`: the illustrated 0.8 guides. Old guide addresses redirect through `aliases`.
-- `site/content/<lang>/releases/`: the release notes, one page per version (what changed, why, and what an administrator must do when upgrading) and an index. Their screenshots are under `site/static/images/releases/<version>/` and each page has its own "About the screenshots" section; the `capture` shortcode takes a `details` address for them.
+- `site/content/<lang>/releases/`: the release notes, one page per version (what changed, why, and what an administrator must do when upgrading) and an index. Their screenshots are under `site/static/images/releases/<version>/` and each page has its own "About the screenshots" section; the `capture` shortcode takes a `details` address for them. Pages are ordered by `weight` (1 is the newest version); `layouts/_partials/custom/release-nav.html` builds the previous and next version links from that order, at the top and at the bottom of each page, and the home page panel links to the index. To add a version, give its page weight 1 in every language and add one to the weight of each older page.
 - `site/layouts/`: homepage, footer and shortcodes. `site/i18n/<lang>.yaml`: layout and shortcode text.
 - `site/data/documentation.yaml`: the documented version and its status; `site/data/contact.yaml`: the contact mailbox.
 - `site/static/images/guides/`: real screenshots of LAMB 0.8 with synthetic data. `screenshot-manifest.json` records each one's capture date, product version, deployed revision and SHA-256.

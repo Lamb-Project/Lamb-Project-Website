@@ -1,0 +1,15 @@
+{{- /* Previous and next version of a release-notes page. Pages are ordered by weight: 1 is the newest. */ -}}
+{{ if and (eq .Section "releases") .IsPage }}
+{{ $pages := .CurrentSection.RegularPages.ByWeight }}
+{{ $current := .RelPermalink }}
+{{ $newer := false }}{{ $older := false }}
+{{ range $i, $p := $pages }}{{ if eq $p.RelPermalink $current }}
+{{ if gt $i 0 }}{{ $newer = index $pages (sub $i 1) }}{{ end }}
+{{ if lt (add $i 1) (len $pages) }}{{ $older = index $pages (add $i 1) }}{{ end }}
+{{ end }}{{ end }}
+<nav class="lamb-release-nav" aria-label="{{ T "releaseNotes" }}">
+<span>{{ with $older }}<a rel="prev" href="{{ .RelPermalink }}">← {{ T "previousVersion" }}: LAMB {{ .File.ContentBaseName }}</a>{{ end }}</span>
+<span><a href="{{ .CurrentSection.RelPermalink }}">{{ T "allReleaseNotes" }}</a></span>
+<span>{{ with $newer }}<a rel="next" href="{{ .RelPermalink }}">{{ T "nextVersion" }}: LAMB {{ .File.ContentBaseName }} →</a>{{ end }}</span>
+</nav>
+{{ end }}

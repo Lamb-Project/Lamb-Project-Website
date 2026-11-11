@@ -75,3 +75,7 @@ versionsAvailability: Bertsioak eta erabilgarritasuna
 viewAsMarkdown: Ikusi Markdown gisa
 workWithUs: Lan egin gurekin
 releaseNotes: Bertsio-oharrak
+previousVersion: Aurreko bertsioa
+nextVersion: Hurrengo bertsioa
+allReleaseNotes: Bertsio-ohar guztiak
+whatsNewLink: Bertsio bakoitzaren berritasunak ↗

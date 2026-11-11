@@ -11,7 +11,7 @@ Orri hauek jasotzen dute LAMB bertsio bakoitzak zer gehitzen eta aldatzen duen, 
 |---|---|---|
 | **0.9** | Hautagai-bertsioa. Etiketatu gabe. | [LAMB 0.9 bertsioaren berritasunak](/eu/releases/0.9/): LTI 1.3 ikastaroko jardueretarako, prompt-iragazkiak, LAMB LEGATUSen Auto modua, laguntzailearen jardueraren analisia |
 | **0.8** | Integrazio-lerroa. Garapen-adarrean bateratu zen 2026ko urriaren 20an; ez zen bertsio bereizi gisa etiketatu. | [LAMB 0.8 bertsioaren berritasunak](/eu/releases/0.8/): ikastaroko jarduerak modulu gisa, fitxategien ebaluazioa, LLM sarbidea |
-| **0.7** | `v0.7` gisa etiketatua 2026ko urriaren 20an. | Ohar hauetan konparazio-oinarri gisa erabiltzen den bertsioa. [Iturburu-kodea etiketa horretan](https://github.com/Lamb-Project/lamb/tree/v0.7) |
+| **0.7** | `v0.7` gisa etiketatua 2026ko urriaren 20an. | [LAMB 0.7 bertsioaren berritasunak](/eu/releases/0.7/): LAMB LEGATUS, Moodle konexioa, laguntza-sarbidea, sortzaileen API gakoak. [Iturburu-kodea etiketa horretan](https://github.com/Lamb-Project/lamb/tree/v0.7) |
 
 ## 0.7 bertsiotik bazatoz {#coming-from-07}
 
