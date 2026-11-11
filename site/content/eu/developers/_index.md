@@ -23,7 +23,7 @@ Hau behar duzu: sortzaileen APIrako sarbidea onartzen duen LAMB instalazio bat, 
 |---|---|---|
 | LAMB LTI Test Tool | LTI 1.1 abiarazteak, irakasle/ikasle rolak, abiarazte-parametroak eta Basic Outcomes bidezko kalifikazioen itzulera probatzea garapenean | [LTI Test Tool](https://github.com/Lamb-Project/lamb-lti-test-tool) |
 | Moodle CLI | Moodleren web-zerbitzuen API estandarrekin komando-lerrotik lan egitea, kontuaren baimenen barruan | [Moodle CLI](https://github.com/Lamb-Project/moodle-cli) |
-| LAMB CLI | Laguntzaileak, ezagutza-baseak, errubrikak, probak, analitikak eta onartutako agente-lan-fluxuak terminaletik kudeatzea | [LAMB CLI](https://github.com/Lamb-Project/lamb/tree/lamb-0.8/lamb-cli) |
+| LAMB CLI | Laguntzaileak, ezagutza-baseak, errubrikak, probak, analitikak eta onartutako agente-lan-fluxuak terminaletik kudeatzea | [LAMB CLI](https://github.com/Lamb-Project/lamb/tree/v0.8/lamb-cli) |
 | LAMB tresna-txantiloia | Bereiz ostatatutako hezkuntza-aplikazio bat abiaraztea, laguntzaileetarako sarbide baimenduarekin eta LMS integrazioarekin | [Tresna-txantiloia](https://github.com/Lamb-Project/lamb-tool-template) |
 
 Erabili LTI Test Tool integrazio bat aztertzeko eta entseatzeko, eta gero balioztatu instituzioaren benetako LMS konfigurazioan. Bere garapen-ingurunea ez da Moodle edo Canvas bateragarritasunaren ziurtagiri bat.

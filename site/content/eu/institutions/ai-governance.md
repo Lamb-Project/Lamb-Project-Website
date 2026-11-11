@@ -46,5 +46,5 @@ Gobernantza bera diseinatzen ari gara LAMBen laguntzaileetarako eta LAMB LEGATUS
 ## Hasi {#start}
 
 - **Erakundeetako administratzaileak eta irakasleak:** [eman ikasleei ereduetarako sarbidea zuen arauen arabera](/eu/guides/0.8/llm-access/), urratsez urrats, pantaila guztiekin.
-- **Sistema-operadoreak:** atebidearen [instalazio-oharrak](https://github.com/Lamb-Project/lamb/blob/lamb-0.8/Documentation/installation/token-dealer.md) LAMBen biltegian, eta [planifikatu kudeatutako zerbitzua](/eu/institutions/operations/).
+- **Sistema-operadoreak:** atebidearen [instalazio-oharrak](https://github.com/Lamb-Project/lamb/blob/v0.8/Documentation/installation/token-dealer.md) LAMBen biltegian, eta [planifikatu kudeatutako zerbitzua](/eu/institutions/operations/).
 - **Estrategia bat planifikatzen ari diren instituzioak:** LAMB taldeak [AA gobernantzari buruzko aholkularitza](/eu/contact/#consultancy) eskaintzen du.

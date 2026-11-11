@@ -10,7 +10,7 @@ aliases: [/guides/installation/]
 
 ## 1. Selecciona la versió que faràs servir {#1-select-the-version-you-will-run}
 
-Fes servir la [línia de codi font de LAMB 0.8](https://github.com/Lamb-Project/lamb/tree/lamb-0.8). Anota la revisió exacta que desplegues i fes servir la seva documentació. No combinis instruccions d’una altra branca amb els contenidors seleccionats.
+Fes servir la [línia de codi font de LAMB 0.8](https://github.com/Lamb-Project/lamb/tree/v0.8). Anota la revisió exacta que desplegues i fes servir la seva documentació. No combinis instruccions d’una altra branca amb els contenidors seleccionats.
 
 Les referències següents apunten a la versió candidata revisada per a aquesta edició, `ee28560e`:
 

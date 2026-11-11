@@ -7,10 +7,10 @@ weight: 9
 
 Aquestes pàgines recullen què afegeix i què canvia cada versió de LAMB, el motiu de cada canvi i què ha de fer un administrador quan actualitza. S’han escrit contrastant-les amb el codi: cada entrada indica la incidència pública o el lloc del codi font on es pot comprovar.
 
-| Versió | Estat el 10 de novembre de 2026 | Notes |
+| Versió | Estat l’11 de novembre de 2026 | Notes |
 |---|---|---|
-| **0.9** | Versió candidata. No etiquetada. | [Novetats de LAMB 0.9](/ca/releases/0.9/): LTI 1.3 per a les activitats de curs, filtres del prompt, mode Auto de LAMB LEGATUS, anàlisi de l’activitat dels assistents |
-| **0.8** | Línia d’integració. Fusionada a la branca de desenvolupament el 20 d’octubre de 2026; no etiquetada com a versió independent. | [Novetats de LAMB 0.8](/ca/releases/0.8/): les activitats de curs com a mòduls, avaluació de fitxers, LLM access |
+| **0.9** | Versió candidata, a la branca de desenvolupament des de l’11 de novembre de 2026. No etiquetada. | [Novetats de LAMB 0.9](/ca/releases/0.9/): LTI 1.3 per a les activitats de curs, filtres del prompt, mode Auto de LAMB LEGATUS, anàlisi de l’activitat dels assistents |
+| **0.8** | Etiquetada com a `v0.8` l’11 de novembre de 2026. | [Novetats de LAMB 0.8](/ca/releases/0.8/): les activitats de curs com a mòduls, avaluació de fitxers, LLM access. [Codi font a l’etiqueta](https://github.com/Lamb-Project/lamb/tree/v0.8) |
 | **0.7** | Etiquetada com a `v0.7` el 20 d’octubre de 2026. | [Novetats de LAMB 0.7](/ca/releases/0.7/): LAMB LEGATUS, la connexió amb Moodle, accés de suport, claus d’API de creador. [Codi font a l’etiqueta](https://github.com/Lamb-Project/lamb/tree/v0.7) |
 
 ## Si vens de la 0.7 {#coming-from-07}

@@ -9,7 +9,7 @@ weight: 1
 
 ## Acuerda los límites del servicio {#agree-the-service-boundaries}
 
-Si los docentes van a repartir acceso a modelos entre los estudiantes, planifica la pasarela opcional que LAMB 0.8 incluye como complemento: su base de datos, la dirección pública que los estudiantes pegan en sus herramientas y la conexión del administrador del sistema con el proxy para cada organización. Consulta las [notas de instalación](https://github.com/Lamb-Project/lamb/blob/lamb-0.8/Documentation/installation/token-dealer.md) y [la última milla de tu IA](/es/institutions/ai-governance/).
+Si los docentes van a repartir acceso a modelos entre los estudiantes, planifica la pasarela opcional que LAMB 0.8 incluye como complemento: su base de datos, la dirección pública que los estudiantes pegan en sus herramientas y la conexión del administrador del sistema con el proxy para cada organización. Consulta las [notas de instalación](https://github.com/Lamb-Project/lamb/blob/v0.8/Documentation/installation/token-dealer.md) y [la última milla de tu IA](/es/institutions/ai-governance/).
 
 
 Identifica a la persona responsable del servicio, el entorno de alojamiento, los proveedores de modelos, la carga docente prevista y las personas que atienden las solicitudes de acceso. Decide quién aprueba las actualizaciones y quién puede restaurar el servicio.

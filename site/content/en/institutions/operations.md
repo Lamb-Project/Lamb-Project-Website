@@ -9,7 +9,7 @@ weight: 1
 
 ## Agree the service boundaries
 
-If teachers will hand out model access to students, plan the optional gateway that LAMB 0.8 ships as an add-on: its database, the public address students paste into their tools, and the system administrator's proxy connection for each organization. See the [installation notes](https://github.com/Lamb-Project/lamb/blob/lamb-0.8/Documentation/installation/token-dealer.md) and [the last mile for your AI](/en/institutions/ai-governance/).
+If teachers will hand out model access to students, plan the optional gateway that LAMB 0.8 ships as an add-on: its database, the public address students paste into their tools, and the system administrator's proxy connection for each organization. See the [installation notes](https://github.com/Lamb-Project/lamb/blob/v0.8/Documentation/installation/token-dealer.md) and [the last mile for your AI](/en/institutions/ai-governance/).
 
 
 Identify the service owner, the hosting environment, the model providers, the expected teaching load and the people who handle access requests. Decide who approves updates and who can restore the service.

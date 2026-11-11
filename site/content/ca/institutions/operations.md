@@ -9,7 +9,7 @@ weight: 1
 
 ## Acorda els límits del servei {#agree-the-service-boundaries}
 
-Si els docents donaran accés als models als estudiants, planifica la passarel·la opcional que LAMB 0.8 inclou com a complement: la seva base de dades, l’adreça pública que els estudiants enganxen a les seves eines i la connexió amb el proxy que l’administrador del sistema configura per a cada organització. Consulta les [notes d’instal·lació](https://github.com/Lamb-Project/lamb/blob/lamb-0.8/Documentation/installation/token-dealer.md) i [l’última milla per a la teva IA](/ca/institutions/ai-governance/).
+Si els docents donaran accés als models als estudiants, planifica la passarel·la opcional que LAMB 0.8 inclou com a complement: la seva base de dades, l’adreça pública que els estudiants enganxen a les seves eines i la connexió amb el proxy que l’administrador del sistema configura per a cada organització. Consulta les [notes d’instal·lació](https://github.com/Lamb-Project/lamb/blob/v0.8/Documentation/installation/token-dealer.md) i [l’última milla per a la teva IA](/ca/institutions/ai-governance/).
 
 
 Identifica el responsable del servei, l’entorn d’allotjament, els proveïdors de models, la càrrega docent prevista i les persones que gestionen les sol·licituds d’accés. Decideix qui aprova les actualitzacions i qui pot restaurar el servei.

@@ -23,7 +23,7 @@ Necesitas una instalación de LAMB que admita el acceso a la API de creador, per
 |---|---|---|
 | LAMB LTI Test Tool | Ejercitar lanzamientos LTI 1.1, roles de docente y de estudiante, parámetros de lanzamiento y devolución de calificaciones con Basic Outcomes durante el desarrollo | [LTI Test Tool](https://github.com/Lamb-Project/lamb-lti-test-tool) |
 | Moodle CLI | Trabajar con las API estándar de servicios web de Moodle desde la línea de comandos, dentro de los permisos de la cuenta | [Moodle CLI](https://github.com/Lamb-Project/moodle-cli) |
-| LAMB CLI | Gestionar asistentes, bases de conocimiento, rúbricas, pruebas, analíticas y los flujos de agente admitidos desde el terminal | [LAMB CLI](https://github.com/Lamb-Project/lamb/tree/lamb-0.8/lamb-cli) |
+| LAMB CLI | Gestionar asistentes, bases de conocimiento, rúbricas, pruebas, analíticas y los flujos de agente admitidos desde el terminal | [LAMB CLI](https://github.com/Lamb-Project/lamb/tree/v0.8/lamb-cli) |
 | Plantilla de herramienta de LAMB | Empezar una aplicación educativa alojada por separado, con acceso autorizado a asistentes e integración con el LMS | [Plantilla de herramienta](https://github.com/Lamb-Project/lamb-tool-template) |
 
 Usa la LTI Test Tool para inspeccionar y ensayar una integración, y valídala después en la configuración real del LMS de la institución. Su entorno de desarrollo no certifica la compatibilidad con Moodle ni con Canvas.

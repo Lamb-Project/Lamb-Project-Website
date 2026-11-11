@@ -23,7 +23,7 @@ Necessites una instal·lació de LAMB que admeti l’accés a l’API de creador
 |---|---|---|
 | LAMB LTI Test Tool | Provar llançaments LTI 1.1, els rols de docent i d’estudiant, els paràmetres de llançament i el retorn de qualificacions amb Basic Outcomes durant el desenvolupament | [LTI Test Tool](https://github.com/Lamb-Project/lamb-lti-test-tool) |
 | Moodle CLI | Treballar amb les API de serveis web estàndard de Moodle des de la línia d’ordres, dins dels permisos del compte | [Moodle CLI](https://github.com/Lamb-Project/moodle-cli) |
-| LAMB CLI | Gestionar assistents, bases de coneixement, rúbriques, proves, analítiques i els fluxos de treball amb agents admesos des del terminal | [LAMB CLI](https://github.com/Lamb-Project/lamb/tree/lamb-0.8/lamb-cli) |
+| LAMB CLI | Gestionar assistents, bases de coneixement, rúbriques, proves, analítiques i els fluxos de treball amb agents admesos des del terminal | [LAMB CLI](https://github.com/Lamb-Project/lamb/tree/v0.8/lamb-cli) |
 | Plantilla d’eina de LAMB | Començar una aplicació educativa allotjada a part amb accés autoritzat als assistents i integració amb l’LMS | [Plantilla d’eina](https://github.com/Lamb-Project/lamb-tool-template) |
 
 Fes servir l’LTI Test Tool per examinar i assajar una integració, i després valida-la amb la configuració real de l’LMS de la institució. El seu entorn de desenvolupament no certifica la compatibilitat amb Moodle ni amb Canvas.

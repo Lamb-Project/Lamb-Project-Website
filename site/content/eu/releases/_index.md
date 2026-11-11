@@ -7,10 +7,10 @@ weight: 9
 
 Orri hauek jasotzen dute LAMB bertsio bakoitzak zer gehitzen eta aldatzen duen, aldaketa bakoitzaren arrazoia eta administratzaile batek zer egin behar duen bertsioa berritzean. Kodearekin alderatuta idatzita daude: sarrera bakoitzak adierazten du zein arazo publikotan (issue) edo iturburu-kodeko zein lekutan egiazta daitekeen.
 
-| Bertsioa | Egoera 2026ko azaroaren 10ean | Oharrak |
+| Bertsioa | Egoera 2026ko azaroaren 11n | Oharrak |
 |---|---|---|
-| **0.9** | Hautagai-bertsioa. Etiketatu gabe. | [LAMB 0.9 bertsioaren berritasunak](/eu/releases/0.9/): LTI 1.3 ikastaroko jardueretarako, prompt-iragazkiak, LAMB LEGATUSen Auto modua, laguntzailearen jardueraren analisia |
-| **0.8** | Integrazio-lerroa. Garapen-adarrean bateratu zen 2026ko urriaren 20an; ez zen bertsio bereizi gisa etiketatu. | [LAMB 0.8 bertsioaren berritasunak](/eu/releases/0.8/): ikastaroko jarduerak modulu gisa, fitxategien ebaluazioa, LLM sarbidea |
+| **0.9** | Hautagai-bertsioa, garapen-adarrean 2026ko azaroaren 11tik. Etiketatu gabe. | [LAMB 0.9 bertsioaren berritasunak](/eu/releases/0.9/): LTI 1.3 ikastaroko jardueretarako, prompt-iragazkiak, LAMB LEGATUSen Auto modua, laguntzailearen jardueraren analisia |
+| **0.8** | `v0.8` gisa etiketatua 2026ko azaroaren 11n. | [LAMB 0.8 bertsioaren berritasunak](/eu/releases/0.8/): ikastaroko jarduerak modulu gisa, fitxategien ebaluazioa, LLM sarbidea. [Iturburu-kodea etiketa horretan](https://github.com/Lamb-Project/lamb/tree/v0.8) |
 | **0.7** | `v0.7` gisa etiketatua 2026ko urriaren 20an. | [LAMB 0.7 bertsioaren berritasunak](/eu/releases/0.7/): LAMB LEGATUS, Moodle konexioa, laguntza-sarbidea, sortzaileen API gakoak. [Iturburu-kodea etiketa horretan](https://github.com/Lamb-Project/lamb/tree/v0.7) |
 
 ## 0.7 bertsiotik bazatoz {#coming-from-07}

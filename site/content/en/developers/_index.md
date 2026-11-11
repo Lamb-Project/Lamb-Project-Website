@@ -23,7 +23,7 @@ You need a LAMB installation that supports creator API access, permission to use
 |---|---|---|
 | LAMB LTI Test Tool | Exercise LTI 1.1 launches, instructor/learner roles, launch parameters and Basic Outcomes grade return during development | [LTI Test Tool](https://github.com/Lamb-Project/lamb-lti-test-tool) |
 | Moodle CLI | Work with Moodle’s standard web-service APIs from the command line, within the account’s permissions | [Moodle CLI](https://github.com/Lamb-Project/moodle-cli) |
-| LAMB CLI | Manage assistants, knowledge bases, rubrics, tests, analytics and supported agent workflows from the terminal | [LAMB CLI](https://github.com/Lamb-Project/lamb/tree/lamb-0.8/lamb-cli) |
+| LAMB CLI | Manage assistants, knowledge bases, rubrics, tests, analytics and supported agent workflows from the terminal | [LAMB CLI](https://github.com/Lamb-Project/lamb/tree/v0.8/lamb-cli) |
 | LAMB tool template | Start a separately hosted educational application with authorized assistant access and LMS integration | [Tool template](https://github.com/Lamb-Project/lamb-tool-template) |
 
 Use the LTI Test Tool to inspect and rehearse an integration, then validate it in the institution’s actual LMS configuration. Its development environment is not a certification of Moodle or Canvas compatibility.

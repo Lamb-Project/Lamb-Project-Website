@@ -10,7 +10,7 @@ aliases: [/guides/installation/]
 
 ## 1. Hautatu exekutatuko duzun bertsioa {#1-select-the-version-you-will-run}
 
-Erabili [LAMB 0.8 iturburu-lerroa](https://github.com/Lamb-Project/lamb/tree/lamb-0.8). Erregistratu hedatzen duzun berrikuspen zehatza eta erabili bere dokumentazioa. Ez nahastu beste adar bateko jarraibideak hautatutako edukiontziekin.
+Erabili [LAMB 0.8 iturburu-lerroa](https://github.com/Lamb-Project/lamb/tree/v0.8). Erregistratu hedatzen duzun berrikuspen zehatza eta erabili bere dokumentazioa. Ez nahastu beste adar bateko jarraibideak hautatutako edukiontziekin.
 
 Beheko erreferentziak edizio honetarako aztertutako hautagaiari lotuta daude, `ee28560e`:
 

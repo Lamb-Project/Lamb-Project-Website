@@ -10,7 +10,7 @@ aliases: [/guides/installation/]
 
 ## 1. Elige la versión que vas a ejecutar {#1-select-the-version-you-will-run}
 
-Usa la [línea de código fuente de LAMB 0.8](https://github.com/Lamb-Project/lamb/tree/lamb-0.8). Anota la revisión exacta que despliegas y usa su documentación. No combines instrucciones de otra rama con los contenedores que has elegido.
+Usa la [línea de código fuente de LAMB 0.8](https://github.com/Lamb-Project/lamb/tree/v0.8). Anota la revisión exacta que despliegas y usa su documentación. No combines instrucciones de otra rama con los contenedores que has elegido.
 
 Las referencias siguientes están fijadas a la candidata revisada para esta edición, `ee28560e`:
 

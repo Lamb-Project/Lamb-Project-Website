@@ -9,7 +9,7 @@ weight: 1
 
 ## Adostu zerbitzuaren mugak {#agree-the-service-boundaries}
 
-Irakasleek ikasleei ereduetarako sarbidea emango badiete, planifikatu LAMB 0.8 bertsioak gehigarri gisa dakarren aukerako atebidea: bere datu-basea, ikasleek beren tresnetan itsasten duten helbide publikoa, eta sistema-administratzailearen proxy-konexioa erakunde bakoitzerako. Ikusi [instalazio-oharrak](https://github.com/Lamb-Project/lamb/blob/lamb-0.8/Documentation/installation/token-dealer.md) eta [zure AAren azken kilometroa](/eu/institutions/ai-governance/).
+Irakasleek ikasleei ereduetarako sarbidea emango badiete, planifikatu LAMB 0.8 bertsioak gehigarri gisa dakarren aukerako atebidea: bere datu-basea, ikasleek beren tresnetan itsasten duten helbide publikoa, eta sistema-administratzailearen proxy-konexioa erakunde bakoitzerako. Ikusi [instalazio-oharrak](https://github.com/Lamb-Project/lamb/blob/v0.8/Documentation/installation/token-dealer.md) eta [zure AAren azken kilometroa](/eu/institutions/ai-governance/).
 
 
 Identifikatu zerbitzuaren jabea, ostatatze-ingurunea, eredu-hornitzaileak, espero den irakaskuntza-karga eta sarbide-eskaerak kudeatzen dituzten pertsonak. Erabaki nork onartzen dituen eguneraketak eta nork leheneratu dezakeen zerbitzua.

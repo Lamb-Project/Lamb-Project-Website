@@ -7,10 +7,10 @@ weight: 9
 
 Estas páginas recogen lo que añade y cambia cada versión de LAMB, el motivo de cada cambio y lo que tiene que hacer un administrador al actualizar. Se han escrito contrastándolas con el código: cada entrada indica la incidencia pública o el lugar del código fuente donde se puede comprobar.
 
-| Versión | Estado a 10 de noviembre de 2026 | Notas |
+| Versión | Estado a 11 de noviembre de 2026 | Notas |
 |---|---|---|
-| **0.9** | Versión candidata. Sin etiquetar. | [Novedades de LAMB 0.9](/es/releases/0.9/): LTI 1.3 para las actividades de curso, filtros del prompt, modo Auto de LAMB LEGATUS, análisis de actividad de los asistentes |
-| **0.8** | Línea de integración. Se fusionó en la rama de desarrollo el 20 de octubre de 2026; no se etiquetó como versión aparte. | [Novedades de LAMB 0.8](/es/releases/0.8/): actividades de curso como módulos, evaluación de archivos, LLM access |
+| **0.9** | Versión candidata, en la rama de desarrollo desde el 11 de noviembre de 2026. Sin etiquetar. | [Novedades de LAMB 0.9](/es/releases/0.9/): LTI 1.3 para las actividades de curso, filtros del prompt, modo Auto de LAMB LEGATUS, análisis de actividad de los asistentes |
+| **0.8** | Etiquetada como `v0.8` el 11 de noviembre de 2026. | [Novedades de LAMB 0.8](/es/releases/0.8/): actividades de curso como módulos, evaluación de archivos, LLM access. [Código fuente en la etiqueta](https://github.com/Lamb-Project/lamb/tree/v0.8) |
 | **0.7** | Etiquetada como `v0.7` el 20 de octubre de 2026. | [Novedades de LAMB 0.7](/es/releases/0.7/): LAMB LEGATUS, la conexión con Moodle, acceso de soporte, claves de API de creador. [Código fuente en la etiqueta](https://github.com/Lamb-Project/lamb/tree/v0.7) |
 
 ## Si vienes de la 0.7 {#coming-from-07}

@@ -46,5 +46,5 @@ We are designing the same governance for LAMB's assistants and LAMB LEGATUS, add
 ## Start
 
 - **Organization admins and teachers:** [give students model access under your rules](/en/guides/0.8/llm-access/), step by step, with every screen.
-- **System operators:** the gateway's [installation notes](https://github.com/Lamb-Project/lamb/blob/lamb-0.8/Documentation/installation/token-dealer.md) in the LAMB repository, and [plan the operated service](/en/institutions/operations/).
+- **System operators:** the gateway's [installation notes](https://github.com/Lamb-Project/lamb/blob/v0.8/Documentation/installation/token-dealer.md) in the LAMB repository, and [plan the operated service](/en/institutions/operations/).
 - **Institutions planning a strategy:** the LAMB team offers [consultancy on AI governance](/en/contact/#consultancy).

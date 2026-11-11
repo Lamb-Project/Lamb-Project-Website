@@ -10,7 +10,7 @@ aliases: [/guides/installation/]
 
 ## 1. Select the version you will run
 
-Use the [LAMB 0.8 source line](https://github.com/Lamb-Project/lamb/tree/lamb-0.8). Record the exact revision you deploy and use its documentation. Do not combine instructions from a different branch with the selected containers.
+Use the [LAMB 0.8 source line](https://github.com/Lamb-Project/lamb/tree/v0.8). Record the exact revision you deploy and use its documentation. Do not combine instructions from a different branch with the selected containers.
 
 The references below are pinned to the candidate reviewed for this edition, `ee28560e`:
 

@@ -46,5 +46,5 @@ Estem dissenyant la mateixa governança per als assistents de LAMB i per a LAMB 
 ## Comença {#start}
 
 - **Administradors d’organització i docents:** [dona als estudiants accés als models amb les teves regles](/ca/guides/0.8/llm-access/), pas a pas i amb totes les pantalles.
-- **Operadors del sistema:** les [notes d’instal·lació](https://github.com/Lamb-Project/lamb/blob/lamb-0.8/Documentation/installation/token-dealer.md) de la passarel·la al repositori de LAMB, i [planifica el servei operat](/ca/institutions/operations/).
+- **Operadors del sistema:** les [notes d’instal·lació](https://github.com/Lamb-Project/lamb/blob/v0.8/Documentation/installation/token-dealer.md) de la passarel·la al repositori de LAMB, i [planifica el servei operat](/ca/institutions/operations/).
 - **Institucions que planifiquen una estratègia:** l’equip de LAMB ofereix [consultoria sobre governança de la IA](/ca/contact/#consultancy).

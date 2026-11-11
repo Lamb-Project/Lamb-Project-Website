@@ -7,10 +7,10 @@ weight: 9
 
 These pages record what each LAMB version adds and changes, the reason for each change and what an administrator has to do when upgrading. They are written against the code: every entry names the public issue or the place in the source where it can be checked.
 
-| Version | Status on 10 November 2026 | Notes |
+| Version | Status on 11 November 2026 | Notes |
 |---|---|---|
-| **0.9** | Release candidate. Not tagged. | [What's new in LAMB 0.9](/en/releases/0.9/): LTI 1.3 for course activities, prompt filters, LAMB LEGATUS Auto mode, assistant activity analysis |
-| **0.8** | Integration line. Merged into the development branch on 20 October 2026; not tagged as a separate release. | [What's new in LAMB 0.8](/en/releases/0.8/): course activities as modules, file evaluation, LLM access |
+| **0.9** | Release candidate, on the development branch since 11 November 2026. Not tagged. | [What's new in LAMB 0.9](/en/releases/0.9/): LTI 1.3 for course activities, prompt filters, LAMB LEGATUS Auto mode, assistant activity analysis |
+| **0.8** | Tagged `v0.8` on 11 November 2026. | [What's new in LAMB 0.8](/en/releases/0.8/): course activities as modules, file evaluation, LLM access. [Source at the tag](https://github.com/Lamb-Project/lamb/tree/v0.8) |
 | **0.7** | Tagged `v0.7` on 20 October 2026. | [What's new in LAMB 0.7](/en/releases/0.7/): LAMB LEGATUS, the Moodle connection, support access, creator API keys. [Source at the tag](https://github.com/Lamb-Project/lamb/tree/v0.7) |
 
 ## Coming from 0.7 {#coming-from-07}

@@ -46,5 +46,5 @@ Estamos diseñando la misma gobernanza para los asistentes de LAMB y para LAMB L
 ## Empieza {#start}
 
 - **Administradores de organización y docentes:** [da a los estudiantes acceso a modelos con tus reglas](/es/guides/0.8/llm-access/), paso a paso y con todas las pantallas.
-- **Responsables de operación del sistema:** las [notas de instalación](https://github.com/Lamb-Project/lamb/blob/lamb-0.8/Documentation/installation/token-dealer.md) de la pasarela en el repositorio de LAMB, y [planifica el servicio operado](/es/institutions/operations/).
+- **Responsables de operación del sistema:** las [notas de instalación](https://github.com/Lamb-Project/lamb/blob/v0.8/Documentation/installation/token-dealer.md) de la pasarela en el repositorio de LAMB, y [planifica el servicio operado](/es/institutions/operations/).
 - **Instituciones que planifican una estrategia:** el equipo de LAMB ofrece [consultoría sobre gobernanza de la IA](/es/contact/#consultancy).
