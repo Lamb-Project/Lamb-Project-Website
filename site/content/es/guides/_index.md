@@ -6,7 +6,7 @@ weight: 4
 aliases: [/manual/]
 ---
 
-Elige la versión que usa tu institución. La documentación empieza con **LAMB 0.8** y cubre tanto los flujos de trabajo existentes como las nuevas vías de actividad.
+Elige la versión que usa tu institución. La documentación empieza con **LAMB 0.8** y cubre tanto los flujos de trabajo existentes como las nuevas vías de actividad. La edición de **LAMB 0.9** añade guías de lo que introduce esa versión candidata; para todo lo demás se apoya en las guías de la 0.8.
 
 {{< documentation-versions >}}
 
@@ -17,10 +17,11 @@ Elige la versión que usa tu institución. La documentación empieza con **LAMB 
 - [Elige una vía de entrada desde el LMS](/es/guides/0.8/lti/) y [publica para tu curso](/es/guides/0.8/publishing/).
 - [Construye una herramienta educativa](/es/guides/0.8/learning-tool/).
 - [Prepara una instalación de la 0.8](/es/guides/0.8/installation/).
+- Con LAMB 0.9: [da a los docentes su cuenta con un código de creador](/es/guides/0.9/creator-codes/).
 - [Lee qué ha cambiado en la 0.8 y en la versión candidata 0.9](/es/releases/).
 
 ## Documentación anterior {#earlier-documentation}
 
-Esta colección todavía no tiene ediciones archivadas. Cuando se añada una nueva edición, las guías de la 0.8 seguirán en sus direcciones propias de versión. Que una guía esté archivada no significa, por sí solo, que la funcionalidad que describe se haya declarado obsoleta.
+Esta colección todavía no tiene ediciones archivadas. Las guías de la 0.8 son la edición actual y seguirán en sus direcciones propias de versión cuando una edición más nueva ocupe su lugar. Que una guía esté archivada no significa, por sí solo, que la funcionalidad que describe se haya declarado obsoleta.
 
 La etiqueta de versión indica el alcance de la guía. La disponibilidad sigue dependiendo de la revisión instalada en tu institución y de su configuración. [Lee las notas de disponibilidad](/es/availability/).

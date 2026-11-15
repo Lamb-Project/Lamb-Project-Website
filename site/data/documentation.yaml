@@ -4,4 +4,10 @@ versions:
     label: "0.8"
     status: "Preview"
     path: "guides/0.8/"
+  - version: "0.9"
+    label: "0.9"
+    status: "Release candidate"
+    statusKey: "candidateStatus"
+    candidate: true
+    path: "guides/0.9/"
 reviewed: "16 October 2026"

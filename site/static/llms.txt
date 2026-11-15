@@ -4,8 +4,10 @@
 
 ## By user purpose
 - [Teaching](/en/teaching/): RAG, PRE, assistant evaluation, LAMB LEGATUS (the agent for teachers, a harness that asks before it acts) and the Moodle connection (LTI 1.1 activities and the optional connector; no Moodle plugin).
-- [Guides and versions](/en/guides/): version selection; current documentation edition 0.8.
+- [Guides and versions](/en/guides/): version selection; current documentation edition 0.8, plus a 0.9 edition for the release candidate.
 - [0.8 guides](/en/guides/0.8/): illustrated user tasks and expected results.
+- [0.9 guides](/en/guides/0.9/): guides for what the 0.9 release candidate adds; the 0.8 guides remain the reference for everything else.
+- [Give teachers their account with a creator code](/en/guides/0.9/creator-codes/): LAMB 0.9: organization administrators create creator codes; a teacher who opens a LAMB activity from the LMS without a LAMB Creator account enters one, gets an account in that organization and moves between the activity and LAMB Creator.
 - [LTI entry paths](/en/guides/0.8/lti/): retained assistant, Creator, activity and application routes.
 - [Connect LAMB and Moodle](/en/guides/0.8/moodle/): LTI 1.1 External tool setup in Moodle, and connecting a teacher's Moodle account for LAMB LEGATUS through standard Moodle web services; no Moodle plugin.
 - [Work with LAMB LEGATUS](/en/guides/0.8/legatus/): the built-in agent for teachers, example requests, approvals, limits, model and data.

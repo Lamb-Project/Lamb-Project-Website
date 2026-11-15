@@ -1,6 +1,6 @@
 {{ if not .IsHome }}
 {{ with .Params.documentationVersion }}
-<div class="lamb-doc-version"><span><strong>LAMB {{ . }}</strong> · {{ if eq . site.Data.documentation.current }}{{ T "currentEdition" }}{{ else }}{{ T "archivedEdition" }}{{ end }}</span><a href="{{ "guides/" | relLangURL }}">{{ T "allVersions" }}</a></div>
+<div class="lamb-doc-version"><span><strong>LAMB {{ . }}</strong> · {{ $edition := index (where site.Data.documentation.versions "version" .) 0 }}{{ if eq . site.Data.documentation.current }}{{ T "currentEdition" }}{{ else if and $edition $edition.candidate }}{{ T "candidateEdition" }}{{ else }}{{ T "archivedEdition" }}{{ end }}</span><a href="{{ "guides/" | relLangURL }}">{{ T "allVersions" }}</a></div>
 {{ else }}{{ if ne .Section "releases" }}<p class="lamb-meta">LAMB {{ site.Data.documentation.current }} <span>{{ T (cond site.Params.official "officialEdition" "reviewEdition") }} · {{ T "langLabel" }}</span></p>{{ end }}{{ end }}
 {{ end }}
 {{ partial "custom/release-nav.html" . }}

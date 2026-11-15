@@ -6,7 +6,7 @@ weight: 4
 aliases: [/manual/]
 ---
 
-Tria la versió que fa servir la teva institució. La documentació comença amb **LAMB 0.8** i cobreix els fluxos de treball existents i també les noves vies d’activitat.
+Tria la versió que fa servir la teva institució. La documentació comença amb **LAMB 0.8** i cobreix els fluxos de treball existents i també les noves vies d’activitat. L’edició de **LAMB 0.9** afegeix guies del que introdueix aquesta versió candidata; per a tota la resta es recolza en les guies de la 0.8.
 
 {{< documentation-versions >}}
 
@@ -17,10 +17,11 @@ Tria la versió que fa servir la teva institució. La documentació comença amb
 - [Tria una via d’accés des de l’LMS](/ca/guides/0.8/lti/) i [publica per al teu curs](/ca/guides/0.8/publishing/).
 - [Construeix una eina educativa](/ca/guides/0.8/learning-tool/).
 - [Prepara una instal·lació de la 0.8](/ca/guides/0.8/installation/).
+- Amb LAMB 0.9: [dona als docents el seu compte amb un codi de creador](/ca/guides/0.9/creator-codes/).
 - [Llegeix què ha canviat a la 0.8 i a la versió candidata 0.9](/ca/releases/).
 
 ## Documentació anterior {#earlier-documentation}
 
-Encara no hi ha edicions arxivades en aquesta col·lecció. Quan s’hi afegeixi una edició nova, les guies de la 0.8 continuaran a les seves adreces específiques de versió. Que una guia estigui arxivada no vol dir, per si sol, que la funcionalitat que descriu sigui obsoleta.
+Encara no hi ha edicions arxivades en aquesta col·lecció. Les guies de la 0.8 són l’edició actual i continuaran a les seves adreces específiques de versió quan una edició més nova n’ocupi el lloc. Que una guia estigui arxivada no vol dir, per si sol, que la funcionalitat que descriu sigui obsoleta.
 
 L’etiqueta de versió indica l’abast de la guia. La disponibilitat continua depenent de la revisió instal·lada i de la configuració de la teva institució. [Llegeix les notes de disponibilitat](/ca/availability/).
