@@ -9,7 +9,7 @@ Aquestes pàgines recullen què afegeix i què canvia cada versió de LAMB, el m
 
 | Versió | Estat l’11 de novembre de 2026 | Notes |
 |---|---|---|
-| **0.9** | Versió candidata, a la branca de desenvolupament des de l’11 de novembre de 2026. No etiquetada. | [Novetats de LAMB 0.9](/ca/releases/0.9/): LTI 1.3 per a les activitats de curs, filtres del prompt, mode Auto de LAMB LEGATUS, anàlisi de l’activitat dels assistents |
+| **0.9** | Versió candidata, a la branca de desenvolupament des de l’11 de novembre de 2026. No etiquetada. | [Novetats de LAMB 0.9](/ca/releases/0.9/): LTI 1.3 per a les activitats de curs, codis de creador, filtres del prompt, mode Auto de LAMB LEGATUS, anàlisi de l’activitat dels assistents |
 | **0.8** | Etiquetada com a `v0.8` l’11 de novembre de 2026. | [Novetats de LAMB 0.8](/ca/releases/0.8/): les activitats de curs com a mòduls, avaluació de fitxers, LLM access. [Codi font a l’etiqueta](https://github.com/Lamb-Project/lamb/tree/v0.8) |
 | **0.7** | Etiquetada com a `v0.7` el 20 d’octubre de 2026. | [Novetats de LAMB 0.7](/ca/releases/0.7/): LAMB LEGATUS, la connexió amb Moodle, accés de suport, claus d’API de creador. [Codi font a l’etiqueta](https://github.com/Lamb-Project/lamb/tree/v0.7) |
 
@@ -19,7 +19,7 @@ Una instal·lació que passa de la 0.7 a la 0.9 rep alhora els canvis de la 0.8 
 
 - **No es retira res del que ja hi havia.** La publicació d’assistents individuals, l’accés al Creator des de l’LMS i l’eina d’activitats amb LTI 1.1 continuen funcionant com fins ara. LTI 1.3 és un afegit a l’eina d’activitats, no un substitut.
 - **Tres tipus d’activitat de curs** substitueixen l’única activitat de xat: xat, avaluació de fitxers i LLM access. El docent en tria un en el primer llançament.
-- **La base de dades s’actualitza sola** quan arrenca la versió nova (cinc migracions, les números 28, 31, 33, 34 i 35). Abans, fes una còpia de seguretat de la base de dades, com en qualsevol actualització.
+- **La base de dades s’actualitza sola** quan arrenca la versió nova (sis migracions, les números 28, 31, 33, 34, 35 i 36). Abans, fes una còpia de seguretat de la base de dades, com en qualsevol actualització.
 - **Canvia un comportament per a les converses en curs.** A partir de la 0.9, una conversa conserva el prompt del sistema amb què va començar. Consulta les [notes d’actualització](/ca/releases/0.9/#upgrade-notes) abans de triar el dia.
 - **Dues funcionalitats necessiten un administrador abans que ningú les vegi:** LTI 1.3 (cal registrar el teu LMS) i LLM access (cal desplegar la passarel·la opcional).
 

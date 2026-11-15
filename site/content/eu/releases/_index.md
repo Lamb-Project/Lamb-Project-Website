@@ -9,7 +9,7 @@ Orri hauek jasotzen dute LAMB bertsio bakoitzak zer gehitzen eta aldatzen duen, 
 
 | Bertsioa | Egoera 2026ko azaroaren 11n | Oharrak |
 |---|---|---|
-| **0.9** | Hautagai-bertsioa, garapen-adarrean 2026ko azaroaren 11tik. Etiketatu gabe. | [LAMB 0.9 bertsioaren berritasunak](/eu/releases/0.9/): LTI 1.3 ikastaroko jardueretarako, prompt-iragazkiak, LAMB LEGATUSen Auto modua, laguntzailearen jardueraren analisia |
+| **0.9** | Hautagai-bertsioa, garapen-adarrean 2026ko azaroaren 11tik. Etiketatu gabe. | [LAMB 0.9 bertsioaren berritasunak](/eu/releases/0.9/): LTI 1.3 ikastaroko jardueretarako, sortzaile-kodeak, prompt-iragazkiak, LAMB LEGATUSen Auto modua, laguntzailearen jardueraren analisia |
 | **0.8** | `v0.8` gisa etiketatua 2026ko azaroaren 11n. | [LAMB 0.8 bertsioaren berritasunak](/eu/releases/0.8/): ikastaroko jarduerak modulu gisa, fitxategien ebaluazioa, LLM sarbidea. [Iturburu-kodea etiketa horretan](https://github.com/Lamb-Project/lamb/tree/v0.8) |
 | **0.7** | `v0.7` gisa etiketatua 2026ko urriaren 20an. | [LAMB 0.7 bertsioaren berritasunak](/eu/releases/0.7/): LAMB LEGATUS, Moodle konexioa, laguntza-sarbidea, sortzaileen API gakoak. [Iturburu-kodea etiketa horretan](https://github.com/Lamb-Project/lamb/tree/v0.7) |
 
@@ -19,7 +19,7 @@ Orri hauek jasotzen dute LAMB bertsio bakoitzak zer gehitzen eta aldatzen duen, 
 
 - **Lehendik dagoen ezer ez da kentzen.** Laguntzaile bakarraren argitalpenak, LMStiko Creator sarbideak eta LTI 1.1 jarduera-tresnak lehen bezala funtzionatzen jarraitzen dute. LTI 1.3 jarduera-tresnari gehitzen zaio; ez du ezer ordezten.
 - **Ikastaroko hiru jarduera motak** ordezten dute lehengo txat-jarduera bakarra: txata, fitxategien ebaluazioa eta LLM sarbidea. Irakasleak bat aukeratzen du lehen abiaraztean.
-- **Datu-basea berez eguneratzen da** bertsio berria abiaraztean (bost migrazio: 28, 31, 33, 34 eta 35 zenbakidunak). Egin datu-basearen babeskopia lehenik, edozein bertsio-berritzetan bezala.
+- **Datu-basea berez eguneratzen da** bertsio berria abiaraztean (sei migrazio: 28, 31, 33, 34, 35 eta 36 zenbakidunak). Egin datu-basearen babeskopia lehenik, edozein bertsio-berritzetan bezala.
 - **Portaera bat aldatzen da abian diren elkarrizketetan.** 0.9 bertsiotik aurrera, elkarrizketa batek hasi zeneko sistemaren prompta gordetzen du. Ikusi [Bertsio-berritzeko oharrak](/eu/releases/0.9/#upgrade-notes) eguna aukeratu aurretik.
 - **Bi funtziok administratzaile bat behar dute inork ikusi aurretik:** LTI 1.3 (erregistratu zure LMSa) eta LLM sarbidea (hedatu aukerako atebidea).
 

@@ -9,7 +9,7 @@ These pages record what each LAMB version adds and changes, the reason for each 
 
 | Version | Status on 11 November 2026 | Notes |
 |---|---|---|
-| **0.9** | Release candidate, on the development branch since 11 November 2026. Not tagged. | [What's new in LAMB 0.9](/en/releases/0.9/): LTI 1.3 for course activities, prompt filters, LAMB LEGATUS Auto mode, assistant activity analysis |
+| **0.9** | Release candidate, on the development branch since 11 November 2026. Not tagged. | [What's new in LAMB 0.9](/en/releases/0.9/): LTI 1.3 for course activities, creator codes, prompt filters, LAMB LEGATUS Auto mode, assistant activity analysis |
 | **0.8** | Tagged `v0.8` on 11 November 2026. | [What's new in LAMB 0.8](/en/releases/0.8/): course activities as modules, file evaluation, LLM access. [Source at the tag](https://github.com/Lamb-Project/lamb/tree/v0.8) |
 | **0.7** | Tagged `v0.7` on 20 October 2026. | [What's new in LAMB 0.7](/en/releases/0.7/): LAMB LEGATUS, the Moodle connection, support access, creator API keys. [Source at the tag](https://github.com/Lamb-Project/lamb/tree/v0.7) |
 
@@ -19,7 +19,7 @@ An installation that moves from 0.7 to 0.9 receives the 0.8 and the 0.9 changes 
 
 - **Nothing existing is removed.** Individual-assistant publication, Creator access from the LMS and the LTI 1.1 activity tool keep working as they did. LTI 1.3 is an addition to the activity tool, not a replacement.
 - **Three kinds of course activity** replace the single chat activity: chat, file evaluation and LLM access. The teacher chooses one on the first launch.
-- **The database upgrades itself** when the new version starts (five migrations, numbers 28, 31, 33, 34 and 35). Back up the database first, as for any upgrade.
+- **The database upgrades itself** when the new version starts (six migrations, numbers 28, 31, 33, 34, 35 and 36). Back up the database first, as for any upgrade.
 - **One behaviour changes for conversations in progress.** From 0.9 a conversation keeps the system prompt it started with. See [Upgrade notes](/en/releases/0.9/#upgrade-notes) before you choose the day.
 - **Two features need an administrator before anyone sees them:** LTI 1.3 (register your LMS) and LLM access (deploy the optional gateway).
 
